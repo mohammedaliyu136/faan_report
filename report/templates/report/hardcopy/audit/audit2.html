@@ -1,0 +1,159 @@
+{% extends "./base.html" %}
+{% load staticfiles %}
+
+{% block main_content %}
+
+
+  <div class="content container-fluid">
+        <div class="row">
+                <div class="col-sm-8">
+                    <h4 class="page-title">{{dept.name}} Department</h4>
+                </div>
+                <div class="col-sm-4 text-right m-b-30">
+                    <div class="btn-group btn-group-sm">
+                        <button class="btn btn-default word-export" onclick="get_data()">Docx</button>
+                        <button class="btn btn-default">PDF</button>
+                        <button class="btn btn-default"><i class="fa fa-print fa-lg"></i> Print</button>
+                    </div>
+                </div>
+            </div>
+    <div class="panel panel-table">
+        <br/><br/>
+        <div class="panel-body" style="padding-bottom: 15px">
+        <div id="page-content" class="col-md-12">
+            <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            height: 0px;
+        }
+        .report{
+            width: 80%;
+        }
+
+        </style>
+
+                <center id="{{dept.pk}}" style="margin-top:25px"><span style="font-size: 1.1 em; font-weight: bold"><u>FEDRAL AIRPORTS AUTHOURITY OF NIGERIA</u></span><br/>
+                <span style="font-size: 1.1 em; font-weight: bold"><u>MALLAM AMINU KANO INTERNATIONAL AIRPORT</u></span><br/>
+                <span style="font-size: 1.1 em; font-weight: bold"><u>P.M.B 3418</u></span><br/><br/>
+
+                <span>
+                    <div class="col-md-4" style="font-size: 1.1 em; float: left; padding: 0; font-weight: bold; font-style: italic">STATION: KANO</div>
+                    <div class="col-md-4" style="font-size: 1.1 em; padding: 0; font-weight: bold; font-style: italic"><center>AUDIT STAFF LIST</center></div>
+                    <div class="col-md-4" style="font-size: 1.1 em; float: right; padding: 0; font-weight: bold; font-style: italic">DEPARTMENT: {{dept.name}}</div>
+                </span>
+            <br/>
+            <div class="table-responsive">
+                <style>
+                    a{
+                        color:black;
+                    }
+                    a:hover{
+                        color:red;
+                    }
+                </style>
+                <table border="1" class=" table-striped custom-table " style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th style="width:3%; padding: 3px;">S/N</th>
+                            <th style="width:11%; padding: 3px;">STAFF NO</th>
+                            <th style="width:18%; padding: 3px;">NAME</th>
+                            <th style="width:10%; padding: 3px;">DESIGNATION</th>
+                            <th style="width:5%;">GL/STEP</th>
+                            <th style="width:15%; padding: 3px;">DEPARTMENT</th>
+                            <th style="width:10%; padding: 3px;">OCCUPANT OF STAFF QUARTERS</th>
+                            <th style="width:7%; padding: 3px;">MARITAL STATUS</th>
+                            <th style=" padding: 3px;">REMARKS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for p in profiles %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{p.staff_no}}</td>
+                            <td><a href="/employee/detail/{{p.id}}/" style="text-decoration:none">{{p.surname}} {{p.othername}} {{p.maidenname}}</a></td>
+                            <td>{{p.designation}}</td>
+                            <td>{{p.gl}}</td>
+                            <td>{{p.department}}</td>
+                            <td>{%if not p.occupant %}NOT{%endif%} QUARTERED</td>
+                            <td>{{p.status}}</td>
+                            <td>no remark</td>
+                        </tr>
+                        {%endfor%}
+                    </tbody>
+                </table>
+                <br/><br/>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static "js/jquery.googoose.js" %}"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.j"></script>
+    <script src="{% static 'jquery.min.js' %}"></script>
+
+    <script src="{% static "html_to_word/FileSaver.js" %}"></script>
+    <script src="{% static "html_to_word/jquery.wordexport.js" %}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".word-export").click(function(event) {
+                $("#page-content").wordExport();
+            });
+        });
+        </script>
+        <script>
+    function loadFile(url,callback){
+        JSZipUtils.getBinaryContent(url,callback);
+    }
+    function get_data(){
+        $('#loading_modal').modal('show');
+        ddd = ''
+        $.get( "http://127.0.0.1:8000/report/monthly/report/", function( data ) {
+          $( ".result" ).html( data );
+          //ddd = data;
+          generate(data)
+          //console.log(data);
+        });
+        console.log(ddd);
+        //return ddd;
+
+    }
+    function generate(dddata) {
+        loadFile("http://127.0.0.1:8000{% static 'report_temp/STAFF LIST MAKIA.docx' %}",function(error,content){
+            if (error) { throw error };
+            var zip = new JSZip(content);
+            var doc=new window.docxtemplater().loadZip(zip)
+            doc.setData(dddata);
+            try {
+                // render the document (replace all occurences of {first_name} by John, {last_name} by Doe, ...)
+                doc.render()
+            }
+            catch (error) {
+                var e = {
+                    message: error.message,
+                    name: error.name,
+                    stack: error.stack,
+                    properties: error.properties,
+                }
+                console.log(JSON.stringify({error: e}));
+                // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
+                throw error;
+            }
+            var out=doc.getZip().generate({
+                type:"blob",
+                mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            }) //Output the document using Data-URI
+            $('#loading_modal').modal('hide');
+            saveAs(out,"Staff Audit Report {% if name == "current" %}{% now 'M' %} {% now 'Y' %}{% endif %}{% if name != "current" %}{{name}}{% endif %} {{year}}.docx")
+        })
+
+    }
+</script>
+    {% endblock main_content %}

@@ -1,0 +1,102 @@
+{% load staticfiles %}
+
+<div class="row">
+        <div class="col-sm-8">
+            <h4 class="page-title">Staff Audit Report</h4>
+        </div>
+        <div class="col-sm-4 text-right m-b-30">
+            <div class="btn-group btn-group-sm">
+                <button class="btn btn-default word-export">Docx</button>
+                <button class="btn btn-default">PDF</button>
+                <button class="btn btn-default"><i class="fa fa-print fa-lg"></i> Print</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel panel-table">
+        
+        <div class="panel-body" id="page-content" style="padding-bottom: 15px">
+        <div class="col-md-12">
+            <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            height: 0px;
+        }
+        .report{
+            width: 80%;
+        }
+        </style>
+            <br/>
+                {% for dept in departments%}
+                <center id="{{dept.pk}}" style="margin-top:25px"><span style="font-size: 1.1 em; font-weight: bold"><u>FEDRAL AIRPORTS AUTHOURITY OF NIGERIA</u></span><br/>
+                    <span style="font-size: 1.1 em; font-weight: bold"><u>MALLAM AMINU KANO INTERNATIONAL AIRPORT</u></span><br/>
+                    <span style="font-size: 1.1 em; font-weight: bold"><u>P.M.B 3418</u></span><br/><br/>
+                          
+                    <!--
+                    <span>
+                        <div style="width:33%; font-size: 1.1 em; float: left; padding: 0; font-weight: bold; font-style: italic">STATION: KANO</div>
+                        <div class="" style="width:33%; font-size: 1.1 em; padding: 0; font-weight: bold; font-style: italic"><center>AUDIT STAFF LIST</center></div>
+                        <div class="" style="width:33%; font-size: 1.1 em; float: right; padding: 0; font-weight: bold; font-style: italic">DEPARTMENT: {{dept.name}}</div>
+                    </span>-->
+                    <span style="font-style: italic"> DEPARTMENT: {{dept.name}}</span>
+                <br/>
+            <div class="table-responsive">
+                <table border="1" class=" table-striped custom-table " style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th style="width:3%; padding: 3px;">S/N</th>
+                            <th style="width:11%; padding: 3px;">STAFF NO ACCT. (PAYROLL)</th>
+                            <th style="width:18%; padding: 3px;">NAME</th>
+                            <th style="width:10%; padding: 3px;">DESIGNATION</th>
+                            <th style="width:5%;">GL/STEP</th>
+                            <th style="width:15%; padding: 3px;">DEPARTMENT</th>
+                            <th style="width:10%; padding: 3px;">OCCUPANT OF STAFF QUARTERS</th>
+                            <th style="width:7%; padding: 3px;">MARITAL STATUS</th>
+                            <th style=" padding: 3px;">REMARKS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for p in profile %}
+                        {% if dept.name == p.department %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{p.account_num}}</td>
+                            <td>{{p.surname}} {{p.othername}} {{p.maidenname}}</td>
+                            <td>{{p.designation}}</td>
+                            <td>{{p.gl}}</td>
+                            <td>{{p.department}}</td>
+                            <td>{%if not p.occupant %}NOT{%endif%} QUARTERED</td>
+                            <td>{{p.status}}</td>
+                            <td>no remark</td>
+                        </tr>
+                        {%endif%}
+                        {%endfor%}
+                    </tbody>
+                </table>
+                <br/><br/>
+                {%endfor%}
+
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="{% static "js/jquery.googoose.js" %}"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.j"></script>
+<script src="{% static 'jquery.min.js' %}"></script>
+<script src="{% static "html_to_word/FileSaver.js" %}"></script> 
+<script src="{% static "html_to_word/jquery.wordexport.js" %}"></script> 
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".word-export").click(function(event) {
+            $("#page-content").wordExport();
+        });
+    });
+    </script>

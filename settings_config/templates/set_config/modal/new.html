@@ -1,0 +1,126 @@
+<div id="add_table" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-content modal-md">
+            <div class="modal-header">
+                <h4 class="modal-title">New Template <button style="float: right;" class="btn btn-primary" onclick="addCol()">Add Column</button></h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="employee_del_id">
+                                <label class="control-label">Table Name <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" name="title">
+                                <input class="form-control" type="hidden" name="ids" id="ids" value="failed">
+                            </div>
+                        </div>
+                        <div class="col-sm-12" id="cols">
+                            <div class="form-group">
+                                <label class="control-label">Columns <span class="text-danger">*</span></label>
+                            </div>
+                            <div class='form-group' id="col_row_1">
+                                <div class="col-sm-5" style="padding: 0">
+                                    <input class="form-control" type="text" name="col_1">
+                                </div>
+                                <div class="col-sm-3" style="padding: 0">
+                                    <select class="form-control" name="col_1_type">
+                                        <option value='textfield'>Short Text</option>
+                                        <option value='datefield'>Date</option>
+                                        <option value='textarea'>Long Text</option>
+                                    </select>
+                                </div>
+                                <div class='col-sm-3'  style='padding: 0'>
+                                    <select class="form-control" name="col_1_link">
+                                        <option value=''>SELECT Fields</option>
+                                        <option value='SURNAME'>SURNAME</option>
+                                        <option value='OTHERNAME'>OTHERNAME</option>
+                                        <option value='MAIDENNAME'>MAIDENNAME</option>
+                                        <option value='STATUS'>STATUS</option>
+                                        <option value='DESIGNATION'>DESIGNATION</option>
+                                        <option value='GL'>GRADE LEVEL</option>
+                                        <option value='DEPARTMENT'>DEPARTMENT</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-1" style="padding: 0;">
+                                    <button type='button' class="form-control btn btn-primary" onclick="removeInput('1')">X</button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive m-t-15">
+
+                    </div>
+                    <div class="m-t-20 text-center">
+                        <button class="btn btn-primary" onclick="getIds()">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% load staticfiles %}
+<script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+
+<script>
+    var num = 1;
+    var array_data = [];
+    array_data.push("col_"+num);
+    function addCol(){
+        num+=1
+        var str = "<div id='col_row_"+num+"'>";
+            str+=   "<div class='col-sm-5' style='padding-left: 0;padding-right: 0'>";
+            str+=       "<input class='form-control' type='text' name='col_"+num+"'>";
+            str+=   "</div>";
+            str+=   "<div class='col-sm-3' style='padding: 0'>";
+            str+=       "<select class='form-control' name='col_"+num+"_type'>";
+            str+=           "<option value='textfield'>Short Text</option>";
+            str+=           "<option value='datefield'>Date</option>";
+            str+=           "<option value='textarea'>Long Text</option>";
+            str+=       "</select>";
+            str+=   "</div>";
+
+            str+=   "<div class='col-sm-3'  style='padding: 0'>";
+            str+=       "<select class='form-control' name='col_"+num+"_link'>";
+            str+=           "<option value=''>SELECT Fields</option>";
+            str+=           "<option value='SURNAME'>SURNAME</option>";
+            str+=           "<option value='OTHERNAME'>OTHERNAME</option>";
+            str+=           "<option value='MAIDENNAME'>MAIDENNAME</option>";
+            str+=           "<option value='STATUS'>STATUS</option>";
+            str+=           "<option value='DESIGNATION'>DESIGNATION</option>";
+            str+=           "<option value='GL'>GRADE LEVEL</option>";
+            str+=           "<option value='DEPARTMENT'>DEPARTMENT</option>";
+            str+=       "</select>";
+            str+=   "</div>";
+
+            str+=   "<div class='col-sm-1' style='padding: 0;'>";
+            str+=       "<button type='button' class='form-control btn btn-primary' onclick=\"removeInput('"+num+"')\">X</button>";
+            str+=   "</div>";
+            str+= "</div>";
+
+
+
+        $('#cols').append(str);
+        array_data.push("col_"+num);
+    }
+    function removeInput(id_col_row){
+        var id_col_del = "col_"+id_col_row;
+        for (var index = 0; index < array_data.length; index++) {
+            var element = array_data[index];
+            if(id_col_del == element){
+                array_data.splice(index, 1);
+            }
+        }
+        $('#col_row_'+id_col_row).remove();
+    }
+    function getIds(){
+
+        $('#ids').val(array_data.join(","));
+    }
+</script>

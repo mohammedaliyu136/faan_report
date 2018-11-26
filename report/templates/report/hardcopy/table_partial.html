@@ -1,0 +1,21 @@
+<span style="font-size: 1.1 em; font-weight: bold"><u>{{tiltle.title}}</u></span></center><br/>
+        <span style="float: right;">{% now " F, Y " %} REPORT</span>
+        <br>
+            <table border="1" class=" table-striped custom-table " style="width: 100%">
+                <thead>
+                    <tr>
+                        {% for col in cols %}
+                            <th>{{col.title}}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                {% for row in rows %}
+                    <tr>
+                        {% for data in row.0%}
+                            <td>{{data}}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>

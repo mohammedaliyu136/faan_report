@@ -1,0 +1,87 @@
+<div id="edit_report" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Employee</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="">
+                    {% csrf_token %}
+                    <input class="form-control" value="new" type="hidden" name="report_edit_id" id="report_edit_id">
+                    <input class="form-control" value="edit" type="hidden" name="action" id="action">
+                    <div class="row">
+                        {% for col in cols %}
+                        <div class="form-group">
+                            <label class="control-label">{{col.title}} <span class="text-danger">*</span></label>
+
+                            {% if col.emp_field == "STATUS" %}
+                                <select class="form-control" name="{{ forloop.counter }}" id="{{ forloop.counter }}">
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                </select>
+                            {% endif %}
+
+                            {% if col.emp_field == "DEPARTMENT" %}
+                                <select class="form-control" name="{{ forloop.counter }}" id="{{ forloop.counter }}">
+                                    {% for dept in departments %}
+                                        <option value="{{dept.name}}">{{dept.name}}</option>
+                                    {% endfor %}
+                                </select>
+                            {% endif %}
+
+                            {% if col.field_type == "textarea" and col.emp_field == ''%}
+                                <textarea class="form-control" name="{{ forloop.counter }}" rows="3" id="{{ forloop.counter }}"></textarea>
+                            {% endif %}
+                            {% if col.field_type == "textfield" and col.emp_field == '' %}
+                                <input class="form-control" type="text" name="{{ forloop.counter }}" id="{{ forloop.counter }}">
+                            {% endif %}
+                            {% if col.field_type == "datefield" and col.emp_field == '' %}
+                                <input class="form-control datetimepicker" type="text" name="{{ forloop.counter }}" id="{{ forloop.counter }}">
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    <div class="table-responsive m-t-15">
+
+                    </div>
+                    <div class="m-t-20 text-center">
+                        <button class="btn btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function edit_employeexxx(firstname,lastname,homeplace,employee_identification,status,gender,department,decoration,date_of_birth){
+        $('#firstname').val(firstname);
+        $('#lastname').val(lastname);
+        $('#homeplace').val(homeplace);
+        $('#employee_identification').val(employee_identification);
+        $('#status').val(status);
+        $('#gender').val(gender);
+        $('#department').val(department);
+        $('#decoration').val(decoration);
+        $('#date_of_birth').val(date_of_birth);
+
+        $('#edit_employee').modal();
+    }
+    function edit_report(data, cols, ids){
+        data_array = data.split(",");
+        data_array.splice(-1,1);
+        for (var index = 0; index < data_array.length; index++) {
+            var element = data_array[index];
+            id=index+1;
+            $('#'+id).val(element);
+        }
+        id_array = ids.split(",");
+        id_array.splice(-1,1);
+        ids = id_array.join(",");
+        $('#report_edit_id').val(ids);
+        $('#edit_report').modal();
+    }
+
+</script>
+

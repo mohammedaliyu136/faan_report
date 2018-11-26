@@ -1,0 +1,145 @@
+{% extends "./../base.html" %}
+
+{% block main_content %}
+
+
+<div class="content container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4 class="page-title">Department</h4>
+            </div>
+            <div class="col-sm-4 text-right m-b-30">
+                <a href="#" class="btn btn-primary rounded" data-toggle="modal" data-target="#add_department"><i class="fa fa-plus"></i> Add New Department</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <table id="example" class="table table-striped custom-table m-b-0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Department Name</th>
+                                <th class="text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for department in departments %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{department.name}}</td>
+                                <td class="text-right">
+                                    <div class="dropdown">
+                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li><a href="#"  title="Edit" onclick="edit('{{department.name}}','{{department.pk}}')" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                            <li><a href="#" onclick="delete_department('{{department.pk}}')" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            <!-- backend not finished -->
+                                            <li><a href="#"  title="Staff List" onclick=""><i class="fa fa-list m-r-5"></i> Staff List</a></li>
+                                            <li><a href="#" onclick="" title="Audit List"><i class="fa fa-list m-r-5"></i> Audit List</a></li>
+
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="delete_department" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content modal-md">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Delete Department</h4>
+                    </div>
+                    <div class="modal-body card-box">
+                        <p>Are you sure want to delete this?</p>
+                        <div class="m-t-20 text-left">
+                            <form method="post" action="">
+                                {% csrf_token %}
+                            <input class="form-control" value="edit" type="hidden" id="dept_del" name="dept_name_old">
+                            <input class="form-control" value="edit" type="hidden" id="dept_action" name="dept_action">
+
+                            <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="add_department" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-content modal-md">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Department</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label>Department Name <span class="text-danger">*</span></label>
+                                <input class="form-control" value="new" type="hidden" name="dept_name_old">
+                                <input class="form-control" required="" type="text" name="dept_name">
+                            </div>
+                            <div class="m-t-20 text-center">
+                                <button class="btn btn-primary" type="submit">Create Department</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="edit_department" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-content modal-md">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Edit Department</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <input class="form-control" value="edit" type="hidden" id="dept_id" name="dept_name_old">
+                                <label>Department Name <span class="text-danger">*</span></label>
+                                <input class="form-control" value="IT Management" type="text" id="dept_name" name="dept_name">
+                            </div>
+                            <div class="m-t-20 text-center">
+                                <button class="btn btn-primary" type="submit">Save Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% load staticfiles %}
+
+    <script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+    <script>
+
+    function edit(dept_name, id){
+        $('#dept_name').val(dept_name);
+        $('#dept_id').val(id);
+        $('#edit_department').modal();
+    }
+
+    function delete_department(id){
+        $('#dept_action').val("del");
+        $('#dept_del').val(id);
+        $('#delete_department').modal();
+    }
+
+    $(document).ready(function() {
+            // DataTable
+            var table = $('#example').DataTable();
+         } );
+    </script>
+
+    {% endblock main_content %}

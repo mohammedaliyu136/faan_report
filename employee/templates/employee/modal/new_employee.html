@@ -1,0 +1,120 @@
+<div id="add_employee" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Employee</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="employee_del_id">
+                                <label class="control-label">First Name <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" name="employeeFN">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Last Name <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" name="employeeLN">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Home Place <span class="text-danger">*</span></label>
+                                <textarea class="form-control" rows="5" name="employeeHomeplace"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Staff No. <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" name="employeeID">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Gender <span class="text-danger">*</span></label>
+                                <select class="select" name="employeeGender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Marrage Status <span class="text-danger">*</span></label>
+                                <select class="select" name="employeeStatus">
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Department <span class="text-danger">*</span></label>
+                                <select class="select" name="employeeDepartment">
+                                    {% for dept in departments %}
+                                    <option value="{{dept.name}}">{{dept.name}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Joining Date <span class="text-danger">*</span></label>
+                                <div class="cal-icon"><input class="form-control datetimepicker" type="text" name="joiningDate"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Date of Birth <span class="text-danger">*</span></label>
+                                <div class="cal-icon"><input class="form-control datetimepicker" type="text" name="employeeDoB"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Designation <span class="text-danger">*</span></label>
+                                <select class="select" name="employeeDecoration">
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="3">8</option>
+                                    <option value="4">9</option>
+                                    <option value="5">10</option>
+                                    <option value="6">11</option>
+                                    <option value="7">12</option>
+                                    <option value="3">13</option>
+                                    <option value="4">14</option>
+                                    <option value="5">15</option>
+                                    <option value="6">16</option>
+                                    <option value="7">17</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="control-label">Designation <span class="text-danger">*</span></label>
+                                <select class="select">
+                                    {% for design in designations %}
+                                    <option value="{{design.name}}">{{design.name}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive m-t-15">
+
+                    </div>
+                    <div class="m-t-20 text-center">
+                        <button class="btn btn-primary">Create Employee</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

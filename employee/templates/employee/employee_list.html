@@ -1,0 +1,139 @@
+{% extends "./../base.html" %}
+{% load staticfiles %}
+
+{% block main_content %}
+<div class="content container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+                <h4 class="page-title">Employees</h4>
+            </div>
+            <div class="col-xs-8 text-right m-b-30">
+                <a href="/employee/create/" class="btn btn-primary pull-right rounded"><i class="fa fa-plus"></i> Add Employee</a>
+                <div class="view-icons">
+                    <a href="#" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+                    <a href="/employee/list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table id="example" class="table table-striped custom-table">
+                        <thead>
+                            <tr>
+                                <th style="width:30%;">Name (Othername, Surname, Maidenname)</th>
+                                <!--
+                                <th>Date of Conf</th>
+                                -->
+                                <th>Staff Id</th>
+                                <th>Department</th>
+                                <!--
+                                <th>Gender</th>
+                                -->
+                                <th>Date of 1st Appt.</th>
+                                <th>State of Origin</th>
+                                <th class="text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <!--
+                            <tr>
+                                <td>
+                                    <a href="profile.html" class="avatar">J</a>
+                                    <h2><a href="profile.html">John Doe <span>Web Designer</span></a></h2>
+                                </td>
+                                <td>FT-0001</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Web Developer <i class="caret"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Software Engineer Web Developer Web Developer</a></li>
+                                            <li><a href="#">Software Tester</a></li>
+                                            <li><a href="#">Frontend Developer</a></li>
+                                            <li><a href="#">UI/UX Developer</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>Male</td>
+                                <td>1 Jan 2013</td>
+                                <td>Kano</td>
+                                <td class="text-right">
+                                    <div class="dropdown">
+                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li><a href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr> -->
+                            {% for p in profile %}
+                            <tr>
+                                <td>
+                                    <a href="profile.html" class="avatar">{{p.othername|slice:"1"}}</a>
+                                    <h2><a href="/employee/detail/{{p.pk}}">{{p.othername}} {{p.surname}} {{p.maidenname}}<span>{{p.designation}}</span></a></h2>
+                                </td>
+                                <!--
+                                <td>
+                                    {{p.date_of_conf}}
+                                </td>
+                                <td>{{p.gender}}</td>
+                                -->
+                                <td>{{p.staff_no}}</td>
+                                <td>{{p.department}}</td>
+                                <td>{{p.date_of_first_Appt}}</td>
+                                <td>{{p.state}}</td>
+                                <td><center>
+                                    <a href='javascript:void(0)' onclick="delete_employee('{{p.pk}}')" class='text-danger font-18' title='Remove'><i class='fa fa-trash-o' aria-hidden='true'></i></a>
+                                </center>
+                                </td>
+
+                                <!--
+                                <td class="text-right">
+                                    <div class="dropdown">
+                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                        <ul class="dropdown-menu pull-right">
+                                            
+                                            <li><a href="#" onclick="edit_employee('{{p.firstname}}','{{p.lastname}}','{{p.homeplace}}','{{p.employee_identification}}','{{p.status}}','{{p.gender}}','{{p.department}}','{{p.decoration}}','{{p.date_of_birth}}')"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                            
+                                            <li><a href="#" onclick="delete_employee('{{p.pk}}')"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            -->
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "./modal/delete_employee.html"%}
+    {% include "./modal/edit_employee.html"%}
+    {% include "./modal/new_employee.html"%}
+
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+
+    <script>
+        function edit(designation, dept_name, id){ 
+            $('#design_name').val(designation);
+            $('#dept_name').val(dept_name);
+            $('#design_id').val(id);
+            $('#edit_designation').modal();
+        }
+
+        function delete_employee(id){
+            $('#employee_del_id').val(id);
+            $('#delete_employee').modal();
+        }
+
+        $(document).ready(function() {
+            // DataTable
+            var table = $('#example').DataTable();
+         } );
+    </script>
+{% endblock main_content %}

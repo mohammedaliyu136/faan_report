@@ -1,0 +1,800 @@
+HUMAN RESOURCES
+1	Aliyu Garba Abdullahi 	Mr.	M	01/10/63	3719	B. Sc. Pol. Sci. '86	DGM	16/10	02/02/88	01/01/90	01/01/13	Katagum	Bauchi
+2	Samuel Rosemary Ojochide	Mrs.	F	25/09/69	5378	HND Sec Stud. 2004	ACCS 	14/09	02/07/92	02/07/94	01/01/18	Dekina	Kogi
+3	Bello Aliyu	Mr.	M	30/04/71	13181	B.Sc Geography 1999	CHRO	14/02	25/09/17	-	-	Arewa	Kebbi
+4	Abdussalam Samirah Habu	Mrs.	F	19/04/71	7303	B.A His/Mass Comm. '99, MDS '08	ACHRO 	13/08	16/01/03	16/01/05	01/01/16	Danbatta  	Kano
+5	Abdu Sabuwa Ibrahim	Mrs. 	F	01/05/63	8257	B.A Ed. Hausa 1998	ACHRO 	13/08	14/07/03	14/07/05	01/01/16	Nassarawa	Kano
+6	Mohammed Yunusa Baba	Mr.	M	02/07/64	7165	B.A Islamic Studies '92	P.H.R.O	12/11	23/08/02	23/08/04	01/01/12	Misau 	Bauchi 
+7	Ibrahim Hussaini 	Mr. 	M 	28/12/69	12092	B.A. Eng./Mass Comm'01	P.H.R.O.	12/03	18/07/16	-	-	Kaduna North 	Kaduna 
+8	Isemede Bridget E.	Mrs.	F	18/10/70	7299	NCE BUS. EDU. 1999	P.E.O I	12/06	08/01/03	08/01/05	01/01/16	Owan West	Edo
+9	Akilu Yazid 	Mr.	M	11/11/76	9035	HND P/Admin 2004	P.E.O. I	12/04	01/08/07	01/08/09	01/01/17	Funtua	Katsina
+10	Yakubu Rekiyat Iyabo 	Mrs.	F	02/12/68	5572	Diploma in Sec. Stu '04	S.C.S	10/07	01/02/93	15/03/95	01/01/16	Idah	Kogi
+11	Yahaya Abdullahi	Mr 	M 	18/10/84	12977	L L B (HON)  06	SHRO	10/02	08/09/17	-	-	Y/North	Adamawa
+12	Maryam Adamu	Mrs.	F	12/02/87	11058	LLB (Civil '09) BL. '10	SHRO 	10/04	14/06/13	14/06/15	01/01/17	Malumfashi 	Katsina 
+13	Jafar Sani Marshal	Mr. 	M 	07/01/83	11822	Bsc. Bus Admin. '07	HRO I	09/04	24/03/16	-	-	Nasarawa 	Kano 
+14	Fatima Aliyu Tanko 	Mrs.	F	17/08/90	12791	LLB (Hons) '14, BL '15	HRO I	09/02	28/06/17	-	-	Dala 	Kano
+15	Umar Ahmed Ishaq 	Mr. 	M 	23/04/86	10942	B. Ed. Adult Edu. '10	HRO I	09/05	10/06/13	10/06/15	01/01/17	Bunkure 	Kano 
+16	Sirajo Abdu Balarabe 	Mr. 	M 	02/08/82	11011	B. Sc. Bus Admin '08	HRO I	09/05	19/06/13	19/06/15	01/01/17	Madobi 	Kano 
+17	Garba Adamu 	Mr. 	M 	17/11/83	11116	Bsc. P.A '10	HRO I	09/05	10/06/13	10/06/15	01/01/17	Nangere 	Yobe 	
+18	Ahmed Aliyu	Mr.	M	01/01/70	8822	OND Law 1996	H.E.O	08/05	03/08/06	03/08/08	01/01/13	Bida	Niger
+19	Rahmatu Muhammad	Mrs.	F	10/03/86	11975	Bsc. Corp. Mgt '12 MBA. '16	HRO II	08/05	27/06/16	-	-	Tarauni 	Kano
+20	Bala Salisu Sagagi	Mr.	M	19/02/71	5478	SSCE 1991	C.C.O	07/15	04/12/92	04/12/94	01/01/12	Municipal	Kano
+21	Hadiza Mansur Ahmed	Mrs.	F	25/03/72	8065	CON.SEC.IV 96	S.C.O	07/09	07/11/02	07/11/04	01/01/13	Municipal	Kano
+22	Tijjani Idrisa	Mr.	M	14/04/87	-	ND Bus Admin 08	AEO	06/02	10/09/18	-	-	Hawul	Borno
+23	Dahiru Mohammed Sani	Mr.	M	08/04/76	7984	SSCE '00	S.C.O 	06/11	26/02/03	26/02/05	01/01/14	Kaduna South 	Kaduna
+24	Fibi Sambo	Mrs.	F	02/11/72	8312	SSCE 1995	SCO	06/10	01/09/03	01/09/05	01/01/14	Akko	Gombe
+25	Haruna Ali 		Mr. 	M 	14/12/82	10529	NECO'08'	C. O. I.	05/06	15/08/11	15/08/13	01/01/17	Sumaila 	Kano 
+26	Sani Aminu Dahiru	Mr.	M	01/01/18	-	SSCE 02	CO	04/02	10/09/18	-	-	Ungogo	Kano
+
+
+OPERATIONS
+1	Bello Mohammed Sabo 	Mr.	M	09/09/60	5287	BA/PGD '92 (NITT) 	DGM	17/09	02/09/86	08/01/89	01/01/09	Giade 	Bauchi 
+2	Ibrahim M. Abidah	Mrs.	F	27/05/65	4875	HND Catering '91MSC PPA	COO	14/12	01/12/86	01/12/88	26/08/15	Katagum	Bauchi
+3	Mohammed Bello  	Mr. 	M	07/10/66	5018	HND SLT (Micro Biology)	COS	14/12	09/11/93	08/11/94	01/01/11	Nasarawa 	Kano 
+4	Khadijah .O. Mamman	Mrs.	F	03/11/68	7948	MPPA 2002	C.O.O	14/09	08/04/03	08/04/05	11/01/16	Okene 	Kogi
+5	Abdu Mohammed Dahiru	Mr.	M	20/03/65	5033	HND '03	ACOS	14/09	19/05/87	19/05/89	01/01/18	Jema'a 	Kaduna 
+6	Siyaka Nasiru	Mr.	M	07/03/70	7939	HND Statistic '00 / PGD, MDS '14	ACOO 	13/08	09/04/03	09/04/05	01/01/16	Okene	Kogi
+7	Garba Aliyu Mohammed	Mr.	M	17/02/78	7302	B.Sc. Geo. '00 Masters in Dev. Stud. '08	A.C.O.O	13/08	20/01/03	20/01/05	01/01/16	Bauchi 	Bauchi
+8	Suleiman Marafa 	Mr. 	M	17/04/70	7952	HND Textile Tech,	POS	13/	24/04/03	24/04/05	01/01/17	Municipal 	Kano 
+9	Hassan Adamu Maryam	Mrs.	F	05/08/72	5120	DPA '06, HND P/Admin. '04	P.O.S. I	12/06	19/07/93	19/07/94	01/01/15	Ankpa	Kogi
+10	Idris Umar Abdullahi 	Mr.	M	25/10/78	9196	MBA '06, Bsc. Bus. Admin '01	ACO	13/07	01/08/07	29/01/09	01/01/14	Kumbotso 	Kano 
+11	Zainab B. Muhammad	Mr.	F	10/12/76	12965	B.Sc Soc 02, PGD Edu 08, PGD Soc policy & Admin-17	POO 	12/02	25/08/17	-	-	Kano	KMC
+12	Bawa, Abubakar	Mr.	M	04/05/70	4885	GCE '88 Bsc. Econs '03	O.O I	10/09	02/06/92	02/06/94	01/01/18	Kukawa	Borno
+13	Habibu Wasilu Ubayi	Mr.	M	18/6/79	10290	Bsc Statistic '05	O.O. I	10/04	28/07/11	28/07/13	01/01/18	Ringim	Jigawa
+14	Halidu Musa Salami	Mr.	M	10/02/70	13107	B.A Eng 04	P O O	10/02	25/08/17	-	-	Bauchi 	Dass
+15	Sani Alhassan	Mr.	M 	17/05/69	12974	B sc. Polit. Sci.  '05	P O O	10/02	12/09/17	-	-	Chanchaga	Niger
+16	Abubakar Halima Dahiru	Mrs.	F	10/06/75	8258	Diploma Law'98	P.O.S II	10/06	11/11/02	11/11/04	01/01/15	Ungogo	Kano
+17	Kankarofi Ibrahim Garba	Mr	M	15/10/80	9671	Dip.PA.03 Bsc Ecos.08 PGD Inf Tech                        	S.O.O	10/05	4/3/2010	4/03/12	01/01/17	Municipal	Kano
+18	Dahiru Bashir	Mr.	M	13/05/80	9679	Bsc. Sociology	S.O.O. 	10/05	08/03/10	08/03/12	01/01/17	Ikara	Kaduna
+19	Abdullahi Safiyanu	Mr.	M	04/03/80		Bsc Pol. Sci '08	SOO	10/	10/06/15	-	-	Abaji 	Abuja
+20	Ibrahim, Aishatu	Mrs	F	13/06/69	5129	GCE '86	H.O.S	09/12	01/07/92	01/07/94	04/04/17	Nasarawa	Kano
+21	Hamza Abubakar 	Mr. 	M	12/02/84	11598	B.sc Economics '10	O.O I	09/04	04/01/16	-	-	Batsari	Katsina
+22	Umaru Isma'ila Onsachi	Mr.	M	04/05/72	5188	SSCE '91	H.O.S.	09/07	11/02/93	11/02/94	01/01/15	Okene	Kogi
+23	Ismail Baba 	Mr. 	M 	03/03/87	12338	Bsc. Soc. Anthro. '10	O.O. I	09/04	17/10/16	-	-	Karshi 	FCT
+24	Maryam Abdullahi Dika 	Mss 	F	15/08/88	12188	BLS Lib Sci. '11 MIM'16	OO I	09/03	16/08/16	-	-	Biu 	Borno 
+25	Babatimehin Ademiji 	Mr 	M	07/07/74	10258	NCE Bus Edu '00	HOS 	09/03	25/07/11	25/07/13	01/01/18	Penya 	Kogi 
+26	Salihu Ayyuba Naibi 	Mr. 	M 	15/07/82	11115	B. Ed. Islamic St. '10	O.O I	09/03	27/08/13	27/08/15	01/01/17	Jalingo 	Taraba 
+27	Dalhatu Shamsudeen. Ilyasu	Mr.	M	02/01/86	9456	Diploma in Mech. Engr. 2007 HND 2012	H.O. S.	09/03	18/08/08	18/08/10	18/08/18	Nasarawa	Kano
+28	Saidu Adamu	Mr	M	07/07/88	13241	B. Sc (Ed.) '11	O.O. I	09/02	31/08/17	-	-	Gusau	Zamfara
+29	Ibrahim Salihu Oguche	Mr 	M 	03/04/83	13016	B. A. H/Inter Stud. 11	O.O.I	09/02	18/09/17	-	-	S/Wuse	Niger
+30	Abubakar Abdullahi Isa	Mr.	M 	08/11/86	13044	B. Sc. Math. '11	O.O. I	09/02	18/09/17	-	-	Nasarawa	Kano
+31	Liman Yaro Amina	Mrs.	F 	25/12/80	13156	B. SC. Sociology '10	O.O I	09/02	19/09/17	-	-	Nasarawa	Kano
+32	Musbahu Abdullahi Sani	Mr.	M	25/12/83	13354	B.Sc. Physics '10 CPL, MCC, CRM, RELTA, ATPL Integrated '14	OO I	09/02	29/09/17	-	-	Madobi 	Kano
+33	Ibrahim Aisha Dayyab	Mrs. 	F	29/08/82	10642	B. Sc. Biochem 2010	O.O. I	09/05	19/03/13	19/03/15	01/01/17	Tarauni 	Kano 
+34	Ibrahim Bello	Mr.	M	18/12/82	10900	Bsc. Pol. Sci. 08	O.O. I	09/05	10/06/13	10/06/15	01/01/17	Idah 	Kogi 
+35	Shu'aibu Ramatu Bature	Mrs.	F	28/08/71	5447	SSCE '91, ND HND Bus. Admin. '15	S.O.S 	09/08	17/07/93	17/07/94	01/01/17	Ankpa	Kogi.
+36	Maikasa Lawal	Mr	M	02/09/68	5243	SSCE '01, ND Banking/ Finance '06	S.O.S	09/08	08/02/93	08/02/94	01/01/17	Chukum Kajuru  	Kaduna 
+37	Ibrahim Sanusi Bagwanje 	Mr	M	23/07/83	10723	Bsc. Geography '10 	OO I	09/05	04/04/13	04/04/15	01/01/17	Municipal 	Kano 
+38	Ekpenga Bamijoko	Mrs	F	20/05/68	5054	WASC '86 ND MKT '10	HOS	08/14	20/11/86	20/11/88	01/01/14	Orhionwon	Edo
+39	 Hauwa Aliyu S.	Mr.	M	01/09/81	7886	SSCE 2000	Ops Supt.	08/06	07/11/02	07/11/04	01/01/18	Fagge	Kano
+40	Abbas Nadada 	Mr.	 M	29/11/84	11531	B.Tech Idustrial Design '14	OO II 	08/04	31/08/15	31/08/17	-	Dutsinma 	Katsina 
+41	Garba Abdullahi Ringim	Mr. 	M 	24/05/84	11611	Bsc Micro Bio. '09	OO II	08/05	04/01/16	-	-	Ringim	Jigawa
+42	Salisu Ahmed Ado	Mr.	M	29/01/85	11652	B. Tech (Hons) Env. Mgt. Tech. '15 	OO II	08/04	04/01/16	-	-	Daura	Katsina
+43	Shehu Nura	Mr. 	M	22/04/88	11660	Bsc. Lib. & Info. Sci. '10 	OO II	08/04	05/01/16	-	-	Ingwa	Katsina
+44	Al-khamis Rukayya Sa'eed  	Mrs. 	F	19/10/88	11599	Bsc. Lib sci. & Geography '14	OO II	08/04	11/01/16	-	-	Tofa 	Kano 
+45	Muhammad Khalid Abdullahi 	Mr. 	M	12/02/87	11736	BLS Lib. Sci. (13)	O.O II	08/04	10/05/16	-	-	Gamawa 	Bauchi 
+46	Omakpa Shehu 	Mr 	M 	19/08/84	12117	Bsc. Geography 	OO II	08/04	29/07/16	-	-	Kaduna Nt 	Kaduna 
+47	Labaran Abdul Hadi	Mr.	M	12/02/73	7130	NCE S. STU. '12	HOS 	08/05	17/06/02	17/06/04	01/01/16	Fagge	Kano
+48	Abdullahi M. Atamma	Mr.	F	01/01/72	9454	Diploma in Bus. 1994 HND '17	H.O.S.	08/04	18/08/08	18/08/10	01/01/16	Fagge	Kano
+49	Umar Zanna Gambo	Mr.	M	02/10/85	12910	B. A Ling.& English 14	OO II	08/02	04/8/17	-	-	MMC	Maiduguri
+50	Aminu Rabe	Mr.	M	04/02/92	-	B. A inter. Relation 14	OO II	08/02	07/8/17	-	-	Dutsi	kastina
+51	Sagir Tijjani	Mr.	M	07/06/86	13010	B. A (lib & info Sci  15	OO II	08/02	21/08/17	-	-	Katsina 	Katsina
+52	Adamu Hussaini	Mr.	M	11/10/91	13034	B. Sc. Geo/Mini. 14	O.O. II	08/02	15/09/17	-	-	G/Glada	F.C.T
+53	Kasim Abdulkadir	Mr.	M 	28/11/79	13103	B. Sc P. Admin 17	O.O II	08/02	19/09/17	-	-	Katsina	Katsina
+54	Suleiman Shehu	Mr.	M 	29/11/82	13184	B. A History 15	O.O II	08/02	20/09/17	-	-	Katsina	Katsina
+55	Shehu Isma'il Ruma	Mr.	M	08/06/90	13443	Bsc. Compt Sci. '15	O.O II	08/02	11/12/17	-	-	Batsari	Katsina
+56	Mohammed Asheik Shehu	Mr.	M	15/10/87	-	B. sc Geogr '15	O.O II	08/02	22/01/18	-	-	Bama 	Borrno 
+57	Adamu Abbas	Mr.	M	07/05/89	-	B. sc Statistic '16	O.O II	08/02	22/01/18	-	-	Madobi 	Kano 
+58	Mohammed Mustapha Bukar	Mr. 	M	16/11/80	-	B . Sc Pol sci. '11	O.O II	08/02	29/01/18	-	-	Jere 	Borno 
+59	Waziri Hadiza	Mrs.	F	03/09/74	5564	Grd. II' 91 WAEC 07, NCE (Eco/ SOS) '14	H.O. S	08/	26/03/93	26/03/94	01/01/17	Gumel	Jigawa
+60	Sani Hauwa 	Mrs.	F	27/07/72	5486	SSCE '84	H.O.S	08/	01/06/93	01/06/94	01/01/17	Municipal	Kano
+61	Muh'd Inuwa Mustapha	Mr.	M	02/10/72	5328	WASC '91, NCE Geog & Soc Stud. '14	H.O.S  	08/	01/02/93	01/03/95	01/01/17	Ringim	Jigawa
+62	Yusuf Abdulrazak	Mr.	M	12/04/90	-	BA. English '15	OO II	08/02	14/09/18	-	-	Kafur	Katsina
+63	Kabiru Ibrahim	Mr 	M	03/07/88	-	HND 'Bus Admin' 16	OO II	08/02	27/08/18	-	-	Wushishi	Niger
+64	Badiru Rekiya	Mrs.	F	15/06/63	4997	WASC 1978	CIA	07/15	02/12/91	02/12/93	10/01/04	Owerri 	Imo
+65	Yahaya Omale Hussaini	Mr.	M	10/07/62	5123	WASC '1985	C/M	07/15	15/07/92	15/07/94	01/01/01	Dekina	Kogi
+66	Garba Magaji 	Mr	M	07/05/70	5080	Grd, II `91	C.O.C.	07/15	15/07/92	15/07/94	01/01/08	Ringim	Jigawa
+67	I Abdulmumini .S.	Mr	M	01/10/63	5426	GCE '84	C.D.C	07/15	10/01/93	10/01/95	01/01/06	Okene	Kogi
+68	Musa Muhammed Garba	Mr.	M	02/07/66	5086	GCE 1986	C. M.	07/15	18/01/93	18/01/95	01/01/12	Nasarawa	Kano
+69	Idris Abubakar	Mr.	M	26/01/69	4886	WASC '90	CM	07/15	09/02/93	09/02/94	01/01/13	Omala	Kogi
+70	Sarki Gomina Shuaibu 	Mr.	M	31/08/66	5092	SSCE '90	CM	07/15	04/02/93	04/02/94	01/01/13	Okene	Kogi
+71	Maje Mariya	Mrs.	F	31/12/69	5245	SSCE 1986 	CIA	07/15	26/03/93	26/03/95	01/01/13	Municipal	Kano
+72	Isyaku Hasfsat	Mrs 	F	26/08/74	5192	SSCE 92	Ops. Sup.	07/14	19/07/93	19/07/94	01/01/14	Okene	kogi
+73	Muhammed Auwalu	Mr.	M	14/05/65	4984	GCE 1986	Chf. Marsh	07/15	10/02/93	10/02/94	01/01/13	Nassarawa	Kano
+74	Abubakar Alhassan	Mr.	M	27/01/82	9956	Diploma in Language	OPS. SUPT.	07/06	19/03/10	19/03/12	01/01/14	Ringim	Jigawa
+75	Abdu Rabiu	Mr.	M	14/02/72	7119	WASC 1992 NCE MATH/ECONS 	SM		07/08	14/06/02	14/06/04	01/0113	Fagge	Kano
+76	Lawan Amina	Miss	F	13/01/69	7833	Grd. II '85	SIA	07/09	06/11/02	06/11/04	01/01/13	Tarauni	Kano
+77	Mujitapha Isyaku Isah	Mr.	M	11/09/82	10018	SSCE.'01/06 ND ACCT. '07 HND '13	Ast. Ops. Supt. 	06/05	19/03/10	19/03/12	19/03/16	Municipal	Kano
+78	Kamaludeen A. Yusuf	Mr.	M	25/08/71	9455	SSCE '97	Asst. Marsh. I	05/09	19/08/08	19/08/10	01/01/15	Fagge	Kano
+79	Abubakar Mahe	Mr.	M	05/07/65	10080	PRI  CERT, '81,  GCE '86	Ast. duty clerk	05/08	29/06/10	29/06/12	01/01/16	Municipal	Kano
+80	Aminu Bashir Ubah	Mr.	M	01/01/77	9957	SSCE '96, NECO '15	Ast. duty clerk	05/08	17/6/10	17/06/12	01/01/16	Kumbotso	Kano
+81	Auwalu Adamu Aliyu	Mr.	M	07/05/76	10093	PRI  CERT,  WAEC	Ast. duty clerk	05/08	11/10/10	11/10/12	01/01/16	Dorayi	Kano
+82	Jubrin Nuhu Hassan	Mr.	M	14/02/83	10470	PRI  CERT, NECO	Ast. duty clerk	05/07	11/10/10	11/10/12	01/01/16	Nassarawa	Kano
+83	Abdullahi yahaya	Mr.	M	21/01/85	-	SSCE' 07	Marshaller	05/02	22/02/18	-	-	Kurna 	Kano
+84	Nura Aliyu	Mr.	M	16/01/90	013603	SSCE' 06	Marshaller	05/02	22/02/18	-	-	Gwarzo	Kano
+85	Abdullahi Zakariyya	Mr.	M	20/05/86	13663	SSCE' 07	Marshaller	05/02	22/02/18	-	-	Kurna .A	Kano
+86	Abdullahi J. Khalid	Mr.	M	01/10/89	013659	SSCE' 08	Marshaller	05/02	22/02/18	-	-	Dala	Kano
+87	Usman Murktar Yahuza	Mr.	M	23/06/90	-	SSCE' 08	Marshaller	05/02	22/02/18	-	-	Dala	Kano
+88	Yusuf A. Geza	Mr.	M	06/07/90	013604	SSCE' 15	Marshaller	05/02	22/02/18	-	-	Geza	Kano
+89	Muhammad Umar Yadudu	Mr.	M	20/01/84	013662	SSCE' 05	Marshaller	05/02	22/02/18	-	-	Dala 	Kano
+
+TRANSPORT UNIT
+1	Adamu Haruna	Mr. 	M	01/01/61	4892	PRI CERT. 77 T. T. I,II,III,ID MECH. 99	CDM	08/12	01/09/87	01/09/89	01/01/16	Gezawa	Kano
+2	Tahir Isma'ila 	Mr.	M	01/01/59	7566	PRI CERT. 72, T.T III, II I 2000	CDM	08/09	12/11/02	12/11/04	01/01/18	Kaugama	Jigawa
+3	Daniel Alphonsus	Mr.	M	25/07/80	9961	PRI  CERT ,94 'T.T.III,II,I '90,'07,'05	SMD I	06/07	17/06/10	17/06/12	01/01/16	Kaura	Kaduna 
+4	Hamisu A. Musa	Mr.	M	02/03/73	10013	T.T.III.II&I	SMD I	06/07	19/03/10	19/03/12	01/01/16	Nasarawa	Kano
+5	Abdulsalam Baballo	Mr.	M	18/02/69	10072	PRI  CERT, '82; T.T.III,II,I '10,'07,'08	SMD I	06/07	17/06/10	17/06/12	01/01/16	Ungogo	Kano
+6	Garba Idris	Mr.	M	20/07/81	9963	Sch. Cert. 2007	SMD I	06/07	01/03/10	19/03/12	01/01/16	Ungogo 	Kano
+7	Ayuba Mohammed	Mr.	M	25/08/72	10070	PRI  CERT, '83; T.T.III,II,I '08,'07,'01	SMD I	06/07	17/06/10	17/06/12	01/01/16	Nasarawa 	Kano
+8	Alhassan Moh'd Wada	Mr.	M	02/02/62	10071	PRI  CERT, '76; T.T.III,II,I '00,'99,'98	SMD I	06/07	17/06/10	17/06/12	01/01/16	Nasarawa	Kano
+9	Lawal Salisu	Mr.	M	17/02/69	9962	PRI  CERT, '83; T.T.III,II,I '10,'09	SMD I	06/07	17/06/10	17/06/12	01/01/16	Ringim	Jigawa
+10	Abba Yakubu	Mr.	M	10/01/70	10092	PRI CERT.T.T.I  II III	SMD I	06/07	11/10/10	17/06/12	01/01/16	Municipal	Kano
+11	Yunusa Muhammed 	Mr. 	M	10/04/69	9657	PRI CERT. '81 TT. I, '08 II, '07 II '06	SMD I	06/07	25/01/10	25/01/12	01/01/16	Biu 	Borno 
+12 	Rabiu Mamman 	Mr. 	M 	20/11/87	11516	Pri Cert. TT I, II, III '10	SDM 	05/02	05/08/15	05/08/17	-	Batsari 	Katsina 
+13	Mustapha Mohammed Aminu 	Mr. 	M 	25/12/86	11518	Pri. Cert, '96 SSCE '02 TT, I, II, III, '10	SDM 	05/02	05/08/15	05/08/17	-	Dala 	Kano 
+14	Hassan Adamu 	Mr. 	M	12/07/81 	11519	Pri Cert, '92 TT I, II, III, '09	SDM 	05/02	05/08/15	05/08/17	- 	Nasarawa 	Kano 
+15	Danjummai Mohammed 	Mr.	 M	20/12/77 	11517	Pri. Cert, '89 TT I, II, III, '06	SDM 	05/02	05/08/15	05/08/17	- 	Ungogo 	Kano 
+16	Kamilu Habib	Mr.	M	22/02/80	9958	PRI  CERT, '92,T.T.III,II, '09,'07	MD I	05/05	17/06/10	17/06/12	01/01/16	Gaya	Kano
+17	Haruna Auwalu Muh'd	Mr.	M	10/02/76	11379	PRI CERT. 96, TT I II III 03,05,06	SMD	05/	12/06/14	12/06/16	-	T/Wada	Kano
+
+COMMERCIAL
+1	Chatta I.N	Mr.	M	12/06/59	0346	B.Sc Econs. 1981	DGM	16/10	07/11/88	07/11/90	01/01/10	Pategi	Kwara
+2	Binta A. Dhacko 	Mrs	F	10/03/65	11506	B.Sc. Int. Studies 	AGM	15/02	2/9/15	-	-	Minna 	Niger 
+3	Dahiru, Halilu Mohammed	Mr.	M	31/12/58	3911	HND P & S '08 PGD B/F '15	CEO	14/12	04/11/86	04/11/88	12/04/11	Girei	Adamawa
+4	Isyaku, Ahmed Kabir	Mr.	M	02/01/63	5191	OND Bus. Admin. '90	ACEO	14/10	24/01/93	06/04/95	01/01/18	Municipal	Kano
+5	Mohammed Habibu Kibiya	Mr.	M	01/01/70	5097	HND Bus. Admin. 2000	ACEO 	14/08	26/11/92	26/11/94	01/01/18	Kibiya	Kano
+6	Effiom, Ekpo Orok	Mr.	M	10/10/75	7295	B. Sc. MGT 2000 MBA '09	ACCO	14/07	19/12/02	19/12/04	01/01/18	Akpabuyo	C/River
+7	Lamorde Abdul-Jalal	Mr.	M	01/11/68	12136	B.Tech Edu/Agric '98 MBA '02	CCO	14/04	28/06/16	-	-	Mubi 	Adamawa 
+8	Ahmed Abdu Gwaram	Mr	M 	02/04/68	12879	PGD In Bus. Admin, 04	CCO	14/02	14/08/17	-	-	Gwaram	Jigawa
+9	Ala'udeen H. Yahaya	Mr.	M	12/03/76	7098	B.Sc. Econs. 2001. MBA 	A.C.C.O	13/08	23/10/02	23/10/04	01/01/16	Municipal	Kano
+10	Rilwanu, A. Aisha	Mrs	F	07/09/69	7961	B. Sc. Bus. Admin '94	ACCO	13/08	27/03/03	27/03/05	01/01/16	Municipal 	Kano
+11	Suleiman Yusuf	Mr	M	01/01/76	12925	Bsc. Bus Admin' 00 MBA 10'	ACCO	13/03	31/07/17	-	-	Samaru	Kaduna
+12	Birma Fatima Lami 	Mrs	F	21/01/71	11793	Bsc. Law '00	PCO	12/04	13/5/16	-	-	Biu 	Borno 
+13	Adaji Abdul 	Mr.	M	26/07/73	12144	BA/Edu Econs. Edu 	PCO 	12/04	15/08/16			Edu 	Kwara 
+14	Mohammed Umar Farouk	Mr.	M	06/04/78	7844	HND Bus. Admin 2008	PEO I	12/04	2/12/02	12/12/04	01/01/18	Gaya	Kano
+15	Haruna, Abdulkadir	Mr.	M	27/06/74	7837	HND Acct. '08	PEO I	12/04	20/11/02	20/11/04	01/01/15	Municipal	Kano
+16	Nasir Tahir Dori	Mr.	M	03/05/84	-	Bsc. Ecos. '09	S.C.O	10/02	05/12/17	-	-	Maiduguri	Borno
+17	Isah zubaidah Ibrahim	Mrs	F	25/04/84	10728	MBA 10, Bsc, Bus. 06	S.C.O	10/	19/03/13	18/03/15	01/01/17	Kumbotso 	Kano 
+18	Anas Musa 	Mr. 	M 	20/02/82	11008	BSc Econs.'08 MSc Int'l Bus. '11 	S.C.O 	10/04	19/06/13	19/06/15	01/01/17	S/ Kaduna 	Kaduna 
+19	Modu M. B. Sandabe 	Mr.	M	01/02/79	10647	HND Marketing '04	S.E.O.	10/	14/03/13	14/03/15	01/01/17	Ngala 	Borno 
+20	Umar Faruk Usman 	Mr.	M	12/08/86	11304	HND Bus. Admin 08	S.B.D.O	10/	24/03/14	24/03/16	01/01/18	Ankpa 	Kogi 
+21	Yau' Kaita Ahmed	Mr. 	M	14/12/87	11657	B.A Econs. '09 	C.O I	09/04	04/01/16	-	-	Kaita	Katsina
+22	Isah Garba Kabiru 	Mr.	M	01/08/81	12127	Bsc. Mgt '08 Msc. Mgt '15	C.O. I	09/06	27/06/16	-	-	Ofu 	Kogi 
+23	Onegula Yusuf Sumaila 	Mr.	M	02/05/86	12356	Bsc. Public Admin '12	CO I 	09/03	09/09/16	-	-	Nasarawa 	Kano 
+24	Zakari Sanusi	Mr.	M	16/09/88	12339	Bsc. Bus. Admin. '08	CO I	09/03	14/10/16	-	-	Lafia 	Nasarawa
+25	Ahmed Mustapha Hassan	Mr	M	13/05/90	13248	Bsc. Bus. Admin. '11	B.D.O I	09/02	30/10//17	-	-	Nasarawa	Kano
+26	Awwalu Ahmed 	Mr.	M 	24/09/89	10909	Bsc. Bus Admin '11	B.D.O. I	09/	10/06/13	10/06/15	01/01/17	Wase 	Plateau 
+27	Mohammed Sani Wada	Mr.	M	08/03/85	10968	Bsc. Bus Admin '11	B.D.O. I	09/	10/06/13	10/06/15	01/01/17	Zaria 	Kaduna
+28	Musa Usman Joro	Mr.	M 	15/10/83	11003	B. Tech '10	C.O.I	09/	07/06/13	07/06/15	01/01/17	Donga 	Taraba 
+29	Mohammed Yarima Giade	Mr. 	M	30/10/78	10906	Bsc. BM '12	C.O.I	09/	10/06/13	10/06/15	01/01/17	Giade 	Bauchi 
+30	Jibrin Idris Jipan 	Mr. 	M	10/10/80	11013	Bsc. Econs '08	C.O .I	09/	10/06/13	10/06/15	01/01/17	Lavun 	Niger  
+31	Umar Aminu Saleh	Mr. 	M	07/01/80	11176	Bsc. Econ '12	B.D.O I	09/	23/12/13	23/12/15	01/01/17	Giade 	Bauchi 
+32	Musa Ibrahim Garko 	Mr.	M	18/03/78	10915	Bsc. Econ '10	C.O II	09/04	10/06/13	10/06/15	01/01/18	Garko 	Kano 
+33	Usman Ismaila 	Mr. 	M	18/09/83	11308	HND Marketing '11	HEO. II	08/05	24/03/14	24/03/16	-	Offa 	Kwara 
+34	Audu Umoru 	Mr.	M	29/09/85	11971	Bsc. Ecos '09	C.O. II	08/04	28/06/16	-	-	Ogbadibo 	Benue 
+35	Lawal Abdullahi 	Mr. 	M 	10/05/87	11525	Bsc. Com. Science '12	C O II	08/04	14/10/15	-	-	Daura 	Katsina 
+36	Abubakar Hamisu	Mr. 	M	12/07/87	11659	B. of Art in Hoistry ' 13	C.O. II	08/04	04/01/16	-	-	Daura	Katsina
+37	Umar Zaharaddeen 	Mr. 	M	10/02/87	11641	Bsc. Economics '14	CO II	08/04	11/01/16	-	-	Katsina 	Katsina 
+38	Abubakar Lawal A.	Mr.	M	11/04/79	11861	HND Cop. Econs. '14	HEO	08/04	13/06/16	-	-	Tarauni 	Kano 
+39	Audu Umoru Faruku 	Mr. 	M	12/12/81	12098	HND Public Admin '12	HEO	08/04	26/07/16	-	-	Sokoto sth	Sokoto 
+40	Yahaya Ahmed 	Mr. 	M 	08/08/88	12105	HND Accountancy '12 	HEO	08/03	08/08/16	-	-	Sabon G.	Kaduna 
+41	Ibrahim Abdullahi 	Mr.	M	02/01/83	12146	HND Bus. Admin. '11	HEO	08/04	15/08/16	-	-	Bida 	Niger 
+42	Abbas Abubakar	Mr.	M	27/02/88	13320	HND Bus. Admin '15	HEO 	08/02	28/08/17	-	-	Katsina	Batsari
+43	Akilu Abdulaziz	Mr. 	M	15/02/84	13161	B.Sc Busi Admin	BDO I	08/02	25/09/17	-	-	Kogi	Dekina
+44	Makoji Hud Abdulquadri	Mr.	M	23/11/84	13166	B.A Agri Econs	C O II	08/02	25/09/17	-	-	Benue	Ogbadibo
+45	Umar Yahaya Sallau	Mr.	S	02/9/89	-	B Sc Maths '16	CO II	08/02	22/01/18	-	-	Fagge	Kano
+46	Abubakar Ibrahim	Mr.	M	12/06/85	-	Bsc. Bus Admin '14	CO II	08/02	13/09/18	-	-	Kankia	Katsina
+47	Adamu Lawal Musa	Mr.	M	15/03/77	9627	Diploma Marketing '99	EO	07/06	01/07/09	01/07/11	01/01/13	Okene	Kogi
+48	Tijjani muazu 	Mr 	M	15/05/81	12053	NCE '07	EO	07/04	28/07/16	-	-	Ogbadibo 	Benue 
+49	Sharif Nura Moh'd	Mr.	M	12/04/84	9947	Sch. Cert. 2006 NCE SOS '11	EO	07/02	19/03/10	19/03/12	05/03/17	Ungogo	Kano
+50	Ubale Nababa Umar	Mr.	M	10/2/78	1116	Sch. Cert. '09 SSCE '11	C. O. I	05/07	11/10/10	11/10/12	01/01/17	Fagge 	Kano 
+
+
+ENVIRONMENTAL
+1	Sani Nura Norbert 	Mr.	M	15/08/73	6897	Msc. Env. Mgt. '17 PGD Env. Planning & pro. '14 HND Biochem. '98 	CB/ WHCO	14/09	01/12/00	01/12/02	01/01/17	Itobe/Ofu 	Kogi 
+2	Rabiu Mohammed 	Mr.	M	15/07/77	8821	B.Sc. Bio '00	PEO	12/05	03/08/06	03/08/08	01/01/16	Zuru 	Kebbi 
+3	Mohammed Samaila A.	Mr.	M	30/03/80	9049	Bsc Botany '05	P/BHCO	12/	01/08/07	30/08/09	01/01/17	Bama 	Borno 
+4	Aliyu Chadi	Mr.	M	10/10/78	9259	B.Tech. Appl/Ecology'05	P/BWCO	12/	19/11/07	19/11/09	01/01/17	Jama'are	Bauchi
+5	Hafsat Abubakar Tahir	Mrs	F	20/10/67	9525	PGDE '5, Sc. Lab. Tech. '87	PB/WHCS I 	12/	18/08/08	18/8/10	01/01/18	Biu	Borno
+6	Abubakar Zara	Mrs	F	07/09/80	9479	Bsc. Edu Biology 2003	PB/WHCO 	12/	19/08/08	19/08/10	01/01/18	Maiduguri	Borno 
+7	Mark Sum Benwuk 	Mrs	F	23/10/81 	9604	HND Envt. Health '06	PEO II 	10/06	04/04/09	04/04/11	01/01/16	Bogoro 	Bauchi 
+8	Mohammed U. Ramah	Mr.	M	14/01/82	9757	Bsc. Applied Chem '07	S.E.S.O. 	10/	23/03/10	23/03/12	01/01/17	Batsari	Katsina
+9	Mailafiya Mustapha Mohammed	Mr 	M 	12/9/87	12841	B. Engr. Agric & Envin. 09	E.O	09/02	07/09/17	-	-	Shani	Borno
+10	Abdulmalik Imran	Mr	M	08/10/89	13132	B. Sc. Zoology. 12	Envi. I	09/02	30/08/17	-	-	Sabon/Gari	Kaduna
+11	Manko Aliyu Yilata	Mr 	M	08/08/83	12880	B. Sc. Estate mgt. 11	Envi. I	09/02	30/08/17	-	-	Bida	Niger
+12	Ango Rabiu 	Mr. 	M 	01/03/84	10927	HND Forestry  Tech '09	E.O. I	09/	10/06/13	10/06/15	01/01/17	Lere 	Kaduna 
+13	Abubakar Salisu Hamza	Mr.	M	22/11/84	9544	NCE Agric Edu.'05	SB/WHCO	09/	18/08/08	18/08/10	01/01/16	Duara	Katsina
+14	Muhammed Muktar Attahir 	Mr 	M	23/09/88	12006	B. Tech. Env. Mgt. Tech. '14	ENV.O II	08/03	01/08/16	-	-	Kaduna South 	Kaduna 
+
+
+
+MECHANICAL
+1	Garba Usaini 	Mr.	M	24/05/72	9276	B. ENG. Mech. '98 	CME	14/07	22/11/07	05/01/10	01/01/17	Fagge 	Kano 
+2	Naziru Garba	Mr.	M	04/06/76	7708	NCE Mech Metal '00 HND '10	P.T.O. II	12/05	05/02/03	05/02/05	04/04/17	Dala 	Kano
+3	Abdu Abdulrasheed	Mr.	M	27/03/75	8074	ND Mech '02 HND '08	PTO I	12/07	24/04/03	24/04/05	01/01/17	Daura 	Katsina
+4	Sulaiman Sa'id Baba 	Mr.	M	05/02/70	8117	HND Mech Engr '13	PTO I	12/05	22/04/03	22/04/05	01/01/17	Bebeji	Kano 
+5	Omika Sule 	Mr. 	M	02/12/82	11313	HND Mech. 2005	PTO II	12/03	24/03/14	24/03/16	01/01/18	Dekina 	Kogi 
+6	Babangida Ado Zango	Mr.	M	25/12/82	-	B. Eng Mech. '08	Snr. Engr	10/02	05/12/17	-	-	Maiduguri	Barno
+7	Mohammed Alfa Santuraki	Mr	M	08/01/79	10861	HND Mech Engr. '07	STO	09/05	10/06/13	10/06/15	-	Mubi North	Adamawa
+8	Umaru Stephen Akogwu 	Mr 	M	25/06/82	12052	HND Mech. Engr. 	STO 	09/02	28/07/16	-	-	Dekina 	Kogi 
+9	Maina Musa Bisalla 	Mr. 	M	14/9/87	11754	HND Mech. Eng. '12	HTO 	08/04	10/05/16	-	-	Mangu 	Plateau 
+10	Mika'ilu Ahmed Ibrahim	Mr.	M	05/10/77	9955	ND Mech. Engr. '08, 	H.T.O	08/04	19/03/10	19/03/12	01/01/16	Dala	Kano
+11	Idris Ibrahim Daura	Mr.	M 	22/12/84	-	B. Eng Mech. Engr 14	Engr II	08/02	05/09/17	-	-	Daura 	katsina
+12	Yaman  Bala	Mr.	M	15/06/67	5003	T.T.I ARC Weld. 95 NABTEB '14	S/Foreman	07/15	06/04/93	06/04/95	01/01/12	Bida	Niger
+13	David Haruna	Mr.	M	10/01/71	8068	T.T.I & II MV Mech '00, WAEC Cert.	S. F. M	07/10	11/04/03	11/04/05	01/01/14	N/Eggon	Nasarawa
+14	Auwalu Yusuf M.	Mr.	M	29/11/78	8072	T.T.II & III MV ch ND Weld/Fab Tech. '14	Work Supt.	07/07	23/04/03	23/04/05	01/01/17	Nasarawa	Kano
+15	Isma'ila Sale	Mr.	M	26/07/77	8067	T.T.II & III MV Mech '02	Foreman	06/11	11/04/03	11/04/05	01/01/14	Kano	Kano
+16	Thompson David	Mr.	M	15/12/77	8075	T.T.II & III MV Mech '02, '03, & '09	Foreman 	06/11	09/04/03	09/04/05	01/01/14	M/Enin	A/Ibom
+17	Mustapha Abdullahi	Mr.	M	11/10/80	8069	T.T.II & III W ARC Mech '02	Foreman	06/11	16/04/03	16/04/05	01/01/14	Kano	Kano
+18	Adulhamid Umar	Mr.	M	10/01/75	10097	T.T.I, SSCE '94	Foreman	06/07	19/03/10	19/03/12	01/01/16	BIU	Borno 
+19	Ibrahim Bala	Mr.	M 	01/03/73	9964	T.T.I. II. III	Foreman	06/07	19/03/10	19/03/12	01/01/16	Fagge	Kano
+20	Sunday Aliyu Isa	Mr.	M	25/11/74	10012	T.T.I.II.III	Foreman 	06/07	19/03/10	19/03/12	01/01/16	Kuroko	Kogi 
+21	Ado Hussaini Bayero	Mr.	M	15/03/74	10016	PRI  CERT, '88; T.T. III,II,I '06,'04,'05	Foreman	06/07	17/06/10	17/06/12	01/01/16	Kumbotso	Kano
+22	Alfred Alex	MR	M	17/06/74	10066	T.T.III,II,I	Foreman 	06/07	03/08/10	03/08/12	01/01/16	Sapele 	Delta 
+23	Usman Ahmed	Mr.	M	20/08/79	10015	PRI  CERT, '92; T.T.III,II,I '06,'05,04	FOREMAN 	06/07	17/06/10	17/06/12	01/01/16	Bauchi	Bauchi
+24	Samuel Chidi	Mr.	M	17/01/91	-	Pri Cert '02, TT,I,II,III	Snr. Foreman	05/02	04/06/18	-	-	Umuahia/S	Abia
+
+
+
+
+ACCOUNTS
+1	Onwuka Timothy Ikechukwu 	Mr.	M	06/10/64	6111	HND Fin. '88 PGD B & F '02 MSC B & F '06, ANAN '14, CIMAN '08	DGM	16/10	15/07/92	15/07/93	01/01/15	Oyi	Anambra 
+2	Roseline Afor Okeme	Mrs.	F 	09/04/78	13028	B. Sc. Acct. 02,  MBA 08, ANAN 17.	CA	14/2	19/09/17	-	-	O/Otupa	Benue
+3	Adaji Moses Negedu 	Mr.	M	27/09/71	11316	B. Sc. Banking & Finance '98 PGD Accounting '02	CA	14/	24/03/14	24/03/16	01/01/18	Karshi/ Amac	Abuja 
+4	Hamisu Nuhu	Mr.	M	29/01/66	5105	OND Acct '90 ND ACCT. '12	PEO I  	12/12	14/04/93	08/6/95	01/01/16	Daura	Kastina
+5	Ringim, Uba Sani	Mr.	M	15/01/74	8308	HND Accts '08, ND Acct. '95	PEO I	12/	06/11/02	06/11/04	01/01/18	Ringim	Jigawa
+6	Abdullahi Usman Jibrin	Mr.	M	10/01/82	8649	ND 2004, HND Accountancy 2012	SEO	09/	03/08/06	03/08/08	01/01/16	Fagge	Kano
+7	Sanusi Suleiman Babaji 	Mr.	M	04/10/84	12174	Bsc. Accounting '08	A.O. I	09/04	27/06/16	-	-	Kagoro 	Kaduna 
+8	Usman Mustapha Isa	Mr.	M	14/03/77	-	B. Sc Acct'08, Mtm'14 Maf'16.	A.O I	09/01	12/01/18	-	-	Municipal	Kano
+9	Usman Hafsat	Mrs.	F	12/09/73	5468	ND Accountancy 2006. HND Acct. '14	S.E.O.	09/	01/12/93	01/03/95	01/01/17	Okene	Kogi
+10	Mohammed Babaji Iyal	Mr. 	M 	01/10/81	10841	Bsc. Acc. '009 Dip. Law '00	A.O I	09/	10/06/13	10/06/15	01/01/17	Wase 	Plateau 
+11	Adaji Rabi Fitimi 	Mrs.	F	26/11/80	12395	HND Accounting '13	HEO	08/04	27/09/16	-	-	Fagge 	Kano 
+12	Buhari Musa 	Mr 	M	21/05/85	11973	HND Accountancy '13	H.E.O.	08/03	04/07/16	-	-	Dala 	Kano 
+13	Muntari Murtala 	Mr 	M	28/06/84	11781	HND B & F '09	HEO 	08/03	17/05/16	-	-	Nasarawa 	Kano 
+14	Musa Mustafa Shawai	Mr.	M	09/09/90	13294	Bsc. Acct. '14	A.O II	08/02	30/10/17	-	-	Dala	Kano
+15	Ismail Aliyu Yusuf	Mr.	S	06/09/18	-	HND Acct' 13	HEO	08/02	24/01/18	-	-	Omala	Kogi
+16	Yahaya Sadiq Musa	Mr.	M	30/04/85	-	HND Acct' 16	HEO	08/02	25/01/18	-	-	Wase	Plateau
+17	Adamu Ahmed A. 	Mr.	M	20/01/84	9688	Dip. Banking & Finance	E.O. 	07/5	08/03/10	08/03/12	01/01/14	Jama'are 	Bauchi 
+18	Muhammed Mustapha	Mr.	M	28/08/66	7014	Cert Aud/Acct. '94	S.C.O	07/11	6/2/2002	06/02/04	01/01/13	Municipal	Kano
+19	Nababa Ali Abdullahi 	Mr.	M 	13/12/85	10989	ND Acct. '10	E.O	07/ 	10/06/13	10/06/15	01/01/17	Fagge 	Kano 
+20	Salihu Muhammed  Abubakar	Mr.	M	19/05/78	7983	SSCE '00	C.C.O	07/	31/10/02	31/10/04	01/01/18	Dala	Kano
+21	Idris Tanko Umar 	Mr.	M	14/02/84	12121	ND Accounting 	AEO	06/04	18/07/16	-	-	Abaji 	Abuja 
+22	Ashiru Ibrahim Mu'azu	Mr.	M	23/03/87	-	ND Buss Admin 12	AEO	06/04	24/04/18	-	-	Dala	Kano
+23	Alex Ofemile	Mr.	M	31/10/89	-	ND Banking &Finance 12	AEO	06/02	24/04/18	-	-	Etsako/E	Edo
+24	Oluchi Kalu	Mr.	F	01/08/96	-	ND Accounting 16	AEO	06/02	24/04/18	-	-	Nkanu/W	Enugu
+
+
+
+
+CORPORATE AFFAIRS
+1	Tadafe Memunat .B.	Mrs.	F	14/12/65	7376	B. Tech. Chem. '89 MPPA '2010	AGM	15/10	18/12/02	18/12/04	01/01/15	Okene	Kogi
+2	Titus Bolcit Musa	Mrs.	F	18/06/75	7406	HND P/Admin '01 MPPA '10	ACPP	13/08	18/12/02	18/12/04	01/01/16	Lang tang North	Plateau
+3	Fatima Muhammad Umar	Mrs.	F	26/04/78	13154	BA. His/Mass com' 03 MA Public Relation' 15	ACCAO	13/02	31/07/17	-	-	Nasarawa	Kano
+4	Nafisat Ado Muhammed 	Mrs.	F	20/02/74	12340	B. Edu- Adult Edu '02	SCAO	10/04	17/10/16	-	-	Municipal 	Kano 
+5	Charity Olatunde Onuche	Mrs. 	F	26/11/73	10777	B. A. Mass Comm.	SCCO 	10/07	18/03/13	18/03/15	01/01/17	Ejule 	Kogi 
+6	Hashim Umar Marafa	Mr. 	M 	05/05/84	11025	B.A. English 	CCO I	09/	10/06/13	10/06/15	01/01/17	Argungu 	Kebbi 
+7	Ibrahim Umar farooq 	Mr. 	M	12/06/82	11981	HND Printing Tech '08	HEO	08/04	04/07/16	-	-	Birnin Kebbi 	Kebbi 
+8	Muhammad Ibrahim L	Mr.	M	05/12/78	13698	HND Public Admin 10	HEO	08/02	10/04/18	-	-	Funtua	Katsina
+9	Abdulmuminu Sani	Mr.	M	11/11/68	5493	GCE '86. CERT. MASS COM '90	C.C.O	07/15	14/10/92	14/10/94	01/01/08	Municipal	Kano
+
+
+
+L,W,& SURVEY
+1	Zaccheus Daudu Umaru	Mr.	M	20/4/61	3860	B. Eng. (civil) 85	DGM	16/10	20/7/93	20/7/94	01/01/10	Okene 	Kogi
+2	Bayero Abdullahi Hamzat	Mr.	M	25/10/75	13232	B. Sc. Land Surv. 03	A.C.L.O	13/02	15/07/17	-	-	Municipal	kano
+3	Saidu Sulieman koko	Mr.	M	22/08/71	11461	HND Soil &Water Eng.	PEO I	12/04	09/07/15	-	-	Koko	Kebbi
+4	Dahiru Muhammed 	Mr. 	M 	01/12/83	10944	B.E. Chem. E.  '10	CH. E. I	09/05	10/06/13	-	10/06/15	Kwami 	Gombe 
+5	Danbaba Umar Jibo 	Mr. 	M	18/06/83	10749	Bsc. Geology  09	GEO I	09/05	18/03/13	18/03/15	06/11/16	Wase	Plateau 
+6	Abdulkadir Suleiman 	Mr.	M	19/01/86	11776	B. Eng. Civil & Water Resources Engr. '11	WE II	08/03	10/05/16	-	-	Azare 	Bauchi 
+7	Adamu Sadiq	Mr.	M	27/02/89	-	B Tech 13	Surveyor II	08/02	08/12/17	-	-	Misau	Buachi
+8	Zaharadeen Moh'd B.	Mr.	M	19/11/88	-	B Tech. 13	Surveyor II	08/02	03/10/17	-	-	Bauchi	Bauchi
+9	Sale Yunusa	Mr.	M	01/05/66	5472	T.T.I  P, F & P '01 T.T. III II I 	S/Foreman	07/15	08/01/93	08/01/95	01/01/12	Ringim	Jigawa
+10	Rabiu Na'iya	Mr.	M	22/02/68	8076	T.T.I  P, F & P '03	Foreman 	06/11	16/04/03	16/04/05	01/01/14	Ungogo	Kano
+11	Haruna Idris	Mr.	M	08/04/64	10014	PRI  CERT, '81; T.T.III,II,I '10,'06,'06	Foreman 	06/07	17/06/10	17/06/12	01/01/16	Municipal	Kano
+12	Moh'd Sani	Mr.	M	13/05/81	9950	Primary Cert. '95 T.T. I 2011	SCM	05/09	19/03/10	19/03/12	- 	Tarauni	Kano
+13	Auwalu Ado	Mr.	M	01/02/75	10045	T.T.I, II &III	SCM	05/09	19/03/10	19/03/12	20/03/12	Nassarawa	Kano
+14	Abdu Sale	Mr.	M	10/02/69	9593	T.T.I II P, F & P '03	CM	04/10	06/05/09	06/05/11	01/01/15	Ungogo 	Kano.
+15	Abdullahi Ibrahim 	Mr.	M	14/04/73	10020	T.T.I, II &III	CM	04/09	19/03/10	19/03/12	01/01/16	Kaura	Kaduna
+
+
+INTERNAL AUDIT
+1	Asimiyu Olayide Oladapo  	Mr. 	M 	24/06/63	0840	HND Acct. '90 MBF '99 ACA (ICAN) '05	DGM	16/10	02/10/91	02/10/93	01/01/13	Ola - Oluwa	Osun
+2	Fulani, Ibn  Abdullahi	Mr.	M	08/02/64	7381	HND Banking  '96   MBF '99	CIA	14/09	03/01/03	01/01/05	01/01/16	Imiegba	Edo
+3	Dutse Abubakar Umar	Mr.	M	31/01/85	10209	BSC Economics 2009	AUD I	09/06	20/07/11	20/07/13	01/01/15	Hong	Adamawa
+4	Fatika Lawal Salahu	Mr 	M 	05/04/88	12943	B. Sc Acct 08	AUD I	09/02	07/9/17	-	-	Giwa 	Kaduna 
+5	Ali Muhammad Gambo	Mr.	M	12/06/79	12982	B.Sc Biz Admin. 09 	AUD I	09/02	15/9/17	-	-	K/GIWA	Kaduna
+6	Muazu Hussein Mohammed	Mr.	M 	15/10/90	13056	B.  Sc Acct, 12 Pgd Acct. 16	AUD I	09/02	05/09/17	-	-	B/Gnstsa	Jigawa 
+7	Kudu Moh'd Abdullahi	Mr.	M	31/08/85	13787	Bsc. Acct,11, MA 17.	AUD I	09/02	13/04/18	-	-	Bida	Niger
+8	Abubakar Bashir 	Mr.	M	14/05/84	12873	B.Sc. Economics '14	AUD II	08/02	07/07/17	-	-	Dutsi 	Katsina 
+9	Musa Yakubu 	Mr.	M	17/12/89	12809	Bsc. Bus. Admin '15	AUD II	08/02	18/07/17	-	-	Anyinba 	Kogi 
+10	Shuaibu Abddini	Mr.	M	17/02/87	12984	HND Acct. 12	AUD II	08/2	14/08/17	-	-	Dutsi	Katsina
+11	Yahya Abdulkadir	Mr.	M	22/11/88	12983	B. Sc. Economics. 12	AUD II	08/02	14/08/17	-	-	Rimi	Katsina
+12	Shehu Musaddiq Bala	Mr. 	M	02/07/84	13323	BBA 2015	AUD II	08/02	25/09/17	-	-	Kano 	Dambatta
+13	Mairo Amadu	Mrs.	F	15/04/80	10079	ND. Banking/Finance	H.E.O	08/	03/08/10	03/08/12	01/01/17	Hawul	Borno
+
+
+
+STORES
+1	Nura Aliyu Yola	Mr.	M	10/06/69	7336	B.A Hons. 1992, MBA (FIN. & I.NV.)	ACSO	13/08	16/01/03	16/01/05	01/01/16	Municipal	Kano
+2	Bello Sule Talatu	Mrs.	F	19/09/68	7855	GR II '86 NCE '98	H.E.O.	09/04	06/01/03	06/01/05	01/01/18	Giade	Bauchi
+3	Asibi Madu	Mrs.	F	10/06/67	8020	ND Bus. Admin. '08	E.O.	08/05	02/12/02	02/12/04	01/01/18	Bindawa	Katsina
+4	Isa Mohammed Ammani 	Mr.	M	20/10/84	11862	HND Pur. Supply '11	HEO 	08/03	14/06/16	-	-	Katsina 	Katsina 
+5	Suleiman Fatima 	Mrs	F  	27/10/90	13100	B. TECH, 14	S.O II	08/2	11/9/17	-	-	U/Gaji	Kaduna
+6	Murna Umar Puba	Mrs.	F	19/12/63	5311	W.A.S.C '80	C.S.C	07/15	18/07/88	18/07/90	01/01/02	Hawul	Borno
+7	Tukur Sunusi	Mr.	M	27/09/67	5526	G.C.E 1985	S.S.C.	07/15	28/05/91	28/05/93	01/01/11	Nassarawa	Kano
+8	Ibrahim Usman Aliyu	Mr	M	10/07/90	-	NCE,02	AEO	07/02	27/11/17	-	-	Municipal	Kano
+9	Bashir Yunusa	Mr.	M	12/12/96	-	ND CEM'18	AEO	06/02	10/09/18	-	-	KMC	Kano
+
+
+
+CUSTOMER SERVICE
+1	Aisha Y.M Bello	Mrs.	F	24/08/65	7230	B.A Ed/AD '91 MBA '00	AGM	15/	06/01/03	06/01/05	01/01/17	Kaduna North 	Kaduna
+2	Mohammed A. Mohammed	Mr 	M 	19/02/80	12897	B. A Mass communication 06	SCSO	10/2	15/8/17	-	-	Danbatta	Kano
+3	Salihu Bello	Mr 	M 	02/02/86	-	B A Pub. Admin. 09	SCSO	10/2	19/09/17	-	-	Jahi	F.C.T
+4	Bulama Usman	Mr 	M 	27/06/79	10758	Bsc. Sociology 	SCSO 	10/	18/03/13	18/03/15	01/01/17	Bama 	Borno 
+5	Shuaibu Ibrahim Giza 	Mr 	M 	14/01/82	11007	Bsc. Psychology 	C.S.O I	09/	10/06/13	10/06/15	01/01/17	Keana 	Nasarawa
+6	Sani Kabiru	Mr. 	M	26/12/82	11663	B.A English '13	CSO II	08/04	04/01/16	-	-	Kazaure	Jigawa
+7	Usman Tati Iliya 	Mr.	M	27/08/78	11820	B. Sc. Edu. Econ '12	CSO II	08/04	11/05/16	-	-	Zango 	Katsina 
+
+
+MEDICAL
+1	Muhammed S. Danladi	Dr.	M	11/03/61	6254	M.B.B.S '89 	DGM	16/10	29/04/92	29/04/94	01/01/14	Bauchi	Bauchi
+2	Idris Mansur Balarabe	Dr. 	M	04/08/84	-	B.MS (MBBS)'13 	PMO	12/02	05/03/18	-	-	Ikara	Kaduna 
+3	Rabiatu Atiku Auwal	Miss	F	05/06/77	-	B.S Nursing'	SNO	10/02	20/03/18	-	-	Kaduna N	Kaduna
+4	Balarabe Danlami Auwalu	Mr.	M	15/11/68	5009	H. Cert '89 NCE PHE/BIO 	CHA	08/15	16/07/93	16/07/95	01/01/01	Gwale	Kano
+5	Salisu Lawal 	Mr.	M	04/03/87	12804	HND Lab Sci. Tech '14	HMLT	08/02	20/07/17	-	-	Zurmi	Zamfara 
+6	Mohammed Hamisu Ali	Mr. 	M 	03/04/80	11749	Med. Lab. Tech (15)	S.H.A.	06/03	23/05/16	-	-	Municipal 	Kano 
+7	Hannatu Nuhu	Miss	F	07/07/97	-	ND Lab Tech. (16)	ALT	06/	25/05/18	-	-	Giade	Bauchi
+8	Rabiu Ahmed Usman	Mr.	M	15/07/83	10536	J. CHEW. '06	H.A.N	05/06	29/11/11	01/12/13	01/01/17	Gwale	Kano 
+9	Zainab Sadiq Sufi	Mrs 	F	25/11/83	10535	CHEW. '08	H.A.N	05/06	29/11/11	01/12/13	01/01/17	Dala	Kano 
+10	Hafsat Abubakar Mallam	Mrs 	F 	20/07/89	10527	J. CHEW '04	H.A.N	05/06	29/11/11	01/12/13	01/01/17	Bauchi 	Bauchi 
+
+
+ARFFS
+1	Mohammed Abubakar Limanko	Mr.	M	26/01/59	1369	B.A. Edu '89	DGM	16/10	11/03/93	11/03/95	01/01/14	Lavun	Niger 
+2	Abubakar Danladi Shebe 	Mr. 	M	08/04/61	6221	HND '92 MTM '12	AGM	15/10	11/03/93	11/03/95	01/01/16	Shebe 	Niger 
+3	Ariwodoh L. Nkeiruka	Mrs 	M 	31/12/72	07743	B. ED SOS	ACARFFO	13/08	28/02/03	03/03/05	23/01/17	O/North	Imo
+4	Usman Aminu Mohammed 	Mr.	M	11/06/78	11303	B.A. Hist. '00 PDGM 05	ACARFFO 	13/	31/03/14	31/03/16	01/01/18	Ankpa 	Kogi 
+5	Musa Nura Isyaku	Mr.	M	07/11/78	8631	B Sc. Geography '03	PAFO	12/05	03/08/06	03/08/08	01/01/16	Fagge	Kano
+6	Rilwanu Akilu	Mr.	M	01/06/79	8626	B. Eng. Mech. Engr. '04	P.A.F. O 	12/05	03/08/06	03/08/08	01/01/16	Ofu	Kogi
+7	Aliyu Hassan	Mr.	M	24/12/74	8951	HND Computer Science '02	P.A.F. O 	12/05	07/08/06	07/08/08	01/01/16	Bauchi 	Bauchi
+8	Mohammed A. Habib	Mr.	M	15/10/77	8907	B.Sc. (Hons) Chemistry '01	P.A.F.O 	12/05	07/08/06	07/08/08	01/01/16	Okene	Kogi 
+9	Adamu Kasimu Kwazo	Mr.	M	29/08/78	8634	B.Sc. Edu Chem.'01	P.A.F.O	12/05	03/08/06	03/08/08	01/01/16	Zuru	Kebbi
+10	Bashir Moh'd Tasiu	Mr.	M	08/02/76	8727	B.Sc. Geography '04	P.A.F.O	12/0505	03/08/06	03/08/08	01/01/16	Dala	Kano
+11	Suleiman Mustapha Baba Gimba	Mr.	M	02/05/77	8648	B.Engr./Elect/Electronics '04	P.A.F. O	1205/	03/08/06	03/08/08	01/01/16	Nangere 	Yobe
+12	Bah Mohammed	Mr.	M	26/06/75	8616	B. Tech Industrial  	P.A.F.O 	12/05	03/08/06	03/08/08	01/01/16	Potiskum	Yobe
+13	Moh'd Kudu Muhammed	Mr.	M	25/12/78	8818	HND Business Adm. '03	PAFS I 	12/05	03/08/06	03/08/08	01/01/16	Edu	Kwara
+14	Bello Idris Nasiru	Mr.	M	05/05/79	8624	HND Business Admin'03 PGD Mgt '15	P.A.F.S I	12/05	04/08/06	04/08/08	01/01/16	Gusau	Zamfara
+15	Adamu Abdullahi J.	Mr.	M	20/08/78	8621	HND in Mining Engr. PDG ENVT. MGT 	P.A.F.O.	12/05	04/08/06	04/08/08	01/01/16	K/North	Kano 
+16	Buba Suleiman	Mr.	M	05/03/77	8826	B.Sc. Political Sci. '02	P.A.F.O 	12/05	03/08/06	03/08/08	01/01/16	Gombe	Gombe 
+17	Abubakar Y. Ahmed	Mr.	M	17/08/79	8646	B.Sc. (Hons) Physics 03 World Safety Org. 'Aug, 15	PAFO	12/06	07/08/06	07/08/08	01/01/16	Bauchi	Bauchi 
+18	Usman Abubakar Bunza	Mr.	M	10/10/77	8625	B. Sc. Maths.	P.A.F.O.	12/05	03/08/06	03/08/08	01/01/16	Bunza	Kebbi
+19	Labbo Bilyaminu 	Mr.	M	14/09/78	8836	B.A. History 03'	PAFO 	12/05	03/07/06	03/07/08	01/01/16	Tsafe 	Zamfara 
+20	Zakari Isma'il	Mr.	M	02/09/75	8642	B. Sc.  Micro-Biology'05	P.A.F.O. 	12/05	04/08/06	04/08/08	01/01/16	Birnin kudu	Jigawa 
+21	Sani Muhammad Tsafe	Mr.	M	07/03/76	8596	HND Mech.  Engr. '04	PAFS I	12/05	03/07/06	03/07/08	01/01/16	Tsafe	Zamfara
+22	Sako Dogara	Mr.	M	12/08/76	8864	B.Engr. Mech '03	PAFO	12/05	03/07/06	03/07/08	01/01/16	Jema'a	Kaduna 
+23	Ali Benisheikh A.	Mr.	M	10/08/74	8632	B. Sc.  Ed. (Geography)	P.A. F.O 	12/05	03/08/06	03/08/08	01/01/16	Kaga	Borno
+24	Ibrahim Bello	Mr.	M	17/04/78	8820	B.Sc. Chemistry '02 NEBOSH occupational health 	P.A.F. O	12/05	07/08/06	07/08/08	01/01/16	Gaya	Kano
+25	Khadeejat A. Abubakar	Mrs.	F	15/07/79	8650	B.Sc. (Hons) Chemistry M. Sc. Pure & Industrial Chemistry '14	P.A.F.O	12/05	07/08/06	07/08/08	01/01/16	Ilorin west	Kwara
+26	Bala Adamu Ya'u	Mr. 	M	15/04/75	8918	HND EE 2004	P.A.F.S. I 	12/05	03/06/06	03/06/08	01/01/16	Bauchi	Bauchi
+27	Adamu Idris 	Mr. 	M 	25/09/78	8888	Bsc. Econs.	P.A.F.O.	12/05	03/07/06	03/07/08	01/01/16	Kumbotso 	Kano 
+28	Omoraka S. Ufuoma	Mr.	M	18/01/81	8724	B. Sc. Economics '04	P.A. F.O.	12/05	03/08/06	03/08/08	01/10/16	Ughelli /South	Delta
+29	Ishola O. Ibrahim	Mr.	M	18/06/78	8636	B.Sc. Economics 2002	P.A. F. O	12/05	03/08/06	03/08/08	01/01/16	Ilorin East	Kwara
+30	Salihu Saleh	Mr.	M	18/07/77	8617	HND Env/Sci. Poll & Safety  2005	P.A.F.S I	12/05	03/08/06	03/08/08	01/01/16	Katsina	Katsina
+31	Jibril Moh'd Babadi	Mr.	M	06/08/78	8628	B.Sc. Business Adm.'02	P.A.F.O 	12/05	03/08/06	03/08/08	01/01/16	Edu	Kwara
+32	Haruna Kaila 	Mr.	M	12/12/79	8615	B.Sc. Chemistry '04	P.A.F. O	12/05	07/08/06	07/08/08	01/01/16	Hadija 	Jigawa 
+33	Umar Bashir Tsafe	Mr.	M	21/01/77	8614	HND U.R.P 2004 MSC. ENV. MGT. '15	P.A.F.O 	12/05	04/08/06	04/08/08	01/01/16	Tsafe 	Zamfara
+34	Mohammed Ahmed 	Mr.	M	26/09/68	7355	N.C.E. '88	P.A.F.S I	12/05	20/12/02	20/12/04	01/01/16	Jema'a	Kaduna 
+35	Abubakar Mohammed Bello	Mr.	M	28/11/73	8259	Diploma Bus. Stud. '97	PARFFS II	10/06	12/11/02	12/11/04	01/01/15	Nassarawa	Kano
+36	Mbursa Lydia 	Mrs. 	F	30/09/73	7736	ND SLT '95	PARFFS II	10/06	25/10/02	25/09/04	01/01/15	Hawul 	Borno 
+37	Yahaya Joseph J.	Mr.	M	23/12/72	7489	OND Mining/Appl. Geo 1991	PARFFS II	10/06	09/12/02	09/12/04	01/01/15	Riyom	Plateau
+38	Yusuf Umar Musa 	Mr. 	M	30/10/79	12102	Bsc. Biz. Edu. '05 MBA '15	SARFFO	10/04	29/06/16	-	-	Biu 	Borno 
+39	Nasir Musa  Abba	Mr.	M	27/05/81	8630	NCE Bio/Geo	P.A.F.S II	10/06	04/08/07	04/08/08	01/01/16	D/Kudu	Kano
+40	Adamu B. Iliyasu	MR	M	07/11/80	9559	B.Sc. Pub/Admin '08	SAFO 	10/06	05/02/09	05/02/11	01/01/16	Jama'are	Bauchi 
+41	Sanni Yahaya Mazayi	Mr.	M	28/05/81	12048	Bsc Bus Admin '05	SAFO	10/03	01/07/16			Okene	Kogi
+42	Abdulsalam Yusuf Salihu	Mr.	M	25/11/80	8619	National Diploma 2009 HND	PARFFS	10	03/08/06	03/08/08	01/01/18	Dala	Kano
+43	Yahaya Sediq	Mr.	M	07/06/82	11356	B.A. History '08	SARFFO 	10/	31/03/14	31/03/16	01/01/18	Okene 	Kogi 
+44	Kofar Wambai, Adamu Ali	Mr.	M	13/09/68	4897	SSCE 1988	SARFFS	09/09	23/09/91	23/09/95	01/01/15	Municipal	Kano
+45	Hamza Sani Ali	Mr.	M	08/01/78	8726	OND B/Admin 2004 HND BUS ADMIN '13	SARFFS	09/04	03/08/06	03/08/08	01/01/16	Nassarawa	Kano
+46	Murtala Kawu	Mr.	M	14/05/78	8640	ND P. Acct. & Aud. 05	S.A.F.S	09/04	07/08/06	07/08/08	01/01/16	Bauchi	Bauchi
+47	Yahaya Haruna	Mr.	M	03/03/75	7971	Grade. II 1993 NCE'10	SARFFS	09/04	07/11/02	07/11/04	01/01/17	Kiyawa	Jigawa
+48	Abubakar Isa	Mr.	M	02/04/74	7889	HND P/ Admin '08 	SARFFS	09/	07/11/02	07/11/04	01/01/18	Okene	Kogi
+49	Abani Audu Shinge	Mr.	M	14/06/80	9471	ND '07	SARFFS	09/	29/08/08	29/08/10	01/01/18	Potiskum 	Yobe
+50	Suleiman Adamu	Mr. 	M	10/08/82	11656	PGD Indu. Physics 	AFO II	08/05	09/11/15	-	-	Shargalle	Katsina
+51	Lawan Alhaji Gambo	Mr. 	M	10/09/82	11612	Bsc. Geogra. '11	AFO II	08/04	04/01/16	-	-	Dikwa	Borno
+52	Ochor, Stephen Ngozi	Mr.	M	21/03/64	5358	GCE 1983	HARFFS	08/10	01/05/93	01/05/95	01/01/15	A/Chukwu	Abia
+53	Abdullahi Muktari 	Mr. 	M	12/10/88	11769	Bsc. Edu Bio '13	AFO II	08/04	11/05/16	-	-	Wase 	Plateau 
+54	Tukur Garba Tukur 	Mr.	M	02/04/87	11979	Bsc. Comp. Sci. '11	AFO II	08/04	29/06/16	-	-	Bichi 	Kano 
+55	Fatsuma Musa Garba 	Miss 	F	18/09/89	12178	B.Sc. Agric Edu. '11	AFO II	08/03	15/08/16	-	-	Balanga 	Gombe 
+56	Sunusi Wada Adamu 	Mr.	M	05/05/81	12348	Bsc. Chemistry 	AFO II	08/03	26/09/16	-	-	Bichi 	Kano 
+57	Abdulkadir, Munir	Mr.	M	15/02/70	7972	NCE ECO/HIST. '12	HAS	08/04	11/11/02	11/11/04	01/01/16	Dala	Kano
+58	Wombo Augustine	Mr.	M	18/08/64	5565	GCE 1983 NCE '11	HFS 	08/09	06/04/93	06/04/95	01/01/16	Bubuku	Benue
+59	Zubairu A.O	Mr.	M	26/07/68	5941	WAEC '88 NCE ECO SOS '	HAFS	08/11	01/05/93	01/05/95	01/01/16	Okene 	Kogi
+60	Yusuf Ibrahim	Mr.	M	24/05/63	5587	 NCE INTER SCI '13	HAFS 	08/10	14/04/93	14/04/94	01/01/16	Okene	Kogi
+61	Aminu N. Abdullahi 	Mr.	M	10/03/88	11600	Bsc. Chemistry '12	AFO II	08/04	05/01/16	-	-	Dutsi 	Katsina 
+62	Aminu Yazid 	Mr.	M	16/09/86	12629	Bsc. Chemistry  '12	AFO II	08/03	20/02/17	-	-	Tarauni 	Kano 
+63	Muntaka Agibu 	Mr.	M	14/08/89	12628	B.Eng. Chemisty '12	AFO II	08/03	20/02/17	-	-	Bakori 	Jos 
+64	Usman Umar Bababukka 	Mr	M	09/05/87	12731	Bsc. Botany '12	AFO II	08/03	20/02/17	-	-	Mokwa 	Niger 
+65	Hussaini Yerima Giade 	Mr.	M	26/10/85	12638	HND Civil Eng. Tech. '13	HAFS	08/03	20/02/17	-	-	Giade 	Bauchi 
+66	Isah Barau Sani 	Mr.	M	27/06/85	12636	B. Eng. Elect '11	AFO II	08/03	20/02/17	-	-	Ningi 	Bauchi 
+67	Lamido Ahmad Sabo 	Mr.	M	23/12/84	12678	Bsc. Edu. Geo. '10	AFO II	08/02	20/02/17	-	-	Jama'are 	Bauchi 
+68	Kamasko D. Kembul 	Mr.	M	21/07/85	12631	B.A. Mass Comm. '11	AFO II	08/03	24/02/17	-	-	Billiri 	Gombe 
+69	Sa'idu, Ado Chiranchi	Mr.	M	09/05/67	5466	NCE ENG/HAU '13	HARFS	08/10	01/05/93	01/05/95	01/01/16	Gwale	Kano
+70	Mohammed Aliyu 	Mr.	M	10/07/88	12761	Bsc. Edu. Physics '14	AFO II	08/02	10/07/17			Serti 	Taraba 
+71	Zaharadden Musa Hamisu	Mr.	M	08/01/86	13104	B.SC Pol Sci '11, MPA '14 	AFO  II	08/02	26/09/17	-	-	Gwale	Kano
+72	Abubakar Sagir	Mr.	M	25/04/88	13335	B.Sc. Geology '15	AFO II	08/02	27/09/17			Bade	Yobe
+73	Faisal Dahiru Anche	Mr	M	20/08/89	-	Bsc. Engr (13)	AFO II	08/02	22/11/17	-	-	Chiranchi	Katsina
+74	Habibu Bilyaminu Dara	Mr	M	22/06/85	-	Bsc. Biology (15)	AFO II	08/02	27/11/17	-	-	Ingawa	Katsina
+75	Bello Umar Dutse	Mr.	M	14/10/88	13105	B.Sc. Buss. Admin '12	AFO II	08/02	28/09/17	-	-	Hong	Adamawa
+76	Moh'h Illiyasu Chikaji	Mr.	M	05/01/85	-	B.A. LG./Devept. St. (15)     	AFO II	08/02	27/12/17	-	-	Sabon Gari	Kaduna
+77	Dan Asabe Ado	Mr.	M	23/04/79	7891	SSCE 1996	HARFFS	08/	18/12/02	18/12/04	01/01/17	Gwale	Kano
+78	Adamu Yakubu	Mr.	M	27/11/72	7507	S.S.C.E.1991 NCE '13	HARFFS	08/	01/11/02	01/11/04	01/01/17 	Yola/North	Adamawa
+79	Idris Musa Muhammed	Mr.	M	18/07/66	5153	GCE 1985	C.F.M	07/13	01/02/93	01/02/95	01/01/13	Nassarawa	Kano
+80	Muhammed Hamisu T/Wada	Mr.	M	03/02/65	5264	Grd. II 1985	C.F.M	07/15	02/02/04	01/02/95	01/01/13	Nassarawa	Kano
+81	Aguanyawu Ngozi Beatrice	Mrs	F	09/06/67	4917	GCE 80	C.F.W.	07/15	15/04/93	15/04/95	01/01/13	Oru	Imo
+82	Nazifi Bala Suleiman 	Mr.	M	16/06/85	12300	NCE Education '11	AFS	07/03	09/09/16	-	-	Kumbotso 	Kano 
+83	Ibrahim John	Mr.	M	09/04/79	8490	T.T. III, II, I 03, SSCE	CFM	07/07	13/03/06	13/03/08	01/01/17	Nawa	Borno
+84	Idris Mustapha	Mr.	M	16/06/82	7892	SSCE 2001	CFM	07/	20/11/02	20/11/04	01/01/18	Nassarawa	Kano
+85	Inuwa Halliru	Mr.	M	03/05/75	7890	SSCE 1997	C.F.M 	07/	12/11/02	12/11/04	01/01/18	Bauchi	Bauchi
+86	Batuwa  Emmanual	Mr.	M	23/09/75	7849	N.B T.E	C.F.M 	07/	25/11/02	25/11/04	01/01/18	K/ South	Kaduna
+87	Inusa Audu	Mr.	M	01/01/74	7690	S.S.C.E 1990	C.F.M	07/	01/11/02	01/11/04	01/01/18	Biu	Borno
+88	Umar Jafar	Mr.	M 	18/08/75	7606	SSCE Rosenbauer Panther 6x6 ARFF- Vehicle 'Sep, 14 NCE	PFM	07/07	01/11/02	01/11/04	01/01/13	Fagge 	Kano 
+89	Amina Ahmad Umar 	Mrs	F	11/04/90	12299	ND Bus Admin '12	AAFS	06/03	09/09/16	-	-	Kaugama 	Jigawa 
+90	Murtala Ibrahim Yarima 	Mr	M	03/03/93	12298	ND '14	AAFS	06/03	09/09/16	-	-	Danbatta 	Kano 
+91	Salisu Suleiman 	Mr	M	12/08/91	12302	ND '08	AAFS	06/03	09/09/16	-	-	Hadeja 	Jigawa 
+92	Ibrahim Abdullahi Maikudi 	Mr 	M	28/09/83	12301	ND '08	AAFS	06/03	09/09/16	-	-	Nasarawa 	Kano 
+93	Nura Muhammad Nazifi	Mr	M	01/01/88	-	Diploma '12	AAFS	06/02	28/05/18	-	-	Ringim	Jigawa
+94	Umar Muhammad Bello	Mr.	M	18/01/18	-	Diploma '14	AAFS	06/02	28/05/18	-	-	Municipal	Kano
+95	Bukar Jamilu Idi	Mr. 	M	13/12/85	12621	Diploma '08	S.F.M.	05/03	20/02/17	-	-	Gagarawa	Jigawa 
+96	Mamman Ali Sule 	Mr.	M	11/10/94	12630	Diploma Comp. Sci. '14	S.F.M.	05/03	20/02/17	-	-	Fika 	Yobe 
+97	Dauda Ibrahim	Mr.	M	01/06/85	12670	Diploma Mass Comm. '07	SFM	05/03	20/02/17	-	-	Kaltingo 	Gombe 
+98	Usman Ja'afar 	Mr.	M	10/03/86	12669	Diploma Computer '13	SFM	05/03	20/02/17	-	-	Potiskum 	Yobe 
+99	Alexandra M. Joshua 	Ms.	F	07/05/87	12566	Diploma Public Admin '11	SFM	05/03	24/02/17	-	-	Hawul	 Borno 
+100	Umar Alhassan Ahmed	Mr.	M	08/01/86	13283	Dip. Crime Mgt & Contl '06	SFM	05/02	26/09/17	-	-	Ungogo	Kano
+101	Saleh Isa Aminu	Mr.	M	07/08/90	13157	Dip. Purchase &Supply '12	SFM	05/02	26/09/17	-	-	Katagum 	Bauchi
+102	Ahmed Shuaibu Abdullahi	Mr.	M	01/03/87	-	Dip. Hausa/Ism/Edu. '11	SFM	05/05	26/09/17	-	-	Gwale	Kano
+103	Umar Mohammad Dindin	Mr.	M	19/09/93	13302	Diploma Computer Sci. 13	SFM	05/02	03/10/17	-	-	Nguru	Yobe
+104	Kamilu Ibrahim Yunusa	Mr.	M	20/03/87	-	SSCE' 17	SF	05/02	26/02/17	-	-	K.M.C	Kano
+105	Ibrahim Isah	Mr.	M	03/12/88	-	NECO '08	SFM	05/02	28/05/18	-	-	Dala	Kano
+106	Mahbub Munzali Ahmad	Mr	M	21/05/87	-	Diploma 08	SFS	05/02	24/05/18	-	-	Municipal	Kano
+107	Animu Abdullahi Abbas	Mr.	M	10/10/92	-	NECO '08	SFM	05/02	24/05/18	-	-	Dala	Kano
+108	Ahmad Sulaiman Muhammad	Mr.	M	22/08/96	-	SSCE'16	SFM	05/02	24/08/18	-	-	Dala 	Kano
+109	Abdullahi yahaya Salisu	Mr.	M	22/08/96	-	SSCE '08	FM	04/02	24/05/18	-	-	Dala 	Kano
+110	Abubakar Idris	Mr.	M	22/04/76	-	Grade II '92	FM	04/02	28/05/18	-	-	Dala	Kano
+
+SECURITY
+1	Ali Bashir Hausawa 	Mr.	M	04/07/62	4947	MBA '08 	AGM	15/10	01/01/93	01/01/95	01/01/15	Municipal 	Kano 
+2	Usman El-Yakubu Lame	Mr.	M	16/10/66	6696	B.Sc. Soc. & Anthropology '92	AGM	15/	08/05/00	08/05/02	16/03/18	Toro	Bauchi
+3	Sani Lawan Daura 	Mr.	M	13/01/63	4802	B. Edu. Adult Edu. & Com. Dev. '08	AGM	15/	02/12/92	02/12/94	16/03/18	Daura	Kastina
+4	Grema Baba Gana	Mr.	M	01/05/62	5095	ND C/LAW 1985	CSS	14/12	01/09/86	01/09/88	01/10/09	Maiduguri	Borno
+5	Lawan Gama Usman	Mr.	M	03/01/63	5554	ND 1985	CSS	14/12	01/09/86	01/09/88	01/01/ 10	Fagge	Kano
+6	Murtala Hussaini	Mr. 	M	31/12/59	5312	ND Bus. Admin '85	CSS	14/12	01/09/86	01/09/88	01/01/11	Bichi 	Kano 
+7	Idris Abubakar Daura	Mr.	M	25/06/69	6350	N.C.E  Social/Islamic 92	CSS	14/12	2/2/1994	02/02/95	11/01/15	Daura	Kastina
+8	Alhassan Sa'idu	Mr.	M	30/10/68	6780	B.Sc. Geo.  '97 M. Dev. Study	CSO	14/09	05/06/00	03/05/02	01/01/16	Nassarawa 	Kano
+9	Sule Ghali Mahmuod	Mr.	M	02/04/70	6881	B.Sc. Geo. '97	CSO	14/09	01/09/00	01/12/02	01/01/16	Gagarawa	Jigawa
+10	Aliyu A. Yahuza	Mr.	M	18/10/74	6709	B.Sc. 1998, MDS '11	CSO	14/09	08/05/00	08/05/02	01/01/16	Nassarawa	Kano
+11	Nafiu N. Hassan	Mr.	M	01/03/73	6750	B. Sc Geo 1997	CSO	14/09	05/06/00	08/05/02	01/01/16	Gwale	Kano
+12	Bature Awaisu	Mr.	M	15/10/66	5016	NCE  1988	CSS 	14/09	01/04/93	01/04/95	01/01/16	Dala 	Kano
+13	Mbusar Audu	Mr. 	M 	20/06/68	6829	B.Sc Agriculture	CSO	14/09	05/05/00	05/05/12	01/01/16	Hawul 	Borno 
+14	Ashiru Kumashi Bashir	Mr.	M	17/09/75	6782	B. Sc Geo '98 	CSO	14/09	08/05/00	08/05/02	01/01/16	Municipal 	Kano
+15	Ahmed Lawal Fagge	Mr.	M	10/01/72	6830	M.Sc  '04 Bsc '96	CSO	14/09	08/05/00	08/05/02	01/01/16	Fagge	Kano
+16	Ahmadu Abbas Maina	Mr.	M	22/09/75	6749	Bsc Political S. 98                                                         	CSO	14/09	8/5/2001	8/5/2003	01/01/16	Nassarawa	Kano
+17	Abdullahi L. Mohammed 	Mr.	M	01/10/64	6674	HND Public Admin  	CSO	14/09	12/01/93	12/01/95	01/01/16	Municipal 	Kano
+18	Mustapha Abba Muh'd	Mr.	M	01/10/67	8960	Dip Advance P/A, HND 05' MPPA'04	CSO	14/	08/01/93	08/01/05	23/01/17	Municipal	Kano
+19	Ibrahim Bala Kano	Mr.	M	15/01/60	06831	B.A Arabic/Hausa'91	CSO	14/	10/05/00	10/05/02	01/01/13	Dala	Kano
+20	Aminu Mari Sa'ad	Mr.	M	16/04/68	4967	Dip. Soc. Admin '92	ACSS 	13/12	29/03/93	26/03/94	01/01/14	Dala	Kano
+21	Yusuf Usman Degri	Mr.	M	11/01/74	7544	B. Sc. 1999	ACSO	13/08	06/01/05	06/01/05	01/01/16	Balanga	Gombe
+22	Sani Haruna Panisau	Mr. 	M	02/05/67	7772	B. Ed. Ade,1997,M. Ed. Comm. Dev. '08	ACSO	13/08	17/03/03	17/03/05	01/01/16	Ungogo 	Kano 
+23	Jafaru Sani	Mr.	M	24/01/73	7317	B. Sc.  Mth/Sc.'98	ACSO	13/08	15/01/03	15/01/05	01/01/16	Daura	Katsina
+24	Abdu Malam Baba 	Mr.	M	25/08/70	7327	B.Sc  S/E  '98	ACSO	13/08	19/12/02	19/12/04	01/01/16	Fagge 	Kano
+25	Ibrahim Garba	Mr.	M 	15/02/73	7367	B. Sc Econs.97, MFE '13	ACSO	13/08	01/01/03	06/01/05	04/04/17	Gagarawa	Jigawa
+26	Mukhtari, Haris	Mr.	M	13/03/62	6800	NCE Gen St. '95	ACSS	13/	08/05/00	12/04/02	01/01/17	Ringim	Jigawa
+27	Ibrahim Yakubu Gama 	Mr. 	M	17/08/67	5074	HND Bus Admin '04	ACSS	13/	03/01/89	03/01/91	01/01/17	Nassarawa 	Kano 
+28	Yakubu Ibrahim	Mr.	M	09/04/78	9478	B.Sc. Bus/Admin MBA' 06	ACSO	13/	18/08/08	18/08/10	01/01/18	N/Eggon	Nassarawa
+29	Garba Yakub	Mr.	M	15/11/78	9483	Bsc B. Admin MBA  05	ACSO	13/	18/08/08	18/08/10	01/01/18	Hawul	Borno
+30	Sule Nura	Mr.	M	21/02/73	6858	Dip '96/HND 2006	PSS I	12/05	01/09/00	01/12/02	01/01/16	Gumel	Jigawa
+31	Idris D. Yusuf	Mr.	M	31/05/69	6809	ND Bus. St. '99 HND Bus Admin, PGD Crime Mgt, Control & Prev. 	PSS I	12/	05/05/00	5/05/02	01/01/16	Nassarawa	Kano 
+32	Nasiru Sa'idu 	Mr.	M	03/02/63	6869	ND Banking & Finance '87	PSS I	12/06	01/12/00	01/12/02	01/01/16	Ringim 	Jigawa 
+33	Tijani Garba Mohammed	Mr.	M 	20/09/76	6870	Hnd U/R/Plani '06	PSS I	12/4	01/09/00	28/02/06	04/04/17	Gumel	Jigawa
+34	Garba Moh'd Tanimu	Mr.	M	03/08/75	6859	Bsc. Comm. Tech. '15	PSO	12/	02/12/00	02/12/02	01/01/16	Kabara	Kaduna
+35	Rabiu M. Sani	Mr.	M	09/10/77	9233	B.Sc.4B/Admin 2003	P.S.O. 	12/	28/08/07	28/08/09	01/01/17	Municipal	Kano
+36	Ibrahim Umar Adamu	Mr.	M	15/01/80	9178	B.Tech Est. Mgt. '03	P.S.O. 	12/	10/02/07	27/08/09	01/01/17	Jama'are	Bauchi
+37	Sadiq Babale Musa	Mr.	M	17/08/81	9243	B.Tech. Qty. Survey'04	P.S.O. 	12	30/08/07	30/08/09	01/01/17	Chanchaga	Niger
+38	Moh'd Muktar Babangida	Mr.	M	23/12/76	9247	B. Sc. Pol. Sci. 2000	P.S.O. 	12/	30/08/07	30/08/09	01/01/17	Ibi	Taraba
+39	Mohammed G. Kuchi	Mr.	M	11/01/78	9113	HND MKT PGD MASS COMM. MSC PUB. R. '15  	P.S.O.	12/	27/08/07	27/08/09	01/01/17	B/Kebbi	Kebbi
+40	Suleiman Mahbub .M.	Mr.	M	15/11/77	9192	HND Civil Engr 2002/03	P.S.S. I	12/	27/08/07	27/08/09	01/01/17	Daura	Katsina
+41	Lanka Jonahan W.	Mr.	M	23/06/75	9193	HND Statistics	P.S.S. I	12/	27/08/07	27/08/09	01/01/17	Mangu	Plateau
+42	Umar Nuhu	Mr.	M	07/07/73	9184	B. Sc. P/Adm. 2002	P.S.O.	12/	27/08/07	27/08/09	01/01/17	Zaria	Kaduna
+43	Abdulkadir Ahmed W.	Mr.	M	01/04/76	9165	B. Sc. Plo Science	P.S.O.	12/	27/08/07	27/08/09	01/01/17	Jama'are	Bauchi
+44	Pindar Hassan L.	Mr.	M	12/11/77	9119	B.Sc Bus. Admin.	P.S.O. 	12/	27/08/07	27/08/09	01/01/17	Gombi	Adamawa 
+45	Nasiru Moh'd Musa	Mr.	M	28/04/78	9252	B. A. P/Admin	P.S.O.	12/	30/08/07	31/08/09	01/01/17	Bauchi	Bauchi
+46	Tanko Aliyu D.	Mr.	M	12/09/80	9234	B. Sc Sociology 2004	P.S.O.	12	29/08/07	29/08/09	01/01/17	S/South	Sokoto
+47	Abubakar Bashir Kaura	Mr.	M	04/03/76	9154	HND P/Adm. 2006	PSS I	12/	29/08/07	27/08/09	01/01/17	K/Namoda	Zamfara
+48	Bukar Abba Wulgo	Mr. 	M	17/05/77	9236	B.Sc Biz Edu.	P.S.O. 	12/	30/08/07	17/09/09	01/01/17	Ngala	Borno
+49	Ali Mohammed Kwabo	Mr.	M	06/07/76	9244	B. Sc. Pol. Sci. 2000	P.S.O. 	12/	28/08/07	30/08/09	01/01/17	Dala	Kano
+50	Adamu Kabiru	Mr.	M	28/02/81	9103	HND Accts. 07 MSC ACCT & FIN '15	P.S.O.	12/	27/08/07	27/08/09	01/01/17	Biu	Borno
+51	Abubakar Abbas	Mr	M	21/07/79	09128	HND Elect Engr.'05	PSS. I	12/	27/08/07	21/08/09	18/12/17	Fakai	Kebbi
+52	Murtala Isa	Mr.	M	18/09/78	09190	HND L.G Std'00,	PSS. I	12/	27/08/07	27/08/09	01/01/17	Gwaram	Jigawa
+53	Hassan Shawai Aliyu	Mr.	M	12/07/69	7980	OND Arch/Tech '00	PSS I	12/	01/11/02	04/11/02	01/01/18	Dala	Kano
+54	Isyaku Magaji Samaila	Mr.	M	23/09/73	9485	HND 2003/04  P & S, Mkt.	P.S.S I	12/	18/08/08	18/08/10	01/01/18	Nassarawa	Kano
+55	Jajira Moh'd Sanusi	Mr.	M	08/06/79	9480	B.Sc. Economics 2004	P.S.O. 	12/	18/08/08	18/08/10	01/01/18	Ungogo	Kano
+56	Ali Muhammed D.	Mr.	M	15/04/70	6910	Dip. B. Admin	PSS I	12/	01/09/00	01/12/02	01/01/18	Damagun	Yobe 
+57	Suleiman Umar	Mr.	M	15/06/79	9481	B.Sc. So. '06 Masters Crime Mgt. '14	P.S.O. 	12/	18/08/08	18/08/10	01/01/18	Jama'are	Bauchi
+58	Ahmed Umar Farouk	Mr.	M	07/12/65	7979	Dip. Forestry Tech'95	PSS I	12/	07/11/02	07/11/04	01/01/18	Muncipal 	Kano
+59	Nura Safianu K/Mata.	Mr.	M	14/03/77	8028	NCE PHE 1999	PSS I	12/	09/01/03	09/01/05	01/01/18	Municipal	Kano
+60	Abubakar R. Ibrahim	Mr.	M	04/09/72	7978	OND Texile Tech.'91	PSS I	12/	04/11/02	04/11/04	01/01/18	Municipal	Kano
+61	Uba Mohammed Auwal	Mr.	M	06/01/72	8281	Dip. Bus St. 1998	PSS I	12/	04/11/02	04/11/04	01/01/18	Nassarawa	Kano
+62	Lawal Jibrin	Mr.	M	16/07/73	6862	DPA 1999	PSS II	10/07	01/12/00	01/12/02	01/01/13	Bauchi	Bauchi
+63	Shazali Dankuchi A.	Mr.	M	13/02/69	6753	Dip. Comm. Dev.'95	PSS II	10/08	12/04/00	12/04/02	01/01/13	Dala	Kano
+64	Abdulrahaman I. Zubairu	Mr.	M	17/08/65	6738	Dip. Cop. St. 1992	PSS II	10/08	12/04/00	12/04/02	01/01/13	Municipal	Kano
+65	Mohammad Bello  L.	Mr	M	19/01/78	9204	Bsc  Geography	PSO 	10/	01/08/07	01/08/09	01/01/17	Gwarzo	Kano
+66	Adamu Yahaya Bala	Mr	M	05/06/77	9169	HND. Electrical Engr.	P.S.S II	10/06	01/08/07	01/08/09	01/01/14	Gujba	Yobe
+67	Abdullahi Adamu	Mr.	M	15/06/79	9484	B.Sc. Public Admin '05	S.S.O. 	10/06	18/08/08	18/08/10	01/01/15	Jama'are	Bauchi
+68	Shiabu Adamu Baba	Mr.	M	23/12/79	9523	HND Bus Admin	PSS II	10/06	19/08/08	19/08/10	01/01/15	Ankpa	Kogi
+69	Umar, Inusa	Mr.	M	17/08/77	7966	Dip. P. Adm. '01	PSS II	10/06	15/11/02	15/11/04	01/01/16	Kaura	Kaduna
+70	Haladu Kabiru Madaki	Mr.	M	20/04/74	7968	Diploma in Law'99	PSS II	10/06	08/11/02	08/11/04	01/01/16	Muncipal	Kano
+71	Bala Yusuf  Gama	Mr.	M	10/05/78	9567	B. Sc Sociology 2002 PGD CRIME MGT P & CON. 	SSO	10/06	04/03/09	04/03/11	01/01/16	Nassarawa	Kano
+72	Suleiman Anaruwe Yahaya	Mr.	M	14/04/66	5510	 ND'06 HND Pub. Admin '14	SSS	10/	08/09/92	08/09/94	04/04/17	Okene	Kogi
+73	Ahmed Usman Muktar	Mr.	M	14/04/76	7970	Dip. In Law ,00	SSO 	10/06	08/11/02	07/11/04	01/01/16	D/Tofa	Kano
+74	Hamfat V. Nasiru	Mrs	M	26/11/82		LLB '07	SSO	10/02	23/01/18			Kuje	Abuja
+75	Okiti Mohammed Yukubu	Mr.	M	23/01/60	5292	GCE 1983, ND PA.	PSS II	10	05/10/84	05/10/86	01/01/17	Okene	Kogi
+76	Ayuba Ali	Mr. 	M	09/09/68	7835	Dip. In Law 1996 HND Public/Admim'08	PSS II	10/	06/11/02	06/11/04	01/01/17	Fagge	Kano
+77	Abdullahi Danliti	Mr.	M	30/06/73	4857	SSCE '92, NCE So. Sci. '09	PSS II	10/	01/05/93	01/04/95	01/01/17	Nassarawa	Kano
+78	Ayuba Ibrahim	Mr.	M	20/01/76	6808	Bsc. Sociology '06	SSO	10/	12/04/00	12/04/02	01/01/18	Daura	Katsina
+79	Olawoyin Rahila Goje	Mr.	F	02/02/62	5441	WASC 1981 NCE Eco/So. S.'09	PSS II	10/	27/12/83	27/12/85	01/01/18	Z/Kataf	Kaduna
+80	Shuaibu Biliyaminu 	Mr. 	M	11/12/83	10234	B. Sc. Physics '07	SSO 	10/	06/06/11	06/06/13	01/01/18	Kanfancha 	Kaduna 
+81	Aja Moh'd Abu 	Mr.	M	03/03/85	10248	B. A. Lang. /Eng. '08	SSO	10/	07/06/11	07/06/13	01/01/18	Maiduguri	Brono 
+82	Datti Abubakar Ahmed	Mr	M	24/06/78	10279	Bsc. Mass. Comm / Hausa'04	SSO	10/	06/06/11	06/06/13	01/01/18	Fagge	Kano
+83	Chiroma Abdullahi Aliyu 	Mr. 	M	20/06/63	4865	NCE Bio/inter Sci'11	PSS II	10/	07/09/92	04/07/95	01/01/18	Babura 	Jigawa 
+84	Giwa Ademola Razaq	Mr. 	M 	09/01/71	10233	HND Agric. Engr. '98	PSS II	10/	06/06/11	06/06/13	01/01/18	Ilorin 	Kwara 
+85	Saidu Musa	Mr	M 	15/02/73	6871	O.D IN AUDIO V. TECH.	SSS	09/10	01/12/00	01/ 12/02	01/01/10	B/ Kebbi	Kebbi
+86	Jibrin Abubakar	Mr.	M	16/09/74	7975	Diploma in Law 1999	SSS	09/09	12/11/02	12/11/04	01/01/12	Municipal	Kano
+87	Daura Sirajo Hamidu	Mr.	M	17/09/72	7842	Dip.P.Admin.2005	SSS	09/09	11/11/02	11/11/04	11/11/12	Daura	Katsina
+88	Musa Rabe	Mr.	M	09/01/71	7839	Dip. Soc. Adm. '98	SSS	09/09	11/11/02	11/11/04	01/01/09	Daura	Katsina
+89	Nyam Hassan .A.	Mr.	M	09/08/64	5354	SSCE 1989 ND Public/Admin.'06	SSS 	09/10	04/02/92	04/02/94	01/01/13	Kachia	Kaduna
+90	Abdulrasheed Adama	Mrs	F	31/12/71	4890	GCE '92', SSCE'03',  Dip. In P/Admin	SSS	09/10	13/04/93	13/04/94	01/01/14	Offa	Kwara
+91	Rabiu Kassim 	Mr. 	M	22/07/79	11801	B.A. Mass Comm. '03	SO I	09/05	10/05/16	-	-	Nassarawa 	Kano 
+92	Abdullahi El-Mohammed 	Mr. 	M	22/08/85	11764	Bsc. Soc. '08 MPPA'14	SO I	09/04	16/05/16	-	-	Biu 	Borno 
+93	Yakubu Isah 	Mr.	M	26/05/81	12135	Bsc. Public Admin 	SO I	09/03	05/08/16	-	-	Otukpo 	Benue 
+94	Umar Sadiq Isa 	Mr 	M	14/12/74	12186	Bsc. Science Edu. '08	SO I	09/03	11/08/16	-	-	Biu 	Borno 
+95	Mohammed Idris 	Mr	M	13/07/84	12148	HND Bus. Admin '12	SSS	09/03	12/08/16	-	-	MMC	Borno 
+96	Yusuf Abdullahi 	Mr	M	25/12/85	12177	B.A. History & Int'l Stu.'08 	SO I	09/03	25/08/16	-	-	Kaduna Nth.	Kaduna 
+97	Bala Ali Shuaibu	Mr 	M 	31/12/81	10280	B.Tech.Physics/Comp.	S.O I	09/03	06/06/11	06/06/13	01/01/16	Bauchi	Bauchi
+98	Shua'aibu Sale Hussaini	Mr.	M	19/01/76	6820	HND Bus Admin '14	SSS	09/	12/04/00	12/04/02	01/01/16	Kaugama	Jigawa
+99	Fagge Mohammed Rabiu	Mr.	M	17/06/66	5294	GCE '85, NCE'09	SSS	09/11	01/07/92	01/07/94	01/01/16	Fagge	Kano
+100	Musa Isa Hadejia	Mr.	M	05/07/73	6819	Dip. Crime Mgt.'98 HND Co-op. Econs. & MGT '12	SSS	09/10	12/04/00	12/04/02	01/01/16	Hadejia	Jigawa
+101	Umar Hashim	Mr.	M	10/06/75	7973	SSCE '95, NCE '09	SSS	09/05	13/11/02	13/11/04	01/01/16	Daura	Katsina
+102	Abbas, Hadi	Mr.	M	21/08/70	4847	NCE ECO/GEO '09	SS	09/10	06/04/93	24/03/95	04/04/17	Municipal	Kano
+103	Bature Ibrahim 	Mr. 	M 	15/08/83	10871	Bsc. Pol Sci 03	SO I	09/	10/06/13	10/06/15	01/01/17	Tsafe 	Zamfara
+104	Asido Abdullahi Salisu	Mr.	M	01/05/72	4872	WASC 1989 NCE 	SSS	09	19/07/93	19/02/94	01/01/17	Okene	Kogi
+105	Inusa Abdulmumini	Mr.	M	05/11/68	5170	WASC '86 NCE'08	SSS	09	10/09/92	10/09/93	01/01/17	Taura	Jigawa
+106	Mohammed Audu Bala	Mr.	M	06/04/70	0284	WASC 1990	SSS	09/	26/04/93	23/04/95	01/01/17	Chanchange	Niger
+107	Edafe Patricia Matthew	Mrs.	F	24/12/69	5313	ND Public/Admin'07, HND Pub. Admin '15	SSS	09/	01/02/94	01/02/96	01/01/17	Isoko-North	Delta
+108	Dauda Zakariyya M.	Mr.	M	14/04/82	7845	SSCE 2002, NCE '10	SSS	09/	06/11/02	06/11/04	01/01/17	D/Kudu	Kano
+109	Adamu Tijjani	Mr.	M	19/08/82	7965	SSCE' 00, NCE	SSS	09/	06/02/03	06/02/05	01/01/17	Nassarawa	Kano
+110	Daura Saminu Haruna	Mr.	M	22/02/73	7838	SSCE 96/ NCE EDU 10	SSS	09/	13/11/02	13/11/04	01/01/17	Daura	Katsina
+111	Sule Ibrahim Gawuna	Mr.	M	13/12/70	9016	 NCE S. STU. '13	SSS	09/	13/10/92	13/10/93	01/01/17	Nassarawa	Kano
+112	Hassan Garba	Mr.	M	05/03/78	9108	ND Building	SSS	09/	28/08/07	28/08/09	01/01/17	Amac	FCT
+113	Sani Hassan	Mr.	M	02/04/76	9240	ND Marketing 1992	SSS	09/	29/08/07	29/08/09	01/01/17	Maiduguri  	Borno
+114	Nuhu Mohammed Kabiru 	Mr. 	M	19/11/88 	11335	B. Sc. History '11	S.O I	09/	14/03/14	27/03/16	01/01/18	Chanchaga 	Niger 
+115	Sani Haladu	Mr.	M	31/12/72	6909	NCE '12	SSS	09/	01/09/00	01/12/02	01/01/18	Potiskum 	Yobe
+116	Gaya Nuhu Sule	Mr.	M	02/05/68	7967	WASC, NCE (Soci/O.)	SSS 	09/	31/10/02	31/12/04	01/01/18	Municipal	Kano
+117	Baffa Auwalu Ringim	Mr.	M	01/02/62	4998	WASC 1982	CPM	08/15	08/07/92	08/07/93	01/01/08	Ringim	Jigawa
+118	Dambazau Auwalu	Mr.	M	04/05/62	5036	Grd. II 1986	CPM	08/15	13/11/86	24/11/88	01/01/05	D/Tofa	Kano
+119	Jibrin Ibrahim Khalil	Mr.	M	31/12/64	5203	GCE 1985	CPM	08/14	07/09/92	07/09/93	01/01/12	Nassarawa	Kano
+120	Baba Salisu	Mr.	M	30/11/70	5479	GCE 1985	CPM	08/14	15/06/92	21/06/95	01/01/12	Kazaure	Jigawa
+121	Muhammed Ado	Mr.	M	31/12/60	4912	Grd. II 1980	CPM	08/12	06/04/93	06/09/94	01/01/12	B/Kudu	Jigawa
+122	Yusuf Salisu	Mr.	M	31/12/68	5480	GCE 1988	CPM	08/13	15/05/92	15/05/94	01/01/14	Muncipal	Kano
+123	Tarzan Samuel	Mr.	M	20/05/60	5521	WASC 1982 NCE	CPM	08/14	15/05/92	15/05/95	01/01/14	Kwande	Benue
+124	Rufai Suleiman Muh'd	Mr.	M	20/10/69	5514	SSCE 1991	CPM	08/12	28/12/92	28/12/93	01/01/14	Okene	Kogi
+125	Auwalu Sani	Mr.	M	31/12/72	5482	Grd. II 1991 ND PAA 05	SS	08/11	05/04/93	05/04/95	01/01/14	Nasarawa	Kano
+126	Abdulmalik Mohammed	Mr.	M	24/11/63	5295	WASC '83, OND '06	SS	08/09	07/04/93	07/04/94	01/01/14	Okene	Kogi
+127	Rufai Ahmed	Mr	M	31/12/59	5454	Grd. II 1981	CPM	08/11	08/04/93	08/04/94	01/01/14	kachia	Kaduna
+128	Abba Ashekh Yagana.	Ms.	F	01/10/74	9107	OND Mkting '02	SS	08/04	01/08/07	01/08/09	01/01/14	Maiduguri	Borno
+129	Yusuf Saulawa Umar	Mr.	M	01/07/86	11662	Bsc Economics '14	SO II	08/04	04/01/16	-	-	Katsina 	Katsina
+130	Gama Habibu Umar	Mr.	M	02/01/75	7977	Grd. II' 95, NCE	SSS	08/	04/11/02	04/11/04	01/01/18	Nassarawa	Kano
+131	Akombo Isaac	Mr.	M	23/11/68	4935	GCE 1984	CPM	08/13	30/07/92	30/07/94	01/01/15	Ushongo	Benue
+132	Ali Maina Dora 	Mr.	M	25/10/84	11978	Bsc. Pol. Sci. '10	SO II	08/04	29/06/16	-	-	Biu 	Borno 
+133	Muhammad Danjuma Ibrahim 	Mr.	M	15/03/86	12139	B. Ed. English '12	SO II	08/03	18/07/16	-	-	Nasarawa 	Kano 
+134	Suleiman Ahmed Rufai 	Mr 	M	11/10/86	12124	Bsc. Pol. Sci. '14	SO II	08/03	27/07/16	-	-	P. Korolga 	Niger
+135	Suleiman Musa Imam	Mr 	M	05/05/77	12097	HND Public Admin '13	SO II	08/03	03/08/16	-	-	Kumbotso 	Kano 
+136	Sani Abdullahi 	Mr.	M	10/01/85	9135	ND Bus. Admin 	SS	08/05	01/08/07	01/08/09	01/01/14	Katsina 	Katsina 
+137	Kabiru Mudi Kabiru 	Mr.	M	09/05/83	12145	B.A History & Int'l Stu. '10	SO II	08/03	15/08/16	-	-	Shiroro 	Niger 
+138	Muazu Shira Muktar 	Mr. 	M	24/05/75	10275	NCE'09	SS	08/05	20/07/11	20/07/13	01/01/16	Shira	Bauchi
+139	Ringim Jamilu Moh'd	Mr.	M	15/04/66	5197	NCE PES/ English '12	SS	08/12	14/06/93	14/06/94	01/01/16	Ringim	Jigawa
+140	Nasiru Haliru 	Mr. 	M	30/12/70	10276	NCE '07	SS	08/05	06/06/11	06/06/13	01/01/16	Kunchi 	Kano 
+141	Abdulllahi Ibrahim Musa 	Mr	M	09/11/87	12161	Bsc. Mathematics 	SO II	08/03	29/08/16	-	-	Edu 	Kwara 
+142	Ismai'l Abdulazeez 	Mr.	M	13/04/90	12514	Bsc. Sociology 	SO II	08/03	16/11/16	-	-	Gusau 	Zamfara 
+143	Garba Shehu .A.	Mr.	M	12/09/62	7832	NCE	SS	08/	05/02/03	31/12/12	01/01/16	D/Kudu	Kano
+144	Sani Mohammed Fagge	Mr.	M	31/12/73	5239	SSCE, NCE English '14	SS	08/11	11/12/92	11/12/93	01/01/16	Fagge	Kano
+145	Abubakar Yazeed	Mr.	M	30/05/74	7969	SSCE 1992	SS	08/04	12/11/02	12/11/04	01/01/16	Municipal	Kano
+146	Namadi Mujitafa	Mr.	M	12/09/70	5331	SSCE'89, NCE Eng&Hau 11	SS	08/10	15/02/93	15/02/94	01/01/16	Dala	Kano
+147	Abdulazeez Kabeer 	Mr.	M	02/05/86	12663	Bsc. Econs. '13	SO II	08/03	20/02/17	-	-	Kaduna Sth	Kaduna 
+148	Isyaku Lawal 	Mr.	M	17/05/90	12662	Bsc. Econs. '12	SO II	08/03	20/02/17	-	-	Kongram 	Katsina 
+149	Salihu Umar 	Mr.	M	01/01/85	12682	HND Biz Adm. & MGT '13	SS	08/02	20/02/17	-	-	Gusau 	Zamfara
+150	Aliyu Ibrahim	Mr.	M	15/02/87	12661	Bsc. Biz Admin. '11	SO II	08/03	20/02/17	-	-	Kumbotso 	Zamfara 
+151	Zubair Abdulrahman 	Mr.	M	10/09/78	12690	BSC. Econs. '03	SO II	08/03	20/02/17	-	-	Abaji 	Abuja 
+152	Sale Sani	Mr.	M	25/08/75	7974	NCE Eco/SS '12	SS	08/04	07/02/03	07/02/05	01/01/16	Municipal	Kano
+153	Salisu Anas 	Mr.	M	01/01/87	12640	HND Comp. Sci. '13	SS	08/03	23/02/17	-	-	Tsafe 	Zamfara 
+154	Ibrahim A. Enemakwu	Mr.	M	11/07/86	13108	B. A. H/Inter. Stu. 12	SO II	08/03	19/09/17	-	-	Kaltugo	Gombe
+155	Saratu Bala	Mrs	F	19/07/91	13151	B.Sc Mathematics '12	SO II	08/02	25/09/17	-	-	Bungudu	Zamfara
+156	Hassan Mohammad Abba	Mr.	M	23/12/80	13095	B.Sc. Sociology '04	SO II	08/02	25/09/17	-	-	Dambatta	Kano
+157	Abubakar Mohammed	Mr.	M	13/09/85	13257	B.Sc  Pub Admin '11	SO II	08/02	25/09/17	-	-	Fika	Yobe
+158	Garba Muhammad Sani	Mr.	M	28/12/87	-	Bsc. Pol. Sci. (15)	SO II	08/02	21/12/17	-	-	Gwale	Kano
+159	Uzairu Hudu	Mr.	M	25/06/86	-	HND Statistics	SS	08/02	27/12/17	-	-	Sabon Gari	Kaduna
+160	Sani Manzo Ahmadu	Mr.	M	04/04/85	-	B. Sc Pol Sci '12	SO II	08/02	12/01/18	-	-	Daura	Katsina 
+161	Kabir Saminu Lamido	Mr.	M	31/08/79	-	HND Pub Admin '14	SO II	08/02	15/01/18	-	-	Nassarawa 	Kano 
+162	Isah Ahmed	Mr.	S	03/07/87	-	B. Sc. Soci '12	SO II	08/02	25/01/18	-	-	Misau 	Bauchi 
+163	Abdulmajid Jega Labaran	Mr.	M	23/06/87	-	B. Sc. Pol Sci '11	SO II	08/02	25/01/18	-	-	Jegga 	Kebbi 
+164	Mohammad A. Adamu	Mr.	M	10/10/86	-	B. Ed'13	SO II	08/02	01/02/18	-	-	Alkalari	Bauchi
+165	Happiness Jacob Y. 	Mrs.	F	26/12/85	10385	Dip. in Mass Comm.'00 HND Mass Com '16	ASS	08/	06/07/11	06/07/13	01/01/15	Nock 	Kaduna
+166	Jibril Moh'd Baba Isa	Mr	M	01/01/72	09359	ND'06	SS	08/	18/08/08	18/08/10	01/01/15	Aleiro	Kebbi
+167	Aliyu Musa Baba	Mr.	M	08/10/84	11596	HND'11	SS	08/02	31/12/15	31/12/17	-	Gwale	Kano
+168	Mukhtar Auwal	Mr.	M	23/06/72	7981	SSCE 89 NCE SOS 	SS	08/	13/11/02	13/11/04	01/01/17	Municipal	Kano
+169	Haruna Suleiman	Mr.	M	21/05/67	7836	Grd. II 1996	SS	08/	04/11/02	04/11/04	01/01/18	Fagge	Kano
+170	Musa Balarebe Musa	Mr. 	M	01/05/84	10389	ND Statistic 2010	SS	08/	06/07/11	06/07/13	01/01/18	Wudil	Kano 
+171	Naziru Rabiu Yaro	Mr. 	M 	11/03/83	10326	ND P/Admin  '06	SS	08/	06/7/11	06/07/13	01/01/18	Kura 	Kano
+172	Maryam Abdulkadir 	Mrs	F	20/10/80	10433	N.D Accounting   06	SS	08/	06/7/11	06/07/13	01/01/18	Gwale	Kano
+173	Ladan Mohammed	Mr.	M	01/12/70	5223	SSCE 2001 NCE ECO SOS	SS	08/	16/04/93	16/04/94	31/12/18	Nassarawa	Kano
+174	Abubakar Muhammad	Mr.	M	15/05/78	10424	ND Buss. Studies '07	SSS	08/	14/07/11	22/08/13	01/01/18	Kumbotso	Kano
+175	Adamu Sani	Mr.	M	31/12/58	4894	Nil	CNG	07/15	01/08/88	01/08/90	01/01/12	Fagge 	Kano 
+176	Lawan Yahaya Safiyanu	Mr. 	M	04/03/83	11665	NCE  Education '08	ASS	07/04	04/01/16	-	-	Kura	Kano
+177	Salisu  Sani	Mr.	M 	03/01/70	-	NCE 1992	ASS	07/04	4/08/17	-	-	Daura	katsina
+178	Suleiman Ibrahim 	Mr. 	M	12/11/88	10414	Dip. So. Admin. '07	ASS	07/04	15/08/11	15/08/13	06/12/16	Rano	Kano 
+179	Ibrahim Mu'azu 	Mr. 	M	02/01/83	10413	Dip. In Local Gov.	ASS	07/04	03/08/11	03/08/13	01/01/15	Shaira 	Bauchi 
+180	Muh'd Moh'd Usman 	Mr. 	M	02/06/83	10484	Diploma Sharia & C.L.	ASS 	07/04	06/7/11	06/07/13	01/01/15	Nassarawa 	Kano
+181	Kamilu Danjuma Adamu 	Mr.	M	18/09/90	11772	NCE '14	ASS	07/02	10/05/16	-	-	Wase	Plateau 
+182	Sani Hamza Muhammad 	Mr.	M	22/12/79	11771	NCE '09	ASS	07/02	12/05/16	-	-	Nassarawa 	Kano 
+183	Ibrahim Ali Ahmed 	Mr.	M	19/02/81	12470	NCE Social Stud. '09	ASs	07/04	08/06/16	-	-	Gwale 	Kano 
+184	Iliyasu Lawan Mafindi	Mr. 	M	12/03/69	6907	GCE 1987	ACPM	07/	01/09/00	01/1/02	01/01/16	Jalingo	Taraba
+185	Abba Shafi'u Bala 	Mr.	M	03/03/88	12297	NCE '12	ASS	07/03	14/09/16	-	-	D/Tofa 	Kano 
+186	Deborah Koba Wele	Mrs	F	26/11/87	12296	NCE '05	ASS	07/03	14/09/16	-	-	Zuru 	Kebbi 
+187	Abdul-Rahman Musa 	Mr.	M	25/12/86	12377	NCE '14	ASS	07/03	14/09/16	-	-	Kuje 	Abuja
+188	Yusuf Pindar Yusuf 	Mr.	M	23/07/90	12289	NCE '15	ASS	07/03	14/09/16	-	-	Shinga  	Gombe 
+189	Ali Hamza 	Mr.	M	17/07/85	12290	NCE '07	ASS	07/03	14/09/16	-	-	M/Madori 	Jigawa
+190	Aminu Bashari 	Mr.	M	17/07/92	12291	NCE '13	ASS	07/03	14/09/16	-	-	Ringim 	Jigawa 
+191	Auwalu Umar Abdul 	Mr.	M	12/04/82	12427	NCE '09	ASS	07/03	15/09/16	-	-	Garko 	Kano 
+192	Ibrahim Garba 	Mr.	M	20/02/85	12280	NCE '15	ASS	07/03	14/09/16	-	-	Bunkure 	Kano 
+193	Abubakar Sagir 	Mr.	M	01/01/89	12281	NCE '13	ASS	07/03	14/09/16	-	-	Argungu 	Kebbi 
+194	Yunus Ahmad	Mr.	M 	23/04/85	12471	NCE Edu. Soc. Studies '16	ASS	07/03	27/10/16	-	-	Zaria	Kaduna 
+195	Muhammed L. Hashim 	Mr.	M	19/01/89	12766	NCE '15	ASS	07/02	17/7/17	-	-	Daura 	Katsina 
+196	Haruna Baba Ja'en	Mr.	M 	15/10/90	12865	NCE '14	ASS	07/02	31/08/17	-	-	Gwale	Kano                                                                          
+197	Abdullahi Aliyu	Mr.	M	12/09/88	-	N.C.E '13	ASS	07/02	11/12/17	-	-	Bindawa	Katsina
+198	Murtala Idi	Mr.	M	01/01/63	5149	NIL	CNG	07/	10/02/95	10/02/95	01/01/18	Fagge	Kano
+199	Isa Sha'aibu Kurna	Mr.	M	31/12/62	5177	NIL	CNG	07/	11/02/93	11/02/95	01/01/18	Jibia	Katsina
+200	Garba Idris	Mr.	M	01/04/80	7841	SSCE 2000	ACPM 	07/	18/11/02	18/11/04	01/01/18	Ganjuwa	Bauchi
+201	Liko Isa	Mr.	M	12/09/74	7840	SSCE 2002	SPM 	06/11	18/11/02	18/11/04	01/01/13	Kaura	Kaduna
+202	Shehu Aliyu Ya'u	Mr.	M	17/09/79	7830	Fed.  Craft. 1986	PM 	06/11	17/12/02	17/12/04	01/01/13	Kumbotso	Kano
+203	Abdulsalam Moshood 	Mr.	M	23/05/85	12140	ND Public Admin '08	SC	06/04	13/07/16	-	-	Gwagwalada 	Abuja 
+204	Auwal Muh'd Zakari 	Mr.	M	12/07/86	12284	ND ELECT / ELECT 	SC	06/03	14/09/16	-	-	Wudil 	Kano 
+205	Dauda Saleh	Mr. 	M 	25/12/86	12283	ND '14	SC	06/03	14/09/16	-	-	Kuje 	FCT
+206	Adamu Abdulaziz Zubairu 	Mr.	M	10/03/92	12359	ND Accounting '14	SC	06/03	14/09/16	-	-	Alkaleri 	Bauchi 
+207	Abubakar Abdulrahman 	Mr.	M	02/02/87	12460	Dip. Social Admin '09	SC	06/03	14/09/16	-	-	Kazaure 	Jigawa 
+208	Sani Muhammed 	Mr.	M	02/02/88	12285	ND '12	SC	06/03	15/09/16	-	-	Sokoto Sth 	Sokoto 
+209	Ahmad Ibrahim 	Mr	M	13/02/87	12632	ND Public Admin '13	SC	06/03	23/02/17	-	-	Gombe 	Gombe 
+210	Surayya Sani Uba	Mrs	M 	07/06/94	13095	ND Buss. Studies 14	SC	06/02	19/09/17	-	-	Dala	Kano
+211	Ibrahim Tijjani	Mr.	M	10/02/88	13085	ND Comp. Sci. '12	SC	06/02	25/09/17	-	-	K. Namoda	Zamfara
+212	Ibrahim Bello Sale	Mr.	M	09/02/89	13069	ND Sci Lab Tech '13	SC	06/02	25/09/17	-	-	Minjibir	 Kano
+213	Isyaku Aminu Salisu	Mr.	M	19/11/90	-	ND EE Engr '12	SC	06/02	23/01/18	-	-	Tarauni 	Kano 
+214	Abubakar Nura Ibrahim	Mr.	M	17/11/88	13546	Diploma Public Admin '10	SC	06/02	01/02/18	-	-	Nassarawa	Kano
+215	Aliyu A. Jibrin	Mr. 	M	02/11/83	9486	SSCE	P/Man 	05/09	25/06/08	18/08/10	01/01/14	Biu	Borno
+216	Lawal Kabir Umar 	Mr. 	M	11/04/81	11881	SSCE '04	P/Man 	05/04	13/06/16	-	-	Daura 	Katsina 
+217	Suleiman Musa Hamza 	Mr 	M 	11/03/88	12097	Diploma Cert. '10	P/M I	05/03	03/08/16	-	-	Bida 	Niger 
+218	Abdullahi Bukar Abdullahi 	Mr 	M 	28/03/82	12147	Dip. Acct & Audit '06	P/M I	05/03	18/08/16	-	-	Municipal 	Kano 
+219	Ahmad Shuaibu Adamu 	Mr	M	07/07/91	12637	Diploma Info Tech. '14	PM I	05/03	20/02/17	-	-	Kazaure 	Jigawa 
+220	Datti Ahmad Tijjani 	Mr.	M	03/04/90	12668	Diploma Office Tech. '13	SPM	05/03	20/02/17	-	-	Birnin Kudu 	Jigawa 
+221	Abba Bashir Abdullahi 	Mr 	M	16/10/92	12639	Diploma Law '14	PM I	05/03	20/02/17	-	-	S. Tanka 	Jigawa 
+222	Mohammed Ahmad Ali 	Mr 	M	04/06/90	12634	Diploma Public Admin '12	PM I	05/03	23/02/17	-	-	Gombe 	Gombe 
+223	Ali Alhassan Yau	Mr. 	M	20/04/88	10311	WASCE/NECO	P/M I	05/06	06/07/11	06/07/13	01/01/17	Ringim 	Jigawa
+224	Abubakar Farouk	Mr	M	25/03/76	10376	NECO. 2008	P/M I	05/06	06/07/11	06/07/13	01/01/17	Fagge	Kano
+225	Awalu Ibrahim	Mr	M	08/11/76	10379	NECO,2008	P/M I	05/06	06/07/11	06/07/13	01/01/17	Kumbotso	Kano
+226	Sunusi Yusif Ibrahim	Mr.	M	25/08/88	13304	Diploma Public Admin '13	P/M I 	05/02	05/10/17	-	-	Nasarawa	Kano
+227	Surajo Dahiru	Mr.	M	01/01/82	-	SSCE' 00	P/Man	05/02	22/02/18	-	-	Municipal	Kano
+228	Abbati Shehu Saleh	Mr.	M	17/06/72	13813	Diploma Public Amin '	SP	05/02	03/05/18	-	-	Azare	Buachi
+229	Ali Sani Muhammad 	Mr.	M	06/01/85	11755	ND '05	P/Man 	04/04	12/05/16	-	-	Katsina 	Katsina 
+230	Adamu H. Shira	Mr.	M 	04/10/84	10544	NECO' 03	P/Man	04/07	01/12/11	01/12/13	01/01/17	Shira 	Bauchi 
+231	Bello Nazif	Mr.	M 	24/11/87	11938	S.S.C.E '06	P/Man	04/03	09/06/16	-	-	Giade	Bauchi
+232	Maryam M. Onoji	Mrs	F	30/03/87	-	S.S.C.E '01	P/Wm	04/02	03/11/17	-	-	Ibaji	Kogi
+233	Fati Muhammad	Mrs	F	24/12/85	-	S.S.C.E '02	P/Wm	04/02	06/11/17	-	-	Fagge	Kano
+234	Suwaiba Hauna	Mrs	F	23/02/87	-	S.S.C.E '02	P/Wm	04/02	06/11/17	-	-	Nasarawa	Kano
+235	Naima Musa Sani	Mrs	F	01/01/90	13404	S.S.C.E '13	P/Wm	04/02	06/11/17	-	-	Fagge	Kano
+236	Samira Mohammad Audu	Mrs	F	16/09/92	-	S.S.C.E '15	P/Wm	04/02	03/11/17	-	-	Etsako Est.	Edo
+237	Ummusalama A. Badaru	Mrs	F	24/07/84	-	S.S.C.E '08, ND '14	P/Wm	04/02	06/11/17	-	-	Municipal	Kano
+
+
+ELECTRICAL
+1	Jahun Baba Ado	Mr	M	2/01/61	4910	ND Elect./Electronics	CTO	14/12	14/09/87	14/09/89	07/04/09	Jahun	Jigawa
+2	Eneojo Titus Attai	Mr.	M	31/07/74	7156	N.C.E. (TECH) Elect '96	PTO I	12/06	10/10/02	10/10/04	01/01/16	Olamaboro 	Kogi 
+3	Isyaku Moh'd Imawa	Mr.	M	15/03/77	8077	O.N.D. Elect '02	P.T.O-II	10/07	13/04/03	13/04/05	01/01/14	Warawa	Kano
+4	Mohammed Usman Haske	Mr.	M.	07/08/83	10267	HND '09 ELECT. E.	PTO II	10/	11/07/11	11/07/13	01/01/18	D/ KUDU	Kano
+5	Ahmed Aminu Tahir 	Mr.	M	08/08/84	11388	B. Engr Elect '10 NAPTIN '13	S.E.Engr	10/	13/12/12	13/12/14	01/01/8	South Kaduna 	Kaduna 
+6	Zakari Muhammad 	Mr.	M	26/06/88	12128	B. Eng. Elect. '12	Eng. I	09/04	20/07/16	-	-	Hadejia 	Jigawa 
+7	Bello Ahmad	Mr.	M	10/10/85	13183	HND Elec. Electronics Engr '11, NAPTIN '13 	HTO	09/02	25/09/17	-	-	Katsina	Katsina
+8	Muhammed Anas	Mr. 	M 	11/08/87	11661	HND Elect. Eng. '07	HTO	08/04	04/01/16	-	-	Chikaji S/g	Kaduna
+9	Abubakar Adamu Badejo 	Mr. 	M	29/09/78	11895	B. Eng. Elect '10	ENG II	08/04	14/06/16	-	-	Potiskum 	Yobe 
+10	Nabeel Bala Zakari	Mr.	M	02/06/90	-	B. Eng. Elect. '15	Engr. II	08/02	08/12/17	-	-	Daura	Katsina
+11	Abdulrahman Sadauki Kibiya	Mr.	M	28/01/90	-	B. Sc Eletro''15	Engr. II	08/02	02/01/18	-	-	Kibiya	Kano
+12	Rilwanu mohammed	Mr.	M	23/10/88	-	B. Sc Engr'12	Engr. II	08/03	03/01/18	-	-	Musawa	Katsina
+13	Hassan, Surajo Mallam	Mr.	M	15/03/62	5119	T.T.I Elect '95	S.F.M	07/15	19/07/93	19/07/95	01/01/10	Nassarawa	Kano
+14	Hassan Sani Indabawa	Mr.	M.	07/05/81	9954	NDE E.E.T. 2006	TC	07/07	19/03/10	19/03/12	19/03/12	Municipal	Kano
+15	Dalha Musa Ali	Mr.	M	26/04/78	8078	T.T.I Elect '96	SFM	07/10	17/04/03	17/04/05	01/01/14	Tarauni	Kano
+16	Isa Hamma	Mr.	M	01/03/65	8071	T.T.I Elect '93	SFM	07/10	10/04/03	10/04/05	01/01/14	Bayo	Borno
+17	Ibrahim Abba	Mr.	M	01/09/68	8070	T.T.II Elect '00	FM	06/11	11/04/03	11/04/05	01/01/14	Municipal	Kano
+18	Isyaku Mohammed	Mr.	M	12/02/73	8066	T.T-III Elect '92	FM	06/11	28/04/03	28/04/05	01/01/14	Municipal	Kano
+19	Inuwa Hassan 	Mr. 	M	26/06/66	9594	Trade Test I '03	FM	06/08	05/05/09	05/05/11	01/01/15	Hawul 	Borno 
+20	Kabiru Abdullahi	Mr.	M	16/03/80	9960	FLSC, '92; T.T.III,II,I, '05	Foreman 	06/07	17/06/10	17/06/12	NIL	Dala	Kano
+21	Ahmed T. Mohammed	Mr.	M	31/05/66	9946	PRI  CERT, '83; T.T.III,II,I '10,'09	Foreman 	06/07	17/06/10	17/06/12	01/01/16	Yagba	Kogi
+22	Gambo Moh'd Tahir	Mr.	M.	15/04/80	9948	SSCE '00	Foreman 	06/06	19/03/10	19/03/12	01/01/17	Fagge	Kano
+23	Abbas Sada 	Mr.	M	24/08/84	12769	ND (Elect/ Elect) '12	ATO	06/02	06/07/17	-	-	Katsina 	Katsina 
+24	Iliyasu Hamisu 	Mr. 	M	01/01/80	9951	SSCE '01, T.T. III, II, I '10	SCM	05/08	19/03/10	19/03/10	01/01/16	Dala 	Kano 
+25	Adamu Zubairu  	Mr.	M	10/01/77	9952	PRI CERT '87 T.T. III, II, I, 05,10,12	CRAFTSMAN 	04/09	01/07/10	17/07/12	01/01/16	Kiyawa 	Jigawa 
+26	Suleiman Aliyu Suleiman	Mr.	M	14/12/83	9953	PRI  CERT, '83;Sec. '00, T.T.III,'07	C. Man	04/08	17/06/10	17/06/12	01/01/16	Dala	Kano
+
+
+ELECTRONIC/TELECOM
+1	Yusuf Mohammed	Mr.	M	03/02/62	5282	OND Elect/Comm. '84	C.T.O	14/12	21/09/84	21/09/86	01/01/07	Municipal	Kano
+2	Turkur S. Turkur	Mr.	M	18/04/71	8079	ND (Elect.)'94 HND ELECT./Electronics '13	PTO I	12/	22/04/03	22/04/05	01/01/17	Gwale	Kano
+3	Okposio Micheal	Mr.	M	30/06/83	9829	B.TECH(HON) Comp. Sci. '08	S.I.T.O	10/	04/03/10	04/03/12	01/01/17	Ehiope East	Delta
+4	Usman Auwalu	Mr.	M	12/09/78	7500	Diploma Math Computer '01' B.Sc Computer Science	SSO I	09/08	10/10/02	22/10/04	01/01/14	Wamakko	Sokoto 
+5	Abdullahi Ahmed Umar	Mr.	M	23/03/89	13160	PG Cert Intl Buss. Studies '15 B.Sc. Buss Info Tech '13	SSO I	09/2	27/09/17	-	-	Municipal	Kano
+6	Shehu Abdullahi Baffa	Mr.	M	10/02/91	11653	B. Eng Comp. Eng. '14	SSO II	08/04	04/01/16	-	-	Municipal 	Kano
+7	Yusuf Aliyu 	Mr.	M	01/10/86	11854	B.Tech Comp. Sci. '14	SSO II	08/04	14/06/16	-	-	Askira 	Borno 
+8	Aminu Abdullahi	Mr.	M	22/11/87	12890	Bsc. Bus Info Sytm '14	SSO ll	08/2	24/7/17	-	-	Kebbi	B. Kebbi
+9	Usman Umar	Mr.	M	06/09/88	-	B.Tech, IMT'15	SSO II	08/02	23/01/18	-	-	Jimeta	Adamawa
+10	Faisal Aliyu Moh'd	Mr.	M	24/08/90	-	Bsc. Infor Tech. 16	SSO II	08/02	26/04/18	-	-	Zaria	Kaduna
+11	Hadi Buhari	Mr.	M	31/07/63	5283	Fed. Craft'85	S.C.M	06/15	11/01/93	11/01/95	01/01/03	Municipal	Kano 
+12	Abdurrahaman Hilliru	Mr	M	15/12/87	-	NABTEB (09)	SDPA	05/02	27/11/17	-	-	Daura	Katsina
+
+
+CIVIL/BUILDING
+1.	Bashir M. Hussain	Mr.	M	17/04/62	6358	O.N.D Q.S '85	C.T.O	14/12	20/08/86	20/08/88	01/01/06	Municipal	Kano
+2	Abubakar S. Mannir 	Mr.	M	22/07/69	12772	B.Sc. Building Tech '06	PTO I	12/02	07/07/17	-	-	Dutsi 	Katsina 
+3	Lawal Abubakar Kofar Sauri	Mr.	M 	15/08/78	13099	B. Eng Civil Engr. 07	S.E 	10/3	06/09/17	-	-	Rimi	Katsina
+4	Bahaudeen Muhd Al-Amin	Mr.	M 	02/11/78	-	B. ENG 11, MBA 16	S. E. O	10/2	11/09/17	-	-	Municipal	Kano
+5	Aliyu Bashir	Mr.	M	26/06/82	13043	B. TECH 08, M. A. 12	S.A	10/02	18/09/17	-	-	Adavi	Kogi
+6	Bilkisu Umar Jameel	Mrs.	F	24/07/89	12881	Bsc Archt. '11, MSC'15	S.A	10/	12/08/17	-	-	Danmusa	Katsina
+7	Buba Anne Yero 	Mrs. 	F	30/09/83	12046	B. Tech Estate Mgt 	Est. O. I	09/05	14/06/16	-	-	Gude 	Nassarawa 
+8	Usman Mahmud Sani 	Mr.	M	20/01/85	11306	HND Civil & Build '10	HTO 	09/04	24/03/14	24/03/16	01/01/18	Gada 	Sokoto 
+9	Yusuf Salisu	Mr.	M	10/10/88	11655	B. Eng Civil '14 	ENG II	08/04	04/01/16	-	-	Kazaure	Jigawa
+10	Muhammed Ahmed 	Mr. 	M	26/02/88	12123	B. Eng. Civil '14	ENG. II	08/03	20/07/16	-	-	Hadejia 	Jigawa 
+11	Abdullahi Aminu Lawal	Mr	M 	11/01/85	11870	B. Sc. Civil Engr.	CE II	08/4	10/05/16	-	-	Dutsi	Katsina
+12	Salisu Hamza Aminu	Mr.	M 	02/01/86	13169	HND. Civil Engr.	HTO	08/3	21/09/17	-	-	Katsina	Daura
+13	Umar Usman Umar	Mr. 	M 	04/09/88	12976	B. Engr Civil Engr.  14	Eng. II	08/2	05/09/17	-	-	Kumbotso	Kano
+14	Aliyu Idris Dumba	Mr.	M	14/10/88	-	B. Engr 15	ENG II	08/02	18/09/17 	-	-	MMC	Maiduguri
+15	Saifullahi Tanimu	Mr.	M	24/12/88	-	B. Engr. Civil '14	Engr. II	08/02	11/12/17	-	-	Dutsi	Katsina
+16	Manigi Musa Abubakar	Mr.	M	25/11/18	12675	HND Civil Engr. '14	HTO	08/02	02/01/18	-	-	Mashegu	Niger
+17	Abdulkadir D Abdulkadir	Mr.	M	07/09/91	13695	B Engr Civil 15	Engr II	08/02	09/04/18	-	-	Gwale	Kano
+18	Babaji Yusuf A	Mr.	M	14/11/79	12033	Bsc Engr 11	Engr II	08/02	17/07/16	-	-	Bauchi	Bauchi
+19	Ibrahim Salisu	Mr.	M	01/01/62	5130	T.T.I  Dec. '00	S/Foreman	07/15	17/02/93	17/02/95	01/01/11	Fagge	Kano
+20	Aliyu Afolayan	Mr.	M	01/01/64	8390	T.T.III, II & I B/Mass	S. Foreman	07/08	08/05/04	08/06/06	01/01/16	Oke-Ero	Kwara
+21	Victor Ehim	Mr.	M	02/05/78	8388	T.T.III, II & I C/M- 2002	S. Foreman 	07/09	08/05/04	08/05/06	01/01/15	B/Burum	Nassarawa
+22	Musa Mohammed	Mr.	M	01/05/69	8389	T.T.III, II & I C/J 2002	S. Foreman 	07/07	08/05/04	08/05/06	01/01/15	Minjibri	Kano
+23	Bello Suleiman	Mr.	M	30/08/89	-	ND Est. Mgt. '14	ATO	06/02	11/09/18	-	-	Giade	Bauchi
+24	Haruna Magaji	Mr.	M	18/02/70	9654	T.T. III '85	SCM	05/08	01/07/09	01/07/11	01/01/15	Ringim	Jigawa
+
+CREDIT CONTROL
+1	Sagir Musa 	Mr. 	M	01/08/60	6376	OND COMM. DEV. 84	CEO	14/12	22/09/84	22/09/86	01/01/06	Municipal 	Kano 
+2	Abdullahi Ibrahim Imam	Mr.	M	26/06/77	7151	B.Sc. Bus. Admin.1999	CCCO	14/	23/10/02	23/10/04	01/01/18	Municipal	Kano
+3	Samaila Rabiu 	Mr. 	M 	16/07/73	12883	B.Sc. Bus Admin '02	ACCCO	13/02	10/07/17	-	-	Zaria 	Kaduna 
+4	Lawal Abdulkadir 	Mr.	M	12/01/85	12311	Bsc. Econs '11	CCO II	08/03	14/09/16	-	-	Daura 	Katsina 
+5	Abubakar Y. Isah	Mr.	M	05/10/88	-	HND Statistic '12	HEO	08/03	15/09/17	-	-	Toto	Nasarawa
+6	Auwalu Ibrahim	Mr.	M	13/06/81	10289	HND Accounting '09	SEO	09/06	28/07/11	28/07/13	01/01/15	Ringim	Jigawa  
+7	Halima Moh'd. D	Mrs	F	21/3/82	10390	NECO, 2007	P/Wm	04/07	06/07/11	06/07/13	01/01/17	Fagge	Kano
+
+SAFETY
+1	Suleiman Abdul Azeez	Mr.	M	17/04/74	8143	B. Tech. Geo 2000 	ACSO	13/	10/07/03	10/07/05	01/01/16	Yola	Adamawa
+2	Mohammed Ladidi I.	Mrs	F	21/7/65	4110	Dip. Insurance.76. HND Mg. Admin.09	ACSS 	13/	1/12/92	1/12/94	01/01/17	Nguru	Yobe
+3	Abdullahi Muktar	Mr.	M	21/12/18	013102	MLC''16, Bsc Soc'12	SO I	09/02	-	-	-	Giwa	Kaduna
+4	Yusuf Abubakar Sadiq	Mr.	M	22/07/84	011452	B. SC Mass Comm.	SMO II	08/04	21/07/15	-	-	Musawa	Katsina
+5	Abdul-samad M. Shaibu 	Mr.	M	04/10/85	12133	HND Comp. Sci. '14	SS	08/04	27/06/16	-	-	Tarauni 	Kano 
+6	Abdulmumin Balarebe Sani	Mr.	M	13/07/88	-	B. Sc Physic. Heth'14	SOII	08/02	29/02/18	-	-	Tarauni 	Kano
+CARGO
+1	Adamu,  Idris Jafar	Mr.	M	12/23/63	4682	HND Bus'93 MBA '11	AGM	15/10	11/11/86	11/11/88	01/01/16	Wase	Plateau
+2	Hasiya, B. Ahmed	Mrs. 	F	22/05/66	4939	DPA 1993 HND'07 HND PA	ACEO	14/10	12/01/93	04/07/95	01/01/18	Jalingo	Taraba
+3	Magaji, Talatu Isyaku	Mrs.	F	20/11/70	8309	Diploma B. Adm '95 HND '10	PEO II	12/05	18/11/02	18/11/04	01/01/18	Nassarawa	Kano
+4	Babangida A Aliyu	Mr.	M	26/03/89	10950	Bsc. Bus Admin '07, MBA '11	SBDO	10/	10/06/13	10/06/15	01/01/17	Maradun	Zamfara
+5	Hajara Muhammed	Mrs.	F	05/10/88	11823	HND Bus Admin '13	HEO	08/05	11/05/16	-	-	Sokoto N.	Sokoto
+
+PLANNING
+1	Rabe Umar Musa	Mr. 	M	11/10/87	11658	Bsc. Statisitics '11	PO II	08/04	04/01/16	-	-	Katsina	Katsina
+

@@ -1,0 +1,100 @@
+{% extends "./../base.html" %}
+
+{% load staticfiles %}
+
+{% block main_content %}
+<div class="content container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+                <h4 class="page-title">{{tiltle.title}} Report detail</h4>
+            </div>
+            <div class="col-xs-8 text-right m-b-30">
+                <a href="#" class="btn btn-primary pull-right rounded" data-toggle="modal" data-target="#add_table"><i class="fa fa-plus"></i> Add Report</a>
+                <div class="view-icons">
+                    <a href="/report/hardcopy/{{time}}/{{name}}/{{tiltle.id}}" class="btn btn-link">HARDCOPY</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                        <table id="example" class="table table-striped custom-table m-b-0 ">
+                            <thead>
+                                <tr>
+                                    {% for col in cols %}
+                                        <th>{{col.title}}</th>
+                                    {% endfor %}
+                                    <th class="text-right">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for row in rows %}
+                                <tr>
+                                    {% for data in row.0%}
+                                        <td>{{data}}</td>
+                                    {% endfor %}
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="javascript:void(0)" type="button" onclick="edit_report('{% for data in row.0%}{{data}},{% endfor %}','','{% for action in row.1 %}{{action}},{% endfor %}','{{tiltle.title}}')" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="javascript:void(0)" onclick="delete_report('{% for action in row.1 %}{{action}},{% endfor %}')" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+</div>
+<style>
+    .valid{
+        display:none;
+    }
+</style>
+{% include "./modal/delete.html" %}
+{% include "./modal/new.html" %}
+{% include "./modal/edit.html" %}
+
+{% load staticfiles %}
+<script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+<script>
+function validate(){
+    emp_id = $('#emp_id').val();
+    if(emp_id.length == 10){ //60-4619320
+        console.log("valid");
+        get_emp(emp_id);
+    }else{
+        $('#sec_pannel').addClass('valid');
+    }
+}
+
+ function get_emp(id){
+    $.ajax({
+        url:'/employee/emp/'+id,
+        dataType: 'json',
+        success: function (data){
+            if(data.status == "ok"){
+                $('#sec_pannel').removeClass('valid');
+            }else{}
+            $('#e_name').val(data.name);
+            $('#e_dept').val(data.dept);
+            $('#e_rank').val(data.dec);
+            $('#e_grade').val(data.dec);
+
+        }
+    });
+}
+ $(document).ready(function() {
+        // DataTable
+        var table = $('#example').DataTable();
+    } );
+
+  //'{% for action in row.1 %}{{action}} {% endfor %}','{{tiltle.title}}'
+</script>
+
+{% endblock main_content %}

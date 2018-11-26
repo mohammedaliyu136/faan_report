@@ -1,0 +1,48 @@
+{% extends "./../base.html" %}
+{% load staticfiles %}
+
+{% block main_content %}
+<div class="content container-fluid">
+    <div class="row">
+        <div class="col-xs-4">
+            <h4 class="page-title">Employee</h4>
+        </div>
+        <div class="col-xs-8 text-right m-b-30">
+            <a href="#" class="btn btn-primary pull-right rounded" data-toggle="modal" data-target="#add_employee"><i class="fa fa-plus"></i> Add Employee</a>
+            <div class="view-icons">
+                <a href="#" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+                <a href="/employee/list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </div>
+        
+    <div class="row">
+    </div>
+</div>
+
+    {% include "./modal/delete_employee.html"%}
+    {% include "./modal/edit_employee.html"%}
+    {% include "./modal/new_employee.html"%}
+
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+
+    <script>
+        function edit(designation, dept_name, id){ 
+            $('#design_name').val(designation);
+            $('#dept_name').val(dept_name);
+            $('#design_id').val(id);
+            $('#edit_designation').modal();
+        }
+
+        function delete_employee(id){
+            $('#employee_del_id').val(id);
+            $('#delete_employee').modal();
+        }
+
+        $(document).ready(function() {
+            // DataTable
+            var table = $('#example').DataTable();
+         } );
+    </script>
+{% endblock main_content %}

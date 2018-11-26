@@ -1,0 +1,73 @@
+<span style="font-size: 1.1 em; font-weight: bold"><u>MONTHLY REPORT TRAINING MATTERS</u></span></center><br/>
+<span style="float: right;">{% now " F, Y " %} REPORT</span>
+<br>
+    <table class=" table-striped custom-table " style="width: 100%">
+        <thead>
+            <tr>
+                <th style="width:4%;padding-left: .5%">S/N</th>
+                <th style="width:20%;padding-left: .5%">Department</th>
+                <th>TOTAL  NO OF STAFF</th>
+                <th>NUMBER OF TRAINED</th>
+                <th style="width:10%;">NYSC</th>
+                <th>INDUSTRIAL TRAINING</th>
+                <th>SIWES</th>
+                <th>STUDY LEAVE</th>
+                <th>COMPLEATION OF STUDY </th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        {% for training in monthly_training_matter_data %}
+          <tr>
+              <td><center>{{ forloop.counter }}</center></td>
+              <td style="padding-left: .5%">{{training.dept_name}}</td>
+              <td>
+                <center> 
+                    {% if training.total_no_of_staff == 0 %}-{% endif%}
+                    {% if training.total_no_of_staff != 0 %}{{training.total_no_of_staff}}{% endif%}
+                </center>
+              </td>
+              <td><center>-</center></td>
+              <td>
+                    <center> 
+                        {% if training.nysc == 0 %}-{% endif%}
+                        {% if training.nysc != 0 %}{{training.nysc}}{% endif%}
+                    </center>
+              </td>
+              <td><center>-</center></td>
+              <td>
+                    <center> 
+                        {% if training.siwes == 0 %}-{% endif%}
+                        {% if training.siwes != 0 %}{{training.siwes}}{% endif%}
+                    </center>
+              </td>
+              <td>
+                    <center> 
+                        {% if training.study_leave == 0 %}-{% endif%}
+                        {% if training.study_leave != 0 %}{{training.study_leave}}{% endif%}
+                    </center>
+              </td>
+              <td>
+                    <center> 
+                        {% if training.study_leave == 0 %}-{% endif%}
+                        {% if training.study_leave != 0 %}{{training.study_leave}}{% endif%}
+                    </center>
+              </td>
+              <td><center>-</center></td>
+          </tr>
+          {% endfor %}
+          <tr>
+              <td></td>
+              <th style="padding-left: .5%">TOTAL</th>
+              <th><center>{{profile_count}}</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+              <th><center>-</center></th>
+          </tr>
+        </tbody>
+    </table>

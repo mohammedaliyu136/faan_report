@@ -1,0 +1,98 @@
+<div id="add_table" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h4 class="modal-title">Add New Report</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-sm-6" style="display:none">
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="design_id">
+                                <label>Employee ID<span class="text-danger">*</span></label>
+                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="design_id">
+                                <label>Employee Name<span class="text-danger">*</span></label>
+                                <input class="form-control" required="" type="text" value="" name="e_name" id="e_name_staff_mv_new" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label>Department Name <span class="text-danger">*</span></label>
+                                <input class="form-control" required="" value="" type="text" name="e_dept" id="e_dept_staff_mv_new" readonly>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="design_id">
+                                <label>Employee Rank<span class="text-danger">*</span></label>
+                                <input class="form-control" required="" value="" type="text" name="e_rank" id="e_rank_staff_mv_new" readonly>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="design_id">
+                                <label>Employee Grade Level<span class="text-danger">*</span></label>
+                                <input class="form-control" required="" value="" type="text" name="e_grade" id="e_grade_staff_mv_new" readonly>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="design_id">
+                                <label>Employee ID<span class="text-danger">*</span></label>
+                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10">
+                            </div>
+                            {% for col in cols %}
+                            <div class="form-group">
+                                <input class="form-control" value="new" type="hidden" name="employee_del_id">
+                                <label class="control-label">{{col.title}} <span class="text-danger">*</span></label>
+
+                                {% if col.emp_field == "STATUS" %}
+                                    <select class="form-control" name="{{col.emp_field}}">
+                                        <option value="Single">Single</option>
+                                        <option value="Married">Married</option>
+                                    </select>
+                                {% endif %}
+
+                                {% if col.emp_field == "DEPARTMENT" %}
+                                    <select class="form-control" name="{{col.emp_field}}">
+                                        {% for dept in departments %}
+                                            <option value="{{dept.name}}">{{dept.name}}</option>
+                                        {% endfor %}
+                                    </select>
+                                {% endif %}
+
+                                {% if col.field_type == "textarea" and col.emp_field == ''%}
+                                    <textarea class="form-control" name="{{col.title}}" rows="3"></textarea>
+                                {% endif %}
+                                {% if col.field_type == "textfield" and col.emp_field == '' %}
+                                    <input class="form-control" type="text" name="{{col.title}}">
+                                {% endif %}
+                                {% if col.field_type == "datefield" and col.emp_field == '' %}
+                                    <input class="form-control datetimepicker" type="text" name="{{col.title}}">
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                            <!--
+                            <div class="form-group">
+                                <span style="color:red">it should be blank if this report date correspond with month and Q date</span>
+                                <input class="form-control datetimepicker" type="text" name="old_report_date">
+                            </div>
+                            -->
+                        </div>
+
+
+                        </div>
+                    </div>
+                    <div class="table-responsive m-t-15">
+
+                    </div>
+                    <div class="m-t-20 text-center">
+                        <button class="btn btn-primary" onclick="getIds()">Add Report</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,116 @@
+{% load staticfiles %}
+
+  <div class="row">
+        <div class="col-sm-8">
+                  
+            
+            
+        </div>
+        <div class="col-sm-4 text-right m-b-30">
+            <div class="btn-group btn-group-sm">
+                <button class="btn btn-default word-export">Docx</button>
+                <button class="btn btn-default">PDF</button>
+                <button class="btn btn-default"><i class="fa fa-print fa-lg"></i> Print</button>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-table">
+        <br/><br/>
+        <div class="panel-body" style="padding-bottom: 15px">
+        <div id="page-content" class="col-md-12">
+            <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            height: 0px;
+        }
+        .report{
+            width: 80%;
+        }
+        </style>
+
+                {% for dept in departments%}
+                <center id="{{dept.pk}}" style="margin-top:25px"><span style="font-size: 1.1 em; font-weight: bold"><u>FEDRAL AIRPORTS AUTHOURITY OF NIGERIA</u></span><br/>
+                <span style="font-size: 1.1 em; font-weight: bold"><u>MALLAM AMINU KANO INTERNATIONAL AIRPORT</u></span><br/>
+                <span style="font-size: 1.1 em; font-weight: bold"><u>P.M.B 3418</u></span><br/><br/>
+                      
+                <span>
+                    <div class="col-md-4" style="font-size: 1.1 em; float: left; padding: 0; font-weight: bold; font-style: italic">STATION: KANO</div>
+                    <div class="col-md-4" style="font-size: 1.1 em; padding: 0; font-weight: bold; font-style: italic"><center>STAFF LIST</center></div>
+                    <div class="col-md-4" style="font-size: 1.1 em; float: right; padding: 0; font-weight: bold; font-style: italic">DEPARTMENT: {{dept.name}}</div>
+                </span>
+            <br/>
+            <div class="table-responsive">
+                <table border="1" class=" table-striped custom-table " style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th style="width:3%; padding: 3px;">S/N</th>
+                            <th style="width:15%; padding: 3px;">Name</th>
+                            <th>Title</th>
+                            <th>Sex</th>
+                            <th>Date of Birth</th>
+                            <th>Staff No</th>
+                            <th>Qualification With Date (Indicate Discipline)</th>
+                            <th>Designa<br/>tion</th>
+                            <th>GL</th>
+                            <th>Date of <br/>1st Appt.</th>
+                            <th>Date of Conf.</th>
+                            <th>Date of <br/>Last Promotion</th>
+                            <th style="width:7%">LGA</th>
+                            <th>State of Origin</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for p in profile %}
+                        {% if dept.name == p.department %}
+                        <tr>
+                            <td style="width:4%;">S/N</td>
+                            <td>{{p.name}}</td>
+                            <td>{{p.title}}</td>
+                            <td>{{p.sex}}</td>
+                            <td>{{p.date_of_birth}}</td>
+                            <td>{{p.staff_no}}</td>
+                            <td>
+                                {% for qualification in p.qualification_with_date %}
+                                    <div>{{qualification.name}} ({{qualification.date}})</div>
+                                {% endfor %}
+                                p.qualification_with_date
+                            </td>
+                            <td>{{p.designation}}</td>
+                            <td>{{p.gl}}</td>
+                            <td>{{p.date_of_first_Appt}}</td>
+                            <td>{{p.date_of_conf}}</td>
+                            <td>{{p.date_of_last_promotion}}</td>
+                            <td>{{p.lga}}</td>
+                            <td>{{p.state_of_origin}}</td>
+                        </tr>
+                        {%endif%}
+                        {%endfor%}
+                    </tbody>
+                </table>
+                <br/><br/>
+                {%endfor%}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static "js/jquery.googoose.js" %}"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.j"></script>
+    <script src="{% static 'jquery.min.js' %}"></script>
+
+    <script src="{% static "html_to_word/FileSaver.js" %}"></script> 
+    <script src="{% static "html_to_word/jquery.wordexport.js" %}"></script> 
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".word-export").click(function(event) {
+                $("#page-content").wordExport();
+            });
+        });
+        </script>

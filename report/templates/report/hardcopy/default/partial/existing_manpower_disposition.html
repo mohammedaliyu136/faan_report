@@ -1,0 +1,54 @@
+<span style="font-size: 1.1 em; font-weight: bold"><u>EXISTING MANPOWER DISPOSITION</u></span></center><br/>
+<span style="float: right;">{% now " F, Y " %} REPORT</span>
+<br>
+
+<table class=" table-striped custom-table " style="width: 100%">
+        <tr>
+            <th><center>S/N</center></th>
+            <th style="padding-left: 1%">DEPARTMENT</th>
+            <th><center>01</center></th>
+            <th><center>02</center></th>
+            <th><center>03</center></th>
+            <th><center>04</center></th>
+            <th><center>05</center></th>
+            <th><center>06</center></th>
+            <th><center>07</center></th>
+            <th><center>08</center></th>
+            <th><center>09</center></th>
+            <th><center>10</center></th>
+            <th><center>11</center></th>
+            <th><center>12</center></th>
+            <th><center>13</center></th>
+            <th><center>14</center></th>
+            <th><center>15</center></th>
+            <th><center>16</center></th>
+            <th><center>17</center></th>
+            <th><center>TOTAL</center></th>
+        </tr>
+        {% for report in manPowerReport %}
+        <tr>
+            <td><center>{{ forloop.counter }}</center></td>
+            <td style="padding-left: 1%">{{report.0}}</td>
+            <td><center>-</center></td>
+            <td><center>-</center></td>
+            {% for designation in report.1 %}
+                <td><center> {{designation}} </center></td>
+            {% endfor %}
+            <td><center>{{report.2}}</center></td>
+
+
+        </tr>
+        {% endfor %}
+        <tr>
+            <td></td>
+            <th style="padding-left: 1%">TOTAL</th>
+            {% for line in lastline %}
+                {% if line.0 != 0 %}
+                <th><center>{{line.0}}</center></th>
+                {% endif %}
+                {% if line.0 == 0 %}
+                <th><center>-</center></th>
+                {% endif %}
+            {% endfor %}
+        </tr>
+    </table>

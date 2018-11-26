@@ -1,0 +1,164 @@
+{% extends "./../base.html" %}
+
+{% block main_content %}
+
+
+<div class="content container-fluid">
+    {% include "./modal/loading.html"%}
+        <div class="row">
+            <div class="col-sm-8">
+                <h4 class="page-title">{{report_name}}</h4>
+            </div>
+            <div class="col-sm-4 text-right m-b-30"><!--
+                <a href="#" class="btn btn-primary rounded" data-toggle="modal" data-target="#add_department"><i class="fa fa-plus"></i> Add New Department</a>
+            -->
+                <div class="btn-group btn-group-sm">
+                {% if activate == "staff_list_rep" %}
+                    <button class="btn btn-default word-export" onclick="get_data('staff_list_rep')">Docx</button>
+                {% endif %}
+                {% if activate == "audit_staff_list_rep" %}
+                    <button class="btn btn-default word-export" onclick="get_data('audit_staff_list_rep')">Docx</button>
+                {% endif %}
+                    <button class="btn btn-default">PDF</button>
+                    <button class="btn btn-default"><i class="fa fa-print fa-lg"></i> Print</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <table id="example" class="table table-striped custom-table m-b-0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Department Name</th>
+                                <th class="text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for department in departments %}
+                            <tr>
+                                <td style="width:3%">{{ forloop.counter }}</td>
+                                <td><a href="/report/{{url_snip}}/{{department.pk}}">{{department.name}}</a></td>
+                                <td class="text-right">
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    {% load staticfiles %}
+
+    <script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+    <script>
+
+    function edit(dept_name, id){
+        $('#dept_name').val(dept_name);
+        $('#dept_id').val(id);
+        $('#edit_department').modal();
+    }
+
+    function delete_department(id){
+        $('#dept_action').val("del");
+        $('#dept_del').val(id);
+        $('#delete_department').modal();
+    }
+
+    $(document).ready(function() {
+            // DataTable
+            var table = $('#example').DataTable();
+         } );
+    </script>
+
+    <script>
+    function loadFile(url,callback){
+        JSZipUtils.getBinaryContent(url,callback);
+    }
+    function get_data(report_name){
+        $('#loading_modal').modal('show');
+        ddd = ''
+        ur = report_name.split("_");
+        $.get( "http://127.0.0.1:8000/report/data/"+ur[0]+"/list/", function( data ) {
+          $( ".result" ).html( data );
+          //ddd = data;
+          if(report_name=='staff_list_rep'){
+            generate_staff_list(data);
+          }else if(report_name=='audit_staff_list_rep'){
+            generate_audit_staff_list(data);
+          }
+          //generate(data)
+          //console.log(data);
+        });
+        console.log(ddd);
+        //return ddd;
+
+    }
+    function generate_staff_list(dddata) {
+        loadFile("http://127.0.0.1:8000{% static 'report_temp/Staff List Template.docx' %}",function(error,content){
+            if (error) { throw error };
+            var zip = new JSZip(content);
+            var doc=new window.docxtemplater().loadZip(zip)
+            doc.setData(dddata);
+            try {
+                // render the document (replace all occurences of {first_name} by John, {last_name} by Doe, ...)
+                doc.render()
+            }
+            catch (error) {
+                var e = {
+                    message: error.message,
+                    name: error.name,
+                    stack: error.stack,
+                    properties: error.properties,
+                }
+                console.log(JSON.stringify({error: e}));
+                // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
+                throw error;
+            }
+            var out=doc.getZip().generate({
+                type:"blob",
+                mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            }) //Output the document using Data-URI
+            $('#loading_modal').modal('hide');
+            saveAs(out,"Staff List Report {% if name == "current" %}{% now 'M' %} {% now 'Y' %}{% endif %}{% if name != "current" %}{{name}}{% endif %} {{year}}.docx")
+        })
+
+    }
+    function generate_audit_staff_list(dddata) {
+        loadFile("http://127.0.0.1:8000{% static 'report_temp/AUDIT. Template.docx' %}",function(error,content){
+            if (error) { throw error };
+            var zip = new JSZip(content);
+            var doc=new window.docxtemplater().loadZip(zip)
+            doc.setData(dddata);
+            try {
+                // render the document (replace all occurences of {first_name} by John, {last_name} by Doe, ...)
+                doc.render()
+            }
+            catch (error) {
+                var e = {
+                    message: error.message,
+                    name: error.name,
+                    stack: error.stack,
+                    properties: error.properties,
+                }
+                console.log(JSON.stringify({error: e}));
+                // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
+                throw error;
+            }
+            var out=doc.getZip().generate({
+                type:"blob",
+                mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            }) //Output the document using Data-URI
+            $('#loading_modal').modal('hide');
+            saveAs(out,"Audit Staff List Report {% if name == "current" %}{% now 'M' %} {% now 'Y' %}{% endif %}{% if name != "current" %}{{name}}{% endif %} {{year}}.docx")
+        })
+
+    }
+</script>
+
+
+    {% endblock main_content %}

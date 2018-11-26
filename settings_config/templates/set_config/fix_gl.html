@@ -1,0 +1,7 @@
+<form action="" method="POST">
+    {% csrf_token %}
+    {% for profile in profiles %}
+        {{profile.surname}} {{profile.othername}} GL:<input name="{{profile.id}}_gl" value="{{profile.gl}}"> PRE_GL:<input name="{{profile.id}}_pregl" value="{{profile.pre_gl}}"> Qualification:<input name="{{profile.id}}_qu" value=""><br/>
+    {% endfor %}
+    <input type="submit" value="SUBMIT">
+</form>

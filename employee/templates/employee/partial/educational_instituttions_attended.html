@@ -1,0 +1,118 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="table-responsive">
+            <table class="table table-hover table-white">
+                <thead>
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th class="col-sm-3">NAME OF INSTITUTIONS</th>
+                        <th class="col-md-6">ADDRESS</th>
+                        <th style="width:100px;">FROM</th>
+                        <th style="width:80px;">TO</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody id="ed_institution">
+            {% if not education_institutions %}
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="hidden" id="ed_institution_ids" name="ed_institution_ids"/>
+                        <input class="form-control" type="text" style="min-width:150px" name="ed_institution_name_1" placeholder="INSTITUTION">
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" style="min-width:150px" name="ed_institution_address_1" placeholder="ADDRESS">
+                    </td>
+                    <td>
+                        <input class="form-control" style="width:100px" type="text" name="ed_institution_from_1" placeholder="FROM">
+                    </td>
+                    <td>
+                        <input class="form-control" style="width:80px" type="text" name="ed_institution_to_1" placeholder="TO">
+                    </td>
+                    <td><a href="javascript:void(0)" onclick="add_ed_institution()" class="text-success font-18" title="Add"><i class="fa fa-plus"></i></a></td>
+                </tr>
+            {% endif %}
+            {% if education_institutions %}
+            {% for education_institution in education_institutions %}
+                <tr id="institution{{forloop.counter}}">
+                    <td></td>
+                    <td>
+                    {% if forloop.counter == 1 %}
+                        <input type="hidden" id="ed_institution_ids" name="ed_institution_ids" value=""/>
+                    {%endif%}
+                        <input class="form-control" type="text" style="min-width:150px" name="ed_institution_name_1" placeholder="INSTITUTION" value="{{education_institution.name}}">
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" style="min-width:150px" name="ed_institution_address_1" placeholder="ADDRESS" value="{{education_institution.address}}">
+                    </td>
+                    <td>
+                        <input class="form-control" style="width:100px" type="text" name="ed_institution_from_1" placeholder="FROM" value="{{education_institution.from_date}}">
+                    </td>
+                    <td>
+                        <input class="form-control" style="width:80px" type="text" name="ed_institution_to_1" placeholder="TO" value="{{education_institution.to_date}}">
+                    </td>
+                {% if forloop.counter > 1 %}
+                    <td><a href='javascript:void(0)' onclick="removeInst('institution{{forloop.counter}}', {{forloop.counter}})" class='text-danger font-18' title='Remove'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td>
+                {% endif %}
+                {% if not forloop.counter > 1 %}
+                    <td><a href="javascript:void(0)" onclick="add_ed_institution()" class="text-success font-18" title="Add"><i class="fa fa-plus"></i></a></td>
+                {% endif %}
+                </tr>
+            {%endfor%}
+            {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% load staticfiles %}
+<script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+
+<script>
+    institution_i=1;
+    {% if education_institutions %}
+        institution_data = [{%for i in education_institutions%}{{forloop.counter}},{%endfor%}0]
+        institution_data.splice(-1,1);
+    {%endif%}
+    {% if not education_institutions %}
+        institution_data = [institution_i]
+    {%endif%}
+    $('#ed_institution_ids').val(institution_data.join(","));
+    function add_ed_institution(){
+        institution_i+=1
+            str= "<tr id='institution"+institution_i+"'>";
+            str+=   "<td></td>";
+            str+="<td>";
+            str+=  "<input class='form-control' type='text' style='min-width:150px' name='ed_institution_name_"+institution_i+"' placeholder='INSTITUTION'>";
+            str+="</td>";
+            str+= "<td>";
+            str+= "<input class='form-control' type='text' style='min-width:150px' name='ed_institution_address_"+institution_i+"' placeholder='ADDRESS'>";
+            str+= "</td>";
+            str+= "<td>";
+            str+= "<input class='form-control' style='width:100px' type='text' name='ed_institution_from_"+institution_i+"' placeholder='FROM'>";
+            str+= "</td>";
+            str+= "<td>";
+            str+= "<input class='form-control' style='width:80px' type='text' name='ed_institution_to_"+institution_i+"' placeholder='TO'>";
+            str+= "</td>";
+            str+= "<td><a href='javascript:void(0)' onclick='removeInst(\"institution"+institution_i+"\", "+institution_i+")' class='text-danger font-18' title='Remove'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td>";
+            str+= "</tr>";
+            $("#ed_institution").append(str);
+            institution_data.push(institution_i)
+            $('#ed_institution_ids').val(institution_data.join(","));
+        }
+        function removeInst(institution_id, id){
+            for (var index = 0; index < institution_data.length; index++) {
+                var element = institution_data[index];
+                if(id == element){
+                    institution_data.splice(index, 1);
+                }
+            }
+            $("#"+institution_id).remove();
+            $('#ed_institution_ids').val(institution_data.join(","));
+        }
+        function pre_save_ops(){
+            $('#ed_institution_ids').val(institution_data.join(","));
+            $("#academic_form_ids").val(academic_data.join(","));
+        }
+</script>

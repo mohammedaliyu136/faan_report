@@ -1,0 +1,97 @@
+<div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="table-responsive">
+                <table class="table table-hover table-white">
+                    <thead>
+                        <tr>
+                            <th style="width: 20px">#</th>
+                            <th class="col-sm-3">QUALIFICATIONS</th>
+                            <th class="col-md-6">DATES</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody id="academic_form">
+                {% if not academic_professional_qualifications %}
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="hidden" id="academic_form_ids" name="academic_form_ids"/>
+                            <input class="form-control" type="text" style="min-width:450px" name='academic_name_1' placeholder="QUALIFICATION">
+                        </td>
+                        <td>
+                            <input class="form-control" type="text" style="min-width:150px" name="academic_date_1" placeholder="DATE">
+                        </td>
+                        <td><a href="javascript:void(0)" onclick="add_academic_form()" class="text-success font-18" title="Add"><i class="fa fa-plus"></i></a></td>
+                    </tr>
+                {%endif%}
+                {% if academic_professional_qualifications %}
+                {% for academic_professional_qualification in academic_professional_qualifications %}
+                    <tr id="academic{{forloop.counter}}">
+                        <td></td>
+                        <td>{% if forloop.counter == 1 %}
+                            <input type="hidden" id="academic_form_ids" name="academic_form_ids"/>
+                            {%endif%}
+                            <input class="form-control" type="text" style="min-width:450px" name='academic_name_1' placeholder="QUALIFICATION" value="{{academic_professional_qualification.name}}">
+                        </td>
+                        <td>
+                            <input class="form-control" type="text" style="min-width:150px" name="academic_date_1" placeholder="DATE" value="{{academic_professional_qualification.date}}">
+                        </td>
+                        {% if forloop.counter > 1 %}
+                        <td><a href='javascript:void(0)' onclick="removeAcademic('academic{{forloop.counter}}', {{forloop.counter}})" class='text-danger font-18' title='Remove'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td>
+                        {% endif %}
+                        {% if not forloop.counter > 1 %}
+                        <td><a href="javascript:void(0)" onclick="add_academic_form()" class="text-success font-18" title="Add"><i class="fa fa-plus"></i></a></td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+                {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "assets/js/jquery-3.2.1.min.js" %}"></script>
+    
+    <script>
+        academic_i=1;
+        
+        {% if education_institutions %}
+            academic_data = [{%for i in education_institutions%}{{forloop.counter}},{%endfor%}0]
+            academic_data.splice(-1,1);
+        {%endif%}
+        {% if not education_institutions %}
+            academic_data = [academic_i]
+        {%endif%}
+
+        $("#academic_form_ids").val(academic_data.join(","));
+        function add_academic_form(){
+            academic_i+=1
+                str= "<tr id='academic"+academic_i+"'>";
+                str+=   "<td></td>";
+                str+="<td>";
+                str+=  "<input class='form-control' type='text' style='min-width:450px' name='academic_name_"+academic_i+"' placeholder='QUALIFICATION'>";
+                str+="</td>";
+                str+= "<td>";
+                str+= "<input class='form-control' type='text' style='min-width:150px' name='academic_date_"+academic_i+"' placeholder='DATE'>";
+                str+= "</td>";
+                str+= "<td><a href='javascript:void(0)' onclick='removeAcademic(\"academic"+academic_i+"\", "+academic_i+")' class='text-danger font-18' title='Remove'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td>";
+                str+= "</tr>";
+                $("#academic_form").append(str);
+                academic_data.push(academic_i)
+                $("#academic_form_ids").val(academic_data.join(","));
+
+            }
+            function removeAcademic(institution_id, id){
+                for (var index = 0; index < academic_data.length; index++) {
+                    var element = academic_data[index];
+                    if(id == element){
+                        academic_data.splice(index, 1);
+                    }
+                }
+                $("#"+institution_id).remove();
+                $("#academic_form_ids").val(academic_data.join(","));
+
+            }
+    </script>

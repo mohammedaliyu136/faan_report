@@ -1,0 +1,84 @@
+<span style="font-size: 1.1 em; font-weight: bold"><u>STAFF MOVEMENT SUMMARY ANALYSIS</u></span></center><br/>
+<span style="float: right;">{% now " F, Y " %} REPORT</span>
+<br>
+    <table class=" table-striped custom-table " style="width: 100%">
+        <thead>
+            <tr>
+                <th style="width:4%;">S/N</th>
+                <th style="width:16%;">Department</th>
+                <th>NO. OF SENIOR STAFF</th>
+                <th>NO OF JUNIOR STAFF</th>
+                <th>TOTAL  NO OF STAFF</th>
+                <th>ENTRY</th>
+                <th style="width:5%">EXIT</th>
+                <th>PROMOTION NO</th>
+                <th>DISCIPLINARY CASES</th>
+                <th>SUSPENSION</th>
+                <th>NO OF ANNUAL LEAVE</th>
+                <th>NO OF COURSE</th>
+                <th>MATERNITY LEAVE</th>
+                <th>SICK LEAVE</th>
+                <th>CASUAL L.</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for staff_movement in staff_movement_summary_data %}
+            <tr>
+                <td>{{ forloop.counter }}.</td>
+                <td>{{staff_movement.dept_name}}</td>
+                <td>
+                    <center> 
+                        {% if staff_movement.no_of_senior_staff == 0 %}-{% endif%}
+                        {% if staff_movement.no_of_senior_staff != 0 %}{{staff_movement.no_of_senior_staff}}{% endif%}
+                    </center>
+                </td>
+                <td>
+                    <center> 
+                        {% if staff_movement.no_of_junior_staff == 0 %}-{% endif%}
+                        {% if staff_movement.no_of_junior_staff != 0 %}{{staff_movement.no_of_junior_staff}}{% endif%}
+                    </center>
+                </td>
+                <td>
+                    <center> 
+                        {% if staff_movement.total_no_of_staff == 0 %}-{% endif%}
+                        {% if staff_movement.total_no_of_staff != 0 %}{{staff_movement.total_no_of_staff}}{% endif%}
+                    </center>
+                </td>
+                <td><center>-</center></td>
+                <td>
+                    <center> 
+                        {% if staff_movement.exit_cases == 0 %}-{% endif%}
+                        {% if staff_movement.exit_cases != 0 %}{{staff_movement.exit_cases}}{% endif%}
+                    </center>
+                </td>
+                <td>
+                    <center> 
+                        {% if staff_movement.promotion_no == 0 %}-{% endif%}
+                        {% if staff_movement.promotion_no != 0 %}{{staff_movement.promotion_no}}{% endif%}
+                    </center>
+                </td>
+                <td>
+                    <center> 
+                        {% if staff_movement.disciplinary_cases == 0 %}-{% endif%}
+                        {% if staff_movement.disciplinary_cases != 0 %}{{staff_movement.disciplinary_cases}}{% endif%}
+                    </center>
+                </td>
+                <td>
+                    <center> 
+                        {% if staff_movement.suspention_cases == 0 %}-{% endif%}
+                        {% if staff_movement.suspention_cases != 0 %}{{staff_movement.suspention_cases}}{% endif%}
+                    </center>
+                </td>
+                <td><center>-</center></td>
+                <td><center>-</center></td>
+                <td><center>-</center></td>
+                <td><center>-</center></td>
+                <td><center>-</center></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</div>
+</div>
+</div>

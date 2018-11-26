@@ -1,0 +1,44 @@
+{% extends "./base.html" %}
+
+{% load staticfiles %}
+
+{% block main_content %}
+<div class="content container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+                <h4 class="page-title">Reports Templates</h4>
+            </div>
+            <div class="col-xs-8 text-right m-b-30">
+                <a href="#" class="btn btn-primary pull-right rounded" data-toggle="modal" data-target="#add_table"><i class="fa fa-plus"></i> Add Template</a>
+                <div class="view-icons">
+                    <a href="#" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+                    <a href="/employee/list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table id="example" class="table table-striped custom-table m-b-0 ">
+                        <thead>
+                            <tr>
+                                <th style="width: 5%">#</th>
+                                <th>Reports </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for table in tables %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{table.title}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</div>
+{% include "./modal/new.html" %}
+{% endblock main_content %}

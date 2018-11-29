@@ -155,7 +155,7 @@ def disciplinary_report(month="none",quater="none", year="none"):
         vals['gl']  = data[i+3].data
         vals['date']  = data[i+4].data
         vals['offence']  = data[i+5].data
-        vals['rem']  = data[i+5].data
+        vals['rem']  = data[i+6].data
         row.append(vals)
     return row
 
@@ -476,6 +476,82 @@ def retirement_report(month="none",quater="none", year="none"):
         row.append(vals)
     return row
 
+def resignation_termination_disengagement_dismissal_withdrawal_report(month="none",quater="none", year="none"):
+    retirement = retirement_report(month,quater, year)
+    disciplinary = disciplinary_report(month,quater, year)
+    rows = []
+    counter = 0
+    for disci in disciplinary:
+        counter+=1
+        vals = {}
+        vals['sn']  = counter
+        vals['name']  = disci["name"]
+        vals['dept']  = disci["dept"]
+        vals['rank']  = disci["rank"]
+        vals['gl']  = disci["gl"]
+        vals['date']  = disci["date"]
+        vals['offence']  = disci["offence"]
+        vals['rem']  = disci["rem"]
+        rows.append(vals)
+
+    for retir in retirement:
+        counter+=1
+        vals = {}
+        vals['sn']  = counter
+        vals['name']  = retir["name"]
+        vals['dept']  = retir["dept"]
+        vals['rank']  = retir["desig"]
+        vals['gl']  = retir["gl"]
+        vals['date']  = retir["date"]
+        vals['offence']  = ""
+        vals['rem']  = retir["rem"]
+        rows.append(vals)
+    return rows
+
+def leave_matters_report(month="none",quater="none", year="none"):
+    training = training_report(month,quater, year)
+    sick_leave = sick_leave_report(month,quater, year)
+    #suspension = suspension_report(month,quater, year)
+    rows = []
+    counter = 0
+    for tr in training:
+        counter+=1
+        vals = {}
+        vals['sn']  = counter
+        vals['name']  = tr["name"]
+        vals['dept']  = tr["dept"]
+        vals['month']  = ""
+        vals['e_date']  = tr["s_year"]
+        vals['r_date']  = tr["e_year"]
+        rows.append(vals)
+
+    for sick in sick_leave:
+        counter+=1
+        vals = {}
+        vals['sn']  = counter
+        vals['name']  = sick["name"]
+        vals['dept']  = sick["dept"]
+        vals['month']  = sick["month"]
+        vals['e_date']  = sick["date"]
+        vals['r_date']  = sick["resum"]
+        rows.append(vals)
+    """
+    for sus in suspension:
+        counter+=1
+        vals = {}
+        vals['sn']  = counter
+        vals['name']  = retir["name"]
+        vals['dept']  = retir["dept"]
+        vals['rank']  = retir["desig"]
+        vals['gl']  = retir["gl"]
+        vals['date']  = retir["date"]
+        vals['offence']  = ""
+        vals['rem']  = retir["rem"]
+        rows.append(vals)
+    """
+    return rows
+
+
 def generate_monthly_report(request, month, manpower):
     # ..disciplinary
     disciplinary_report_data = disciplinary_report(month)
@@ -622,6 +698,30 @@ def generate_quater_report(request, quater, year):
         promotion["data"] = promotion_report_data
         promotion["num_of_employee"] = promotion_report_count
         promotion["num_of_employee_str"] = inf.number_to_words(promotion_report_count).upper()
+
+        promotion["total_p"] = get_total_promotion(promotion_report_data, "Promotion", "all")
+        promotion["p_sen"] = get_total_promotion(promotion_report_data, "Promotion", "sen")
+        promotion["p_jun"] = get_total_promotion(promotion_report_data, "Promotion", "jun")
+
+        promotion["total_upgraded"] = get_total_promotion(promotion_report_data, "Upgrade", "all")
+        promotion["upgraded_sen"] = get_total_promotion(promotion_report_data, "Upgrade", "sen")
+        promotion["upgraded_jun"] = get_total_promotion(promotion_report_data, "Upgrade", "jun")
+
+        promotion["total_converted"] = get_total_promotion(promotion_report_data, "Converted", "all")
+        promotion["converted_sen"] = get_total_promotion(promotion_report_data, "Converted", "sen")
+        promotion["converted_jun"] = get_total_promotion(promotion_report_data, "Converted", "jun")
+
+        promotion["total_converted_and_upgraded"] = get_total_promotion(promotion_report_data, "Conversion/Promotion", "all")
+        promotion["converted_and_upgraded_sen"] = get_total_promotion(promotion_report_data, "Conversion/Promotion", "sen")
+        promotion["converted_and_upgraded_jun"] = get_total_promotion(promotion_report_data, "Conversion/Promotion", "jun")
+
+        promotion["total_advancement"] = get_total_promotion(promotion_report_data, "Advancement", "all")
+        promotion["advancement_sen"] = get_total_promotion(promotion_report_data, "Advancement", "sen")
+        promotion["advancement_jun"] = get_total_promotion(promotion_report_data, "Advancement", "jun")
+
+        promotion["total_re_designation"] = get_total_promotion(promotion_report_data, "Re-designation", "all")
+        promotion["re_designation_sen"] = get_total_promotion(promotion_report_data, "Re-designation", "sen")
+        promotion["re_designation_jun"] = get_total_promotion(promotion_report_data, "Re-designation", "jun")
     else:
         promotion = {}
         promotion["is_empty"] = True
@@ -735,7 +835,7 @@ def generate_quater_report(request, quater, year):
         staff_exit["is_empty"] = True
         staff_exit["not_empty"] = False
 
-    # ..staff_movement_report
+    # ..staff_movement_report leave_matters_report
     staff_mov_report_data = staff_mov_report("none", quater, year)
     staff_mov_report_count = len(staff_mov_report_data)
     if staff_mov_report_count>0:
@@ -749,6 +849,36 @@ def generate_quater_report(request, quater, year):
         staff_mov = {}
         staff_mov["is_empty"] = True
         staff_mov["not_empty"] = False
+    #..resignation_termination_disengagement_dismissal_withdrawal_report
+    resignation_termination_disengagement_dismissal_withdrawal_report_data = resignation_termination_disengagement_dismissal_withdrawal_report(month="none",quater=quater, year=year)
+    resignation_termination_disengagement_dismissal_withdrawal_report_count = len(resignation_termination_disengagement_dismissal_withdrawal_report_data)
+    if resignation_termination_disengagement_dismissal_withdrawal_report_count>0:
+        resignation_termination_disengagement_dismissal_withdrawal = {}
+        resignation_termination_disengagement_dismissal_withdrawal["is_empty"] = False
+        resignation_termination_disengagement_dismissal_withdrawal["not_empty"] = True
+        resignation_termination_disengagement_dismissal_withdrawal["data"] = resignation_termination_disengagement_dismissal_withdrawal_report_data
+        resignation_termination_disengagement_dismissal_withdrawal["num_of_employee"] = resignation_termination_disengagement_dismissal_withdrawal_report_count
+        resignation_termination_disengagement_dismissal_withdrawal["num_of_employee_str"] = inf.number_to_words(resignation_termination_disengagement_dismissal_withdrawal_report_count).upper()
+    else:
+        resignation_termination_disengagement_dismissal_withdrawal = {}
+        resignation_termination_disengagement_dismissal_withdrawal["is_empty"] = True
+        resignation_termination_disengagement_dismissal_withdrawal["not_empty"] = False
+
+    #..leave_matters_report
+    leave_matters_report_data = leave_matters_report(month="none",quater=quater, year=year)
+    leave_matters_report_count = len(leave_matters_report_data)
+    if leave_matters_report_count>0:
+        leave_matters = {}
+        leave_matters["is_empty"] = False
+        leave_matters["not_empty"] = True
+        leave_matters["data"] = leave_matters_report_data
+        leave_matters["num_of_employee"] = leave_matters_report_count
+        leave_matters["num_of_employee_str"] = inf.number_to_words(leave_matters_report_count).upper()
+    else:
+        leave_matters = {}
+        leave_matters["is_empty"] = True
+        leave_matters["not_empty"] = False
+
 
     # ..staff_of_the_month_report ++++++++++++++++++++++++*************
     staff_of_the_month_report_data = staff_of_the_month_report("none", quater, year)
@@ -827,6 +957,8 @@ def generate_quater_report(request, quater, year):
              "staff_exit_total":staff_exit_total,
              "retirement":[retirement],
              "staff_exit":[staff_exit],
+             "resignation":[resignation_termination_disengagement_dismissal_withdrawal],
+             "leave_matter":[leave_matters],
 
              "total_no_recruited":staff_of_the_month,
              #"total_no_recruited":[{"num_of_employee": 34,
@@ -1069,3 +1201,19 @@ def generate_auditlist_report(request):
              "hasKitty": ""
     }
     return report
+
+def get_total_promotion(data, remark, gl):
+    counter=0
+    if "all"==gl:
+        for d in data:
+            if d["rem"]==remark:
+                counter+=1
+    elif "sen"==gl:
+        for d in data:
+            if d["rem"]==remark and int(d["n_gl"].split("/")[0]) in [7,8,9,10,11,12,13,14,15,16,17]:
+                counter+=1
+    elif "jun"==gl:
+        for d in data:
+            if d["rem"]==remark and int(d["n_gl"].split("/")[0]) in [1,2,3,4,5,6,]:
+                counter+=1
+    return counter

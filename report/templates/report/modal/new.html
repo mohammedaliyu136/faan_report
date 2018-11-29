@@ -64,7 +64,34 @@
                                 {% endif %}
 
                                 {% if col.field_type == "textarea" and col.emp_field == ''%}
-                                    <textarea class="form-control" name="{{col.title}}" rows="3"></textarea>
+                                    {% if col.title != 'REMARK' and col.title != 'REMARKS'  %}
+                                        <textarea class="form-control" name="{{col.title}}" rows="3"></textarea>
+                                    {% endif %}
+                                    {% if col.title == 'REMARK' or col.title == 'REMARKS' %}
+                                        {% if tiltle.title == "PROMOTION, ADVANCEMENT, UPGRADING & CONVERSION REGISTER" %}
+                                            <select class="form-control" name="{{col.title}}">
+                                                <option value="Promotion">Promotion</option>
+                                                <option value="Upgrade">Upgrade</option>
+                                                <option value="Converted">Converted</option>
+                                                <option value="Advancement">Advancement</option>
+                                                <option value="Conversion/Promotion">Conversion/Promotion</option>
+                                            </select>
+                                        {% endif %}
+                                        {% if tiltle.title == "DISCIPLINARY" %}
+                                            <select class="form-control" name="{{col.title}}">
+                                                <option value="TERMINATION">TERMINATION</option>
+                                                <option value="DISENGAGEMENT">DISENGAGEMENT</option>
+                                                <option value="DISMISSAL">DISMISSAL</option>
+                                                <option value="WITHDRAWAL">WITHDRAWAL</option>
+                                            </select>
+                                        {% endif %}
+                                        {% if tiltle.title == "RETIREMENT" %}
+                                            <select class="form-control" name="{{col.title}}">
+                                                <option value="RETIREMENT">RETIREMENT</option>
+                                                <option value="RESIGNATION">RESIGNATION</option>
+                                            </select>
+                                        {% endif %}
+                                    {% endif %}
                                 {% endif %}
                                 {% if col.field_type == "textfield" and col.emp_field == '' %}
                                     <input class="form-control" type="text" name="{{col.title}}">

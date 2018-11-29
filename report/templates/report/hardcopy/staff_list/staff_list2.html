@@ -7,7 +7,7 @@
   <div class="content container-fluid">
         <div class="row">
                 <div class="col-sm-8">
-                    <h4 class="page-title">Report 2</h4>
+                    <h4 class="page-title">Report</h4>
                 </div>
                 <div class="col-sm-4 text-right m-b-30">
                     <div class="btn-group btn-group-sm">
@@ -84,24 +84,24 @@
                     <tbody>
                         {% for p in profiles %}
                         <tr>
-                            <td style="width:4%;">{{forloop.counter}}</td>
+                            <td style="width:4%;"><center>{{forloop.counter}}</center></td>
                             <td><a href="/employee/detail/{{p.id}}/" style="text-decoration:none">{{p.name}}</a></td>
-                            <td>{{p.title}}</td>
-                            <td>{{p.sex}}</td>
-                            <td>{{p.date_of_birth}}</td>
-                            <td>{{p.staff_no}}</td>
+                            <td><center>{{p.title}}</center></td>
+                            <td><center>{{p.sex}}</center></td>
+                            <td><center>{{p.date_of_birth}}</center></td>
+                            <td><center>{{p.staff_no}}</center></td>
                             <td>
                                 {% for qualification in p.qualification_with_date %}
                                     <div>{{qualification.name}} ({{qualification.date}})</div>
                                 {% endfor %}
                             </td>
-                            <td>{{p.designation}}</td>
-                            <td>{{p.gl}}</td>
-                            <td>{{p.date_of_first_Appt}}</td>
-                            <td>{{p.date_of_conf}}</td>
-                            <td>{{p.date_of_last_promotion}}</td>
-                            <td>{{p.lga}}</td>
-                            <td>{{p.state_of_origin}}</td>
+                            <td><center>{{p.designation}}</center></td>
+                            <td><center>{{p.gl}}</center></td>
+                            <td><center>{{p.date_of_first_Appt}}</center></td>
+                            <td><center>{{p.date_of_conf}}</center></td>
+                            <td><center>{{p.date_of_last_promotion}}</center></td>
+                            <td><center>{{p.lga}}</center></td>
+                            <td><center>{{p.state_of_origin}}</center></td>
                         </tr>
                         {%endfor%}
                     </tbody>

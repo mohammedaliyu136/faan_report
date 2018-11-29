@@ -625,7 +625,7 @@ def get_count(title, pos, dept_name):
     return count
 
 class Profile_template:
-    def __init__(self, name, title,	sex, date_of_birth, staff_no, designation, gl, date_of_first_Appt, date_of_conf, date_of_last_promotion, lga, state_of_origin, department, id):
+    def __init__(self, name, title,	sex, date_of_birth, staff_no, designation, gl, date_of_first_Appt, date_of_conf, date_of_last_promotion, lga, state_of_origin, department):
         self.name = name
         self.title = title
         self.sex = sex
@@ -640,7 +640,7 @@ class Profile_template:
         self.lga = lga
         self.state_of_origin = state_of_origin
         self.department = department
-        self.id = id
+        self.id
 
     def set_qualification_with_date(self, qualification_with_date):
         self.qualification_with_date = qualification_with_date

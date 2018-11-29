@@ -1,3 +1,6 @@
+import datetime
+
+from report.models import TableTitle, ColTitle, TableData
 from .models import Department, Designation, Profile, EducationInstitutions, AcademicProfessionalQualification
 
 def save_educational_instition_attended(ed_institution_ids, request, profile_id):
@@ -62,6 +65,49 @@ def save_profile(request):
     last_promotion       = request.POST.get('last_promotion')
     staff_no             = request.POST.get('staff_no')
     account_num          = ""
+
+    #..................................................
+    new_recruite             = request.POST.get('new_recruite')
+    if new_recruite=="yes":
+        date_posting    =   request.POST.get('date_of_posting')
+        date_of_arrival    =   request.POST.get('date_of_arrival')
+        new_posting    =   request.POST.get('new_posting')
+        previous_station    =   request.POST.get('previous_station')
+
+        val = {}
+        val["name"] = surname +" "+ other_name +" "+ maiden_name
+        val["designation"] = designation
+        val["department"] = department
+        val["date_of_posting"] = date_posting
+        val["date_of_arrival"] = date_of_arrival
+        val["new_posting"] = new_posting
+        val["previous_station"] = previous_station
+
+        title = TableTitle.objects.get(title="STAFF MOVEMENT")
+        col = ColTitle.objects.filter(table_id = str(title.pk))
+        mydatee = datetime.datetime.now()
+
+        mon = mydatee.strftime("%B")
+
+        mydate = mydatee.month
+        myear = mydatee.year
+        if mydate in range(1,3):
+            quater_str = "Q1"
+        elif mydate in range(4,6):
+            quater_str = "Q2"
+        elif mydate in range(7,9):
+            quater_str = "Q3"
+        elif mydate in range(10,12):
+            quater_str = "Q4"
+
+        TableData(col_id=col[0].id, data=val["name"], table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[1].id, data=designation, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[2].id, data=department, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[3].id, data=date_posting, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[4].id, data=date_of_arrival, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[5].id, data=new_posting, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+        TableData(col_id=col[6].id, data=previous_station, table_id=title.id, month_d = mon, quater_d = quater_str, year_d = myear).save()
+
 
     profile = Profile(title=title, surname=surname, othername=other_name, maidenname=maiden_name, spouse_name=name_of_spouse, gender=gender,date_of_birth=date_of_birth, homeplace=place_of_birth, lga=lga, state=state_origin, country="country", status=marital_status, designation=designation, gl=grade_level, department=department, date_of_first_Appt=date_first_appt, date_of_conf=date_of_confirmation, name_employer=name_of_employer, date_of_transfer=date_of_transfer, pre_gl=gl_step, pre_salary=salary_grade_level, date_of_last_promotion=last_promotion, staff_no=staff_no, occupant=occupant, nok_name_1=nok_name_1, nok_address_1=nok_address_1, nok_relationship_1=nok_relationship_1, nok_name_2=nok_name_2, nok_address_2=nok_address_2, nok_relationship_2=nok_relationship_2, account_num=account_num)
     profile.save()

@@ -63,11 +63,11 @@
                     <thead>
                         <tr>
                             <th style="width:3%; padding: 3px;">S/N</th>
-                            <th style="width:11%; padding: 3px;">STAFF NO</th>
-                            <th style="width:18%; padding: 3px;">NAME</th>
+                            <th style="width:8%; padding: 3px;">STAFF NO</th>
+                            <th style="width:27%; padding: 10px;">NAME</th>
                             <th style="width:10%; padding: 3px;">DESIGNATION</th>
                             <th style="width:5%;">GL/STEP</th>
-                            <th style="width:15%; padding: 3px;">DEPARTMENT</th>
+                            <th style="width:20%; padding: 3px;">DEPARTMENT</th>
                             <th style="width:10%; padding: 3px;">OCCUPANT OF STAFF QUARTERS</th>
                             <th style="width:7%; padding: 3px;">MARITAL STATUS</th>
                             <th style=" padding: 3px;">REMARKS</th>
@@ -76,15 +76,15 @@
                     <tbody>
                         {% for p in profiles %}
                         <tr>
-                            <td>{{ forloop.counter }}</td>
-                            <td>{{p.staff_no}}</td>
-                            <td><a href="/employee/detail/{{p.id}}/" style="text-decoration:none">{{p.surname}} {{p.othername}} {{p.maidenname}}</a></td>
-                            <td>{{p.designation}}</td>
-                            <td>{{p.gl}}</td>
+                            <td><center>{{ forloop.counter }}</center></td>
+                            <td><center>{{p.staff_no}}</center></td>
+                            <td><a href="/employee/detail/{{p.id}}/" style="text-decoration:none; padding: 10px;">{{p.surname}} {{p.othername}} {{p.maidenname}}</a></td>
+                            <td><center>{{p.designation}}</center></td>
+                            <td><center>{{p.gl}}</center></td>
                             <td>{{p.department}}</td>
                             <td>{%if not p.occupant %}NOT{%endif%} QUARTERED</td>
-                            <td>{{p.status}}</td>
-                            <td>no remark</td>
+                            <td><center>{{p.status}}</center></td>
+                            <td></td>
                         </tr>
                         {%endfor%}
                     </tbody>

@@ -157,9 +157,10 @@ def employee_quater(request, pk):
 def department(request):
     if request.method == 'POST':
         dept_name = request.POST.get('dept_name')
+        dept_abbr = request.POST.get('dept_abbr')
         dept_id = request.POST.get('dept_name_old')
         if (dept_id == 'new'):
-            Department(name=dept_name, description='nill').save()
+            Department(name=dept_name, abbr=dept_abbr, description='nill').save()
         else:
             dept_action = request.POST.get('dept_action')
             if dept_action == 'del':
@@ -169,6 +170,7 @@ def department(request):
                 # edit department name
                 d = Department.objects.get(pk=int(dept_id))
                 d.name = dept_name
+                d.abbr = dept_abbr
                 d.save()
     else:
         pass

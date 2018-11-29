@@ -318,6 +318,52 @@
                     </div>
                 </div>
             </div>
+            <div class="card-box">
+                <h3 class="card-title">NEW RECRUITE</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group form-focus">
+                            <label class="control-label">NEW RECRUITE</label>
+                            <select class="form-control floating" name="new_recruite" id="new_rec_select">
+                                <option value="no">No</option>
+                                <option value="yes">YES</option>
+                            </select>
+                        </div>
+                    </div>
+                    <span id="new_rec" class="hidden">
+                    <div class="col-md-6">
+                        <div class="form-group form-focus">
+                            <label class="control-label">DATE OF POSTING</label>
+                            <input type="text" class="form-control floating" name="date_of_posting" value=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-focus">
+                            <label class="control-label">DATE OF ARRIVAL</label>
+                            <div class="cal-icon"><input class="form-control floating datetimepicker" type="text" value="" name="date_of_arrival"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-focus">
+                            <label class="control-label">NEW POSTING</label>
+                            <div class="cal-icon"><input class="form-control floating" type="text" value="" name="new_posting"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-focus">
+                            <label class="control-label">PREVIOUS STATION</label>
+                            <div class="cal-icon"><input class="form-control floating" type="text" value="" name="previous_station"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group form-focus">
+                            <label class="control-label">REMARK</label>
+                            <div class="cal-icon"><input class="form-control floating" type="text" value="NEW RECRUITE" name="remark"></div>
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
             <div class="text-center m-t-20">
                 <button class="btn btn-primary btn-lg">Save &amp; update</button>
             </div>
@@ -386,7 +432,13 @@
 
 
 jQuery(window).on('load',function() {
-
+    $('#new_rec_select').change(function(){
+        if($(this).val()=="yes"){
+            $('#new_rec').removeClass("hidden");
+        }else{
+            $('#new_rec').addClass("hidden");
+        }
+            });
 });
 
 function add_lga(array){

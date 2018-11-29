@@ -58,7 +58,7 @@
                                 {% if col.emp_field == "DEPARTMENT" %}
                                     <select class="form-control" name="{{col.emp_field}}">
                                         {% for dept in departments %}
-                                            <option value="{{dept.name}}">{{dept.name}}</option>
+                                            <option value="{{dept.abbr}}">{{dept.name}}</option>
                                         {% endfor %}
                                     </select>
                                 {% endif %}
@@ -90,6 +90,9 @@
                                                 <option value="RETIREMENT">RETIREMENT</option>
                                                 <option value="RESIGNATION">RESIGNATION</option>
                                             </select>
+                                        {% endif %}
+                                        {% if tiltle.title != "RETIREMENT" or tiltle.title != "DISCIPLINARY" or tiltle.title != "PROMOTION, ADVANCEMENT, UPGRADING & CONVERSION REGISTER" %}
+                                            <textarea class="form-control" name="{{col.title}}" rows="4"></textarea>
                                         {% endif %}
                                     {% endif %}
                                 {% endif %}

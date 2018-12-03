@@ -82,6 +82,7 @@ def detail(request, pk, time, name):
         else:
             rep_data = []
             for c in col:
+                quater_str=""
                 if(c.emp_field):
                     d = request.POST.get(c.emp_field)
                 else:
@@ -257,6 +258,7 @@ def staff_list_detail_new(request, pk):
                          lga=profile.lga,
                          state_of_origin=profile.state,
                          department=profile.department,
+                         #id=1)
                          id=profile.id)
         academicProfessionalQualification = AcademicProfessionalQualification.objects.filter(profile_id=profile.id)
         profile_tem.set_qualification_with_date(academicProfessionalQualification)
@@ -625,7 +627,7 @@ def get_count(title, pos, dept_name):
     return count
 
 class Profile_template:
-    def __init__(self, name, title,	sex, date_of_birth, staff_no, designation, gl, date_of_first_Appt, date_of_conf, date_of_last_promotion, lga, state_of_origin, department):
+    def __init__(self, name, title,	sex, date_of_birth, staff_no, designation, gl, date_of_first_Appt, date_of_conf, date_of_last_promotion, lga, state_of_origin, department, id):
         self.name = name
         self.title = title
         self.sex = sex
@@ -640,7 +642,7 @@ class Profile_template:
         self.lga = lga
         self.state_of_origin = state_of_origin
         self.department = department
-        self.id
+        self.id = id
 
     def set_qualification_with_date(self, qualification_with_date):
         self.qualification_with_date = qualification_with_date

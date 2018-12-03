@@ -13,7 +13,7 @@
                             <div class="form-group">
                                 <input class="form-control" value="new" type="hidden" name="design_id">
                                 <label>Employee ID<span class="text-danger">*</span></label>
-                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10">
+                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10" value="NoIDSTAFF">
                             </div>
                             <div class="form-group">
                                 <input class="form-control" value="new" type="hidden" name="design_id">
@@ -41,7 +41,7 @@
                             <div class="form-group">
                                 <input class="form-control" value="new" type="hidden" name="design_id">
                                 <label>Employee ID<span class="text-danger">*</span></label>
-                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10">
+                                <input class="form-control"  type="text" name="emp_id" onkeyup="validate('new')" id="emp_id_staff_mv_new" maxlength="10" value="NoIDSTAFF">
                             </div>
                             {% for col in cols %}
                             <div class="form-group">
@@ -91,7 +91,9 @@
                                                 <option value="RESIGNATION">RESIGNATION</option>
                                             </select>
                                         {% endif %}
-                                        {% if tiltle.title != "RETIREMENT" or tiltle.title != "DISCIPLINARY" or tiltle.title != "PROMOTION, ADVANCEMENT, UPGRADING & CONVERSION REGISTER" %}
+                                        {% if tiltle.title == "MATERNITY, ANNUAL, SICK, EXAM, COMPASSIONATE & CASUAL LEAVE & LEAVE OF ABSENCE" %}
+                                        {% endif %}
+                                        {% if tiltle.title != "MATERNITY, ANNUAL, SICK, EXAM, COMPASSIONATE & CASUAL LEAVE & LEAVE OF ABSENCE" and tiltle.title != "DISCIPLINARY" and tiltle.title != "RETIREMENT" and tiltle.title != "PROMOTION, ADVANCEMENT, UPGRADING & CONVERSION REGISTER" %}
                                             <textarea class="form-control" name="{{col.title}}" rows="4"></textarea>
                                         {% endif %}
                                     {% endif %}
@@ -100,7 +102,7 @@
                                     <input class="form-control" type="text" name="{{col.title}}">
                                 {% endif %}
                                 {% if col.field_type == "datefield" and col.emp_field == '' %}
-                                    <input class="form-control datetimepicker" type="text" name="{{col.title}}">
+                                    <input class="form-control" type="text" name="{{col.title}}" placeholder="dd/mm/yy">
                                 {% endif %}
                             </div>
                             {% endfor %}

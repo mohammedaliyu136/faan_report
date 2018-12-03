@@ -81,9 +81,9 @@
                             <td><a href="/employee/detail/{{p.id}}/" style="text-decoration:none; padding: 10px;">{{p.surname}} {{p.othername}} {{p.maidenname}}</a></td>
                             <td><center>{{p.designation}}</center></td>
                             <td><center>{{p.gl}}</center></td>
-                            <td>{{p.department}}</td>
+                            <td style="padding: 10px;">{{p.department}}</td>
                             <td>{%if not p.occupant %}NOT{%endif%} QUARTERED</td>
-                            <td><center>{{p.status}}</center></td>
+                            <td>{{p.status}}</td>
                             <td></td>
                         </tr>
                         {%endfor%}

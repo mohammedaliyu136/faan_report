@@ -619,6 +619,15 @@ def generate_quater_report(request, quater, year):
     total_num_of_staff = Profile.objects.all().count()
     num_of_senior_staff = Profile.objects.filter(pre_gl__range=[7,18]).count()
     num_of_junior_staff = Profile.objects.filter(pre_gl__range=[1,7]).count()
+    print "---------------------------njnjnllkkklk------------------"
+    print "---------------------------njnjnllkkklk------------------"
+    print "---------------------------njnjnllkkklk------------------"
+    print num_of_junior_staff
+    num_of_senior_staff = total_num_of_staff - num_of_junior_staff
+    print num_of_senior_staff
+    print "---------------------------njnjnllkkklk------------------"
+    print "---------------------------njnjnllkkklk------------------"
+    print "---------------------------njnjnllkkklk------------------"
     staff_strenght = {}
     staff_strenght["num_of_junior_staff"] = num_of_junior_staff
     staff_strenght["num_of_senior_staff"] = num_of_senior_staff

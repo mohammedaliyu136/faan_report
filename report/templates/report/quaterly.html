@@ -29,10 +29,13 @@
                         </thead>
                         <tbody>
                             {% for table in data %}
+                            <!-- this condition is a temporary fix -->
+                            {% if table.quater_d %}
                             <tr>
                                 <td>{{ forloop.counter }}. </td>
                                 <td><a href="/report/quater/{{table.quater_d}}_{{table.year_d}}">{{table.quater_d}} {{table.year_d}}</a></td>
                             </tr>
+                            {% endif %}
                             {% endfor %}
                         </tbody>
                     </table>
